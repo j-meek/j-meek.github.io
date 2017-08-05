@@ -241,5 +241,3 @@ defaults:
     values:
       layout: single
       author_profile: true
-
-theme: minimal-mistakes-jekyll
