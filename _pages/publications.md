@@ -9,13 +9,15 @@ header:
 
 Find my peer-reviewed publications below. Journal information is purposefully withheld. I hope this small change (which I've adopted from other researchers) encourages you to browse based on topics of interest rather than the outlet in which a particular paper appears.
 
-### In press or in submission
+### In press or in review
 
 **Eskew, EA**, and BD Todd. *In press*. Too cold, too wet, too bright, or just right? Environmental predictors of snake movement and activity. [(GitHub Repository)](https://github.com/eveskew/bayesian_snake_movement)
 
-**Eskew, EA**, BC Shock, EEB LaDouceur, K Keel, MR Miller, JE Foley, and BD Todd. *In submission*. Gene expression differs in susceptible and resistant amphibians exposed to *Batrachochytrium dendrobatidis*. [(GitHub Repository)](https://github.com/eveskew/frog_chytrid_transcriptomics)
+**Eskew, EA**, BC Shock, EEB LaDouceur, K Keel, MR Miller, JE Foley, and BD Todd. *In review*. Gene expression differs in susceptible and resistant amphibians exposed to *Batrachochytrium dendrobatidis*. [(GitHub Repository)](https://github.com/eveskew/frog_chytrid_transcriptomics)
 
-Guzy, JC, **EA Eskew**, BJ Halstead, and SJ Price. *In submission*. Influence of damming on anuran species richness in riparian areas: a test of the serial discontinuity concept.
+Guzy, JC, **EA Eskew**, BJ Halstead, and SJ Price. *In review*. Influence of damming on anuran species richness in riparian areas: a test of the serial discontinuity concept.
+
+**Eskew, EA**, and KJ Olival. *In review*. De-urbanization and disease.
 
 ### 2017
 
