@@ -11,15 +11,15 @@ Find my peer-reviewed publications below. Journal information is purposefully wi
 
 ### In press or in review
 
-**Eskew, EA**, and BD Todd. *In press*. Too cold, too wet, too bright, or just right? Environmental predictors of snake movement and activity. [(GitHub Repository)](https://github.com/eveskew/bayesian_snake_movement)
-
-**Eskew, EA**, BC Shock, EEB LaDouceur, K Keel, MR Miller, JE Foley, and BD Todd. *In review*. Gene expression differs in susceptible and resistant amphibians exposed to *Batrachochytrium dendrobatidis*. [(GitHub Repository)](https://github.com/eveskew/frog_chytrid_transcriptomics)
+**Eskew, EA**, BC Shock, EEB LaDouceur, K Keel, MR Miller, JE Foley, and BD Todd. *In review*. Gene expression differs in susceptible and resistant amphibians exposed to *Batrachochytrium dendrobatidis*. ([GitHub Repository](https://github.com/eveskew/frog_chytrid_transcriptomics))
 
 Guzy, JC, **EA Eskew**, BJ Halstead, and SJ Price. *In review*. Influence of damming on anuran species richness in riparian areas: a test of the serial discontinuity concept.
 
 **Eskew, EA**, and KJ Olival. *In review*. De-urbanization and disease.
 
 ### 2017
+
+**Eskew, EA**, and BD Todd. 2017. [Too cold, too wet, too bright, or just right? Environmental predictors of snake movement and activity](/assets/docs/Eskew_and_Todd_2017.pdf). ([GitHub Repository](https://github.com/eveskew/bayesian_snake_movement))
 
 Plourde, BT, TL Burgess, **EA Eskew**, TM Roth, N Stephenson, and JE Foley. 2017. [Are disease reservoirs special? Taxonomic and life history characteristics](/assets/docs/Plourde_etal_2017.pdf).
 
