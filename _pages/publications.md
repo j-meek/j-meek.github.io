@@ -7,13 +7,13 @@ header:
   overlay_filter: 0.6
 ---
 
-Find my peer-reviewed publications below. Journal information is purposefully withheld. I hope this small change (which I've adopted from other researchers) encourages you to browse based on topics of interest rather than the outlet in which a particular paper appears.
+Find my peer-reviewed publications below. Journal information is purposefully withheld. I hope this small change encourages you to browse based on topics of interest rather than the outlet in which a particular paper appears.
 
-### In press or in review
+### 2018
 
-Guzy, JC, **EA Eskew**, BJ Halstead, and SJ Price. *In press*. Influence of damming on anuran species richness in riparian areas: a test of the serial discontinuity concept.
+**Eskew, EA**, BC Shock, EEB LaDouceur, K Keel, MR Miller, JE Foley, and BD Todd. [Gene expression differs in susceptible and resistant amphibians exposed to *Batrachochytrium dendrobatidis*](/assets/docs/Eskew_etal_2018.pdf). [[GitHub Repository](https://github.com/eveskew/frog_chytrid_transcriptomics)]
 
-**Eskew, EA**, BC Shock, EEB LaDouceur, K Keel, MR Miller, JE Foley, and BD Todd. *In review*. Gene expression differs in susceptible and resistant amphibians exposed to *Batrachochytrium dendrobatidis*. [[GitHub Repository](https://github.com/eveskew/frog_chytrid_transcriptomics)]
+Guzy, JC, **EA Eskew**, BJ Halstead, and SJ Price. [Influence of damming on anuran species richness in riparian areas: a test of the serial discontinuity concept](/assets/docs/Guzy_etal_2018.pdf).
 
 ### 2017
 

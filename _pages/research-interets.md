@@ -9,7 +9,7 @@ header:
 
 ## Conservation
 
-I'm broadly interested in the variety of scientific fields that inform conservation and the complexities involved in instituting effective conservation practice. In my own work, I've primarily explored the effects on anthropogenic habitat change on reptiles and amphibians. For example, I've studied the impacts of suburban development on pond-dwelling turtles in the Charlotte metropolitan area. I've also been involved in multiple projects evaluating the influence of river damming and urbanization on reptile and amphibian communities along the [Broad River](https://en.wikipedia.org/wiki/Broad_River_(Carolinas)) in South Carolina.
+I'm broadly interested in the variety of scientific fields that inform conservation and the complexities involved in instituting effective conservation practice. In my own work, I've primarily explored the effects of anthropogenic habitat change on reptiles and amphibians. For example, I've studied the impacts of suburban development on pond-dwelling turtles in the Charlotte metropolitan area. I've also been involved in multiple projects evaluating the influence of river damming and urbanization on reptile and amphibian communities along the [Broad River](https://en.wikipedia.org/wiki/Broad_River_(Carolinas)) in South Carolina.
 
 I think that understanding personal and cultural views on nature and its value is a necessary first step towards generating greater public support for conservation. Guided by this general idea, at UC Davis I led an undergraduate discussion course on the social construction of nature and wilderness. Check out the syllabus and course readings [here](/assets/docs/Nature_Wilderness_Conservation_Syllabus.pdf).
 
