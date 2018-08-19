@@ -11,6 +11,8 @@ Find my peer-reviewed publications below. Journal information is purposefully wi
 
 ### 2018
 
+**Eskew, EA**, and KJ Olival. [De-urbanization and zoonotic disease risk](/assets/docs/Eskew_and_Olival_2018.pdf).
+
 **Eskew, EA**, BC Shock, EEB LaDouceur, K Keel, MR Miller, JE Foley, and BD Todd. [Gene expression differs in susceptible and resistant amphibians exposed to *Batrachochytrium dendrobatidis*](/assets/docs/Eskew_etal_2018.pdf). [[GitHub Repository](https://github.com/eveskew/frog_chytrid_transcriptomics)]
 
 Guzy, JC, **EA Eskew**, BJ Halstead, and SJ Price. [Influence of damming on anuran species richness in riparian areas: a test of the serial discontinuity concept](/assets/docs/Guzy_etal_2018.pdf).
