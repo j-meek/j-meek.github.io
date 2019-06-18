@@ -9,6 +9,12 @@ header:
 
 Find my peer-reviewed publications below. Journal information is purposefully withheld. I hope this small change encourages you to browse based on topics of interest rather than the outlet in which a particular paper appears.
 
+### 2019
+
+Ross, N, **EA Eskew**, and N Ray. [citesdb: An R package to support analysis of CITES Trade Database shipment-level data](/assets/docs/Ross_etal_2019.pdf). [[GitHub repository](https://github.com/ropensci/citesdb)]
+
+**Eskew, EA**, N Ross, C Zambrana-Torrelio, and WB Karesh. [The CITES Trade Database is not a “global snapshot” of legal wildlife trade: Response to Can et al., 2019](/assets/docs/Eskew_etal_2019.pdf).
+
 ### 2018
 
 **Eskew, EA**, and KJ Olival. [De-urbanization and zoonotic disease risk](/assets/docs/Eskew_and_Olival_2018.pdf).
