@@ -7,9 +7,9 @@ header:
   overlay_filter: 0.6
 ---
 
-Find my peer-reviewed publications below. Journal information is purposefully withheld. I hope this small change encourages you to browse based on topics of interest rather than the outlet in which a particular paper appears.
-
 ### 2019
+
+Albery, GF, **EA Eskew**, N Ross, and KJ Olival. [Predicting the global mammalian viral sharing network using phylogeography](/assets/docs/Albery_etal_2019_preprint.pdf). [preprint; [GitHub repository](https://github.com/gfalbery/ViralSharingPhylogeography)]
 
 Ross, N, **EA Eskew**, and N Ray. [citesdb: An R package to support analysis of CITES Trade Database shipment-level data](/assets/docs/Ross_etal_2019.pdf). [[GitHub repository](https://github.com/ropensci/citesdb)]
 
