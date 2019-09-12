@@ -19,13 +19,13 @@ Ross, N, **EA Eskew**, and N Ray. [citesdb: An R package to support analysis of 
 
 **Eskew, EA**, and KJ Olival. [De-urbanization and zoonotic disease risk](/assets/docs/Eskew_and_Olival_2018.pdf).
 
-**Eskew, EA**, BC Shock, EEB LaDouceur, K Keel, MR Miller, JE Foley, and BD Todd. [Gene expression differs in susceptible and resistant amphibians exposed to *Batrachochytrium dendrobatidis*](/assets/docs/Eskew_etal_2018.pdf). [[GitHub Repository](https://github.com/eveskew/frog_chytrid_transcriptomics)]
+**Eskew, EA**, BC Shock, EEB LaDouceur, K Keel, MR Miller, JE Foley, and BD Todd. [Gene expression differs in susceptible and resistant amphibians exposed to *Batrachochytrium dendrobatidis*](/assets/docs/Eskew_etal_2018.pdf). [[GitHub repository](https://github.com/eveskew/frog_chytrid_transcriptomics)]
 
-Guzy, JC, **EA Eskew**, BJ Halstead, and SJ Price. [Influence of damming on anuran species richness in riparian areas: a test of the serial discontinuity concept](/assets/docs/Guzy_etal_2018.pdf).
+Guzy, JC, **EA Eskew**, BJ Halstead, and SJ Price. [Influence of damming on anuran species richness in riparian areas: A test of the serial discontinuity concept](/assets/docs/Guzy_etal_2018.pdf).
 
 ### 2017
 
-**Eskew, EA**, and BD Todd. [Too cold, too wet, too bright, or just right? Environmental predictors of snake movement and activity](/assets/docs/Eskew_and_Todd_2017.pdf). [[GitHub Repository](https://github.com/eveskew/bayesian_snake_movement)]
+**Eskew, EA**, and BD Todd. [Too cold, too wet, too bright, or just right? Environmental predictors of snake movement and activity](/assets/docs/Eskew_and_Todd_2017.pdf). [[GitHub repository](https://github.com/eveskew/bayesian_snake_movement)]
 
 Plourde, BT, TL Burgess, **EA Eskew**, TM Roth, N Stephenson, and JE Foley. [Are disease reservoirs special? Taxonomic and life history characteristics](/assets/docs/Plourde_etal_2017.pdf).
 
