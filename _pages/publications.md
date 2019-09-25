@@ -9,6 +9,8 @@ header:
 
 ### 2019
 
+**EA Eskew**, AM White, N Ross, KM Smith, KF Smith, JP Rodríguez, C Zambrana-Torrelio, WB Karesh, and P Daszak. [United States wildlife and wildlife product imports from 2000-2014](/assets/docs/Eskew_etal_2019_LEMIS_preprint.pdf). [preprint; [GitHub repository](https://github.com/ecohealthalliance/lemis); [Zenodo code repository](https://doi.org/10.5281/zenodo.3387661)]
+
 Albery, GF, **EA Eskew**, N Ross, and KJ Olival. [Predicting the global mammalian viral sharing network using phylogeography](/assets/docs/Albery_etal_2019_preprint.pdf). [preprint; [GitHub repository](https://github.com/gfalbery/ViralSharingPhylogeography)]
 
 Ross, N, **EA Eskew**, and N Ray. [citesdb: An R package to support analysis of CITES Trade Database shipment-level data](/assets/docs/Ross_etal_2019.pdf). [[GitHub repository](https://github.com/ropensci/citesdb)]
