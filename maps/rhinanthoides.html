@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6cb377d4f7274502ac8dfaa76ce946fd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6cb377d4f7274502ac8dfaa76ce946fd" ></div>
+        
+</body>
+<script>    
+    
+            var map_6cb377d4f7274502ac8dfaa76ce946fd = L.map(
+                "map_6cb377d4f7274502ac8dfaa76ce946fd",
+                {
+                    center: [30.3849, 101.0083],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ca3c61f454f241e8bedb046fabcc92ef = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+            var circle_marker_c66df9bd69eb4ff88720a3334dfd8fdb = L.circleMarker(
+                [27.959194444444442, 99.70716666666667],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_4243d752dbc54d4381e95fef20370b29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f415c6d875a4b0e968182d28d16cda0 = $(`<div id="html_0f415c6d875a4b0e968182d28d16cda0" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE5 | 2018</div>`)[0];
+            popup_4243d752dbc54d4381e95fef20370b29.setContent(html_0f415c6d875a4b0e968182d28d16cda0);
+        
+
+        circle_marker_c66df9bd69eb4ff88720a3334dfd8fdb.bindPopup(popup_4243d752dbc54d4381e95fef20370b29)
+        ;
+
+        
+    
+    
+            var circle_marker_859a0778094f4bada157a1da5977accd = L.circleMarker(
+                [28.57225, 99.82363888888888],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_24aff5547f5e49ae8f47dbb80dfe1250 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1843911c1bb46ce8f1be6a261d991b5 = $(`<div id="html_a1843911c1bb46ce8f1be6a261d991b5" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE12 | 2018</div>`)[0];
+            popup_24aff5547f5e49ae8f47dbb80dfe1250.setContent(html_a1843911c1bb46ce8f1be6a261d991b5);
+        
+
+        circle_marker_859a0778094f4bada157a1da5977accd.bindPopup(popup_24aff5547f5e49ae8f47dbb80dfe1250)
+        ;
+
+        
+    
+    
+            var circle_marker_4efda5056f09421fbf389f2bf60022f8 = L.circleMarker(
+                [28.58586111111111, 99.83722222222222],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_8bf89b37ab1c46808b416f83d8034066 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f15c0ce683ef43f78735d2faf294b185 = $(`<div id="html_f15c0ce683ef43f78735d2faf294b185" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE22 | 2018</div>`)[0];
+            popup_8bf89b37ab1c46808b416f83d8034066.setContent(html_f15c0ce683ef43f78735d2faf294b185);
+        
+
+        circle_marker_4efda5056f09421fbf389f2bf60022f8.bindPopup(popup_8bf89b37ab1c46808b416f83d8034066)
+        ;
+
+        
+    
+    
+            var circle_marker_cebadc0143be443e8666c56a35ce2dfd = L.circleMarker(
+                [29.12388888888889, 99.99666666666667],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_cc67591db66d419a897f2603780716c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_40b9d80b31bd4e088f9af7966242a7c1 = $(`<div id="html_40b9d80b31bd4e088f9af7966242a7c1" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE44 | 2018</div>`)[0];
+            popup_cc67591db66d419a897f2603780716c6.setContent(html_40b9d80b31bd4e088f9af7966242a7c1);
+        
+
+        circle_marker_cebadc0143be443e8666c56a35ce2dfd.bindPopup(popup_cc67591db66d419a897f2603780716c6)
+        ;
+
+        
+    
+    
+            var circle_marker_92c245ae359c440090c8836d4f40ba60 = L.circleMarker(
+                [29.14472222222222, 100.03477777777778],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_e2db7cee0b414d6994b6e7fa06f1fabe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68d5f1ced54446d8b85cc28ceab1d510 = $(`<div id="html_68d5f1ced54446d8b85cc28ceab1d510" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE50 | 2018</div>`)[0];
+            popup_e2db7cee0b414d6994b6e7fa06f1fabe.setContent(html_68d5f1ced54446d8b85cc28ceab1d510);
+        
+
+        circle_marker_92c245ae359c440090c8836d4f40ba60.bindPopup(popup_e2db7cee0b414d6994b6e7fa06f1fabe)
+        ;
+
+        
+    
+    
+            var circle_marker_a8c0604ce2de4c1a927cd4fb2cce2b26 = L.circleMarker(
+                [30.01097222222222, 100.31616666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_0f6ef2c5643a42509234112ee268ba0a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed25c0a9da624c41bb2da977febae5c0 = $(`<div id="html_ed25c0a9da624c41bb2da977febae5c0" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE71 | 2018</div>`)[0];
+            popup_0f6ef2c5643a42509234112ee268ba0a.setContent(html_ed25c0a9da624c41bb2da977febae5c0);
+        
+
+        circle_marker_a8c0604ce2de4c1a927cd4fb2cce2b26.bindPopup(popup_0f6ef2c5643a42509234112ee268ba0a)
+        ;
+
+        
+    
+    
+            var circle_marker_8fdb7d7cd4f940e7a0b88a0d91d7f007 = L.circleMarker(
+                [30.049972222222223, 101.37424999999999],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_d959eeade720418ca259f3aec9a40cef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_122d0eb7908541568e0b2016601f7da0 = $(`<div id="html_122d0eb7908541568e0b2016601f7da0" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE112 | 2018</div>`)[0];
+            popup_d959eeade720418ca259f3aec9a40cef.setContent(html_122d0eb7908541568e0b2016601f7da0);
+        
+
+        circle_marker_8fdb7d7cd4f940e7a0b88a0d91d7f007.bindPopup(popup_d959eeade720418ca259f3aec9a40cef)
+        ;
+
+        
+    
+    
+            var circle_marker_6c01a3dee53a421eac7d90c922c5287d = L.circleMarker(
+                [30.050083333333333, 101.38116666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_a4f5fd13222c419bb1005cfc70763359 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5f2dcb0fdce4bd4af4a5f6fded9fdb1 = $(`<div id="html_c5f2dcb0fdce4bd4af4a5f6fded9fdb1" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE114 | 2018</div>`)[0];
+            popup_a4f5fd13222c419bb1005cfc70763359.setContent(html_c5f2dcb0fdce4bd4af4a5f6fded9fdb1);
+        
+
+        circle_marker_6c01a3dee53a421eac7d90c922c5287d.bindPopup(popup_a4f5fd13222c419bb1005cfc70763359)
+        ;
+
+        
+    
+    
+            var circle_marker_1030456169c74a558dadb443e86ef489 = L.circleMarker(
+                [30.41916666666667, 101.54805555555555],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_40a2dde37b374fa79078c92275e70997 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7d8a594698f4b19a83c030fe15686be = $(`<div id="html_f7d8a594698f4b19a83c030fe15686be" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE125 | 2018</div>`)[0];
+            popup_40a2dde37b374fa79078c92275e70997.setContent(html_f7d8a594698f4b19a83c030fe15686be);
+        
+
+        circle_marker_1030456169c74a558dadb443e86ef489.bindPopup(popup_40a2dde37b374fa79078c92275e70997)
+        ;
+
+        
+    
+    
+            var circle_marker_c4ddb18e25194654aa565d5f7e0e9ffd = L.circleMarker(
+                [30.57702777777778, 101.41797222222223],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_7678ae327f4d47bb893f0ac755087e18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb3bb3ee87d042ce90a3e11e7a1a8241 = $(`<div id="html_bb3bb3ee87d042ce90a3e11e7a1a8241" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE140 | 2018</div>`)[0];
+            popup_7678ae327f4d47bb893f0ac755087e18.setContent(html_bb3bb3ee87d042ce90a3e11e7a1a8241);
+        
+
+        circle_marker_c4ddb18e25194654aa565d5f7e0e9ffd.bindPopup(popup_7678ae327f4d47bb893f0ac755087e18)
+        ;
+
+        
+    
+    
+            var circle_marker_9518aebf69a84c95b1ce851551d6a59f = L.circleMarker(
+                [30.64311111111111, 101.4041388888889],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_9a4a153185bb425c8bd08a23325be3e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ad047a5293c44f5811c5a6c7ddedcec = $(`<div id="html_8ad047a5293c44f5811c5a6c7ddedcec" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE153 | 2018</div>`)[0];
+            popup_9a4a153185bb425c8bd08a23325be3e4.setContent(html_8ad047a5293c44f5811c5a6c7ddedcec);
+        
+
+        circle_marker_9518aebf69a84c95b1ce851551d6a59f.bindPopup(popup_9a4a153185bb425c8bd08a23325be3e4)
+        ;
+
+        
+    
+    
+            var circle_marker_a8b3780568db4162bcabd268827708d1 = L.circleMarker(
+                [30.71183333333333, 101.36433333333333],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_3006a10f20e04e3188f91fdcb439a44e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f160df8aa4d4406874f0fcefce3a6b9 = $(`<div id="html_9f160df8aa4d4406874f0fcefce3a6b9" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE159 | 2018</div>`)[0];
+            popup_3006a10f20e04e3188f91fdcb439a44e.setContent(html_9f160df8aa4d4406874f0fcefce3a6b9);
+        
+
+        circle_marker_a8b3780568db4162bcabd268827708d1.bindPopup(popup_3006a10f20e04e3188f91fdcb439a44e)
+        ;
+
+        
+    
+    
+            var circle_marker_442f05181e97432a9e891034c1023f6b = L.circleMarker(
+                [31.6575, 100.70130555555556],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_5de4a93c9f4f4c6280fd4a072e2b8606 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5a2b5bcc8444d2ab32191990b8e4a4b = $(`<div id="html_b5a2b5bcc8444d2ab32191990b8e4a4b" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE205 | 2018</div>`)[0];
+            popup_5de4a93c9f4f4c6280fd4a072e2b8606.setContent(html_b5a2b5bcc8444d2ab32191990b8e4a4b);
+        
+
+        circle_marker_442f05181e97432a9e891034c1023f6b.bindPopup(popup_5de4a93c9f4f4c6280fd4a072e2b8606)
+        ;
+
+        
+    
+    
+            var circle_marker_d92413f51c3344f7b60b4eb52fac0ce7 = L.circleMarker(
+                [31.720027777777776, 100.71497222222223],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_3a0f358e21b74469a709b8a0d4103b3b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7303f55c568a427ba5b4beccaea31034 = $(`<div id="html_7303f55c568a427ba5b4beccaea31034" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE207 | 2018</div>`)[0];
+            popup_3a0f358e21b74469a709b8a0d4103b3b.setContent(html_7303f55c568a427ba5b4beccaea31034);
+        
+
+        circle_marker_d92413f51c3344f7b60b4eb52fac0ce7.bindPopup(popup_3a0f358e21b74469a709b8a0d4103b3b)
+        ;
+
+        
+    
+    
+            var circle_marker_9c127c0a7f3e4db3b2e0234388131679 = L.circleMarker(
+                [31.787916666666668, 100.74775],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_9a0de15d4f144f37b4939bbc4a538edd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_067d15e4eddc45a68b3df3e8e3200528 = $(`<div id="html_067d15e4eddc45a68b3df3e8e3200528" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE208 | 2018</div>`)[0];
+            popup_9a0de15d4f144f37b4939bbc4a538edd.setContent(html_067d15e4eddc45a68b3df3e8e3200528);
+        
+
+        circle_marker_9c127c0a7f3e4db3b2e0234388131679.bindPopup(popup_9a0de15d4f144f37b4939bbc4a538edd)
+        ;
+
+        
+    
+    
+            var circle_marker_fd6f66cd13ba46f7870e2f2b806f321d = L.circleMarker(
+                [31.83186111111111, 100.73927777777777],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_6a520db0d7bf47acbf63c81e40d70e4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f07972b8b50498a9863c820eea74069 = $(`<div id="html_7f07972b8b50498a9863c820eea74069" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE219 | 2018</div>`)[0];
+            popup_6a520db0d7bf47acbf63c81e40d70e4a.setContent(html_7f07972b8b50498a9863c820eea74069);
+        
+
+        circle_marker_fd6f66cd13ba46f7870e2f2b806f321d.bindPopup(popup_6a520db0d7bf47acbf63c81e40d70e4a)
+        ;
+
+        
+    
+    
+            var circle_marker_49f9c748d9ec4a738bacd915ab5efcca = L.circleMarker(
+                [31.651888888888887, 100.25841666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_0865f6bbf8f74961b1d378e342739f1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64da5bb6677b440fbfbb6c216ee9f285 = $(`<div id="html_64da5bb6677b440fbfbb6c216ee9f285" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE245 | 2018</div>`)[0];
+            popup_0865f6bbf8f74961b1d378e342739f1c.setContent(html_64da5bb6677b440fbfbb6c216ee9f285);
+        
+
+        circle_marker_49f9c748d9ec4a738bacd915ab5efcca.bindPopup(popup_0865f6bbf8f74961b1d378e342739f1c)
+        ;
+
+        
+    
+    
+            var circle_marker_349d5fc610e04b80a67c64b2a5645124 = L.circleMarker(
+                [31.62611111111111, 100.22330555555556],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_6d55d1c20a2d4f03a128fb7f4712a7ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_edd22701ccd2446b801f337670b71f5e = $(`<div id="html_edd22701ccd2446b801f337670b71f5e" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE259 | 2018</div>`)[0];
+            popup_6d55d1c20a2d4f03a128fb7f4712a7ae.setContent(html_edd22701ccd2446b801f337670b71f5e);
+        
+
+        circle_marker_349d5fc610e04b80a67c64b2a5645124.bindPopup(popup_6d55d1c20a2d4f03a128fb7f4712a7ae)
+        ;
+
+        
+    
+    
+            var circle_marker_c9916df83c004afcb0b2d7039817e35a = L.circleMarker(
+                [31.58661111111111, 100.14166666666668],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_ad33a85600554178b3f9c3dadba0bcf1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8fc100e15a474e0d905b964f155f25c8 = $(`<div id="html_8fc100e15a474e0d905b964f155f25c8" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE263 | 2018</div>`)[0];
+            popup_ad33a85600554178b3f9c3dadba0bcf1.setContent(html_8fc100e15a474e0d905b964f155f25c8);
+        
+
+        circle_marker_c9916df83c004afcb0b2d7039817e35a.bindPopup(popup_ad33a85600554178b3f9c3dadba0bcf1)
+        ;
+
+        
+    
+    
+            var circle_marker_bb260df6d78042708a10e6bf90b74d44 = L.circleMarker(
+                [31.715305555555556, 99.61627777777777],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_665d0d71d7cd4cd5ba76c0529399858b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58ecf7499da84ad69e474527c2dad6b7 = $(`<div id="html_58ecf7499da84ad69e474527c2dad6b7" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE272 | 2018</div>`)[0];
+            popup_665d0d71d7cd4cd5ba76c0529399858b.setContent(html_58ecf7499da84ad69e474527c2dad6b7);
+        
+
+        circle_marker_bb260df6d78042708a10e6bf90b74d44.bindPopup(popup_665d0d71d7cd4cd5ba76c0529399858b)
+        ;
+
+        
+    
+    
+            var circle_marker_3d949a039de4401ca92833399208fdd2 = L.circleMarker(
+                [32.061277777777775, 99.00944444444444],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_375106f4d87c40588be64202a799942e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_407f938a4db346ed8b76fc0ff8af39b1 = $(`<div id="html_407f938a4db346ed8b76fc0ff8af39b1" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE290 | 2018</div>`)[0];
+            popup_375106f4d87c40588be64202a799942e.setContent(html_407f938a4db346ed8b76fc0ff8af39b1);
+        
+
+        circle_marker_3d949a039de4401ca92833399208fdd2.bindPopup(popup_375106f4d87c40588be64202a799942e)
+        ;
+
+        
+    
+    
+            var circle_marker_07d2f09a2c2c4ed9bc1e50eddaa6d556 = L.circleMarker(
+                [32.066861111111116, 99.00422222222223],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_bcb816d035cf49eeb56e321c16fcd6bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4437152dc39245c78b58fc395dbc9cd4 = $(`<div id="html_4437152dc39245c78b58fc395dbc9cd4" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE299 | 2018</div>`)[0];
+            popup_bcb816d035cf49eeb56e321c16fcd6bf.setContent(html_4437152dc39245c78b58fc395dbc9cd4);
+        
+
+        circle_marker_07d2f09a2c2c4ed9bc1e50eddaa6d556.bindPopup(popup_bcb816d035cf49eeb56e321c16fcd6bf)
+        ;
+
+        
+    
+    
+            var circle_marker_7e4ee2c111c04713921acfba152cc4d0 = L.circleMarker(
+                [31.044305555555557, 98.90880555555556],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_cb69325e58914e35b39b5b6c59601ec9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d29152181194b3b94afbb155e0f69f4 = $(`<div id="html_4d29152181194b3b94afbb155e0f69f4" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE348 | 2018</div>`)[0];
+            popup_cb69325e58914e35b39b5b6c59601ec9.setContent(html_4d29152181194b3b94afbb155e0f69f4);
+        
+
+        circle_marker_7e4ee2c111c04713921acfba152cc4d0.bindPopup(popup_cb69325e58914e35b39b5b6c59601ec9)
+        ;
+
+        
+    
+    
+            var circle_marker_14d51f31c7ed4a439ac783c421c739c0 = L.circleMarker(
+                [30.980833333333333, 98.95905555555557],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_d621a2493f5d4017b46f13f25868736f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_404456779a1e4f72bd8172b73bfd547d = $(`<div id="html_404456779a1e4f72bd8172b73bfd547d" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE360 | 2018</div>`)[0];
+            popup_d621a2493f5d4017b46f13f25868736f.setContent(html_404456779a1e4f72bd8172b73bfd547d);
+        
+
+        circle_marker_14d51f31c7ed4a439ac783c421c739c0.bindPopup(popup_d621a2493f5d4017b46f13f25868736f)
+        ;
+
+        
+    
+    
+            var circle_marker_825d99737b3d4cb79205ef2ef4630464 = L.circleMarker(
+                [30.297027777777778, 99.671],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_c9704edd5c774c14a0b10c82762d1086 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a950ca9c95142b0bfcc4b17333fbd3c = $(`<div id="html_8a950ca9c95142b0bfcc4b17333fbd3c" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE393 | 2018</div>`)[0];
+            popup_c9704edd5c774c14a0b10c82762d1086.setContent(html_8a950ca9c95142b0bfcc4b17333fbd3c);
+        
+
+        circle_marker_825d99737b3d4cb79205ef2ef4630464.bindPopup(popup_c9704edd5c774c14a0b10c82762d1086)
+        ;
+
+        
+    
+    
+            var circle_marker_664f2929a72c45ff9e965d6262f303c6 = L.circleMarker(
+                [30.227277777777775, 100.24769444444445],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_376c6393368043ab8c32dcb0c1b47aeb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_865eb489ded540648ae1608c27247d03 = $(`<div id="html_865eb489ded540648ae1608c27247d03" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE405 | 2018</div>`)[0];
+            popup_376c6393368043ab8c32dcb0c1b47aeb.setContent(html_865eb489ded540648ae1608c27247d03);
+        
+
+        circle_marker_664f2929a72c45ff9e965d6262f303c6.bindPopup(popup_376c6393368043ab8c32dcb0c1b47aeb)
+        ;
+
+        
+    
+    
+            var circle_marker_fd8de6d7851e46489b33e70bfc2c52f6 = L.circleMarker(
+                [29.141805555555557, 100.15661111111112],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_1d6a75cd2651481bb3976c8c87c472ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc847a83c796444d980789061e414224 = $(`<div id="html_dc847a83c796444d980789061e414224" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE425 | 2018</div>`)[0];
+            popup_1d6a75cd2651481bb3976c8c87c472ef.setContent(html_dc847a83c796444d980789061e414224);
+        
+
+        circle_marker_fd8de6d7851e46489b33e70bfc2c52f6.bindPopup(popup_1d6a75cd2651481bb3976c8c87c472ef)
+        ;
+
+        
+    
+    
+            var circle_marker_5337bc5f67ee40ebaac6f274f53a52c3 = L.circleMarker(
+                [28.74638888888889, 100.26916666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_800e9dbee0ce4a26932408f0e9c90de8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0a90e36e9e2400291056e47af3a6331 = $(`<div id="html_b0a90e36e9e2400291056e47af3a6331" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE434 | 2018</div>`)[0];
+            popup_800e9dbee0ce4a26932408f0e9c90de8.setContent(html_b0a90e36e9e2400291056e47af3a6331);
+        
+
+        circle_marker_5337bc5f67ee40ebaac6f274f53a52c3.bindPopup(popup_800e9dbee0ce4a26932408f0e9c90de8)
+        ;
+
+        
+    
+    
+            var circle_marker_21bc2acc4a004dd19f3d114fd2d23b50 = L.circleMarker(
+                [27.80763888888889, 99.76297222222222],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_2535b6ae1325443cba7d18e599689bb6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29aa62bfe6ac412db7b0b344aba41b3c = $(`<div id="html_29aa62bfe6ac412db7b0b344aba41b3c" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE465 | 2018</div>`)[0];
+            popup_2535b6ae1325443cba7d18e599689bb6.setContent(html_29aa62bfe6ac412db7b0b344aba41b3c);
+        
+
+        circle_marker_21bc2acc4a004dd19f3d114fd2d23b50.bindPopup(popup_2535b6ae1325443cba7d18e599689bb6)
+        ;
+
+        
+    
+    
+            var circle_marker_ada55eb2e8be40ea93cb984918a03832 = L.circleMarker(
+                [28.290277777777778, 101.15494444444445],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_ef0c2138594d4ed9bd40fe5fe09da0d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_925fa58e92f8400abaef476e3dc45edd = $(`<div id="html_925fa58e92f8400abaef476e3dc45edd" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE494 | 2019</div>`)[0];
+            popup_ef0c2138594d4ed9bd40fe5fe09da0d6.setContent(html_925fa58e92f8400abaef476e3dc45edd);
+        
+
+        circle_marker_ada55eb2e8be40ea93cb984918a03832.bindPopup(popup_ef0c2138594d4ed9bd40fe5fe09da0d6)
+        ;
+
+        
+    
+    
+            var circle_marker_c32b383bcc554bb197bb3070365c2bdd = L.circleMarker(
+                [29.88138888888889, 102.02],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_33113e7875624178a2b1d6c961233358 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d35de56bc39d46b8ac29ea141dc69dcf = $(`<div id="html_d35de56bc39d46b8ac29ea141dc69dcf" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE512 | 2019</div>`)[0];
+            popup_33113e7875624178a2b1d6c961233358.setContent(html_d35de56bc39d46b8ac29ea141dc69dcf);
+        
+
+        circle_marker_c32b383bcc554bb197bb3070365c2bdd.bindPopup(popup_33113e7875624178a2b1d6c961233358)
+        ;
+
+        
+    
+    
+            var circle_marker_33c0ee88942f43ec871a405bd71ee28d = L.circleMarker(
+                [30.14461111111111, 101.85930555555555],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_7f9c2878a0414ac89f3118423259f2af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6a3eddb2c4b4ef9a0c0c6c34201ca59 = $(`<div id="html_e6a3eddb2c4b4ef9a0c0c6c34201ca59" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE522 | 2019</div>`)[0];
+            popup_7f9c2878a0414ac89f3118423259f2af.setContent(html_e6a3eddb2c4b4ef9a0c0c6c34201ca59);
+        
+
+        circle_marker_33c0ee88942f43ec871a405bd71ee28d.bindPopup(popup_7f9c2878a0414ac89f3118423259f2af)
+        ;
+
+        
+    
+    
+            var circle_marker_4c7806f7aa3a4b33a463f97480c923da = L.circleMarker(
+                [30.19263888888889, 101.8775],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_4c6cd0f8d8534a4fa78198d660deabb3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_509413f2bd004a0a993649a5ce8d3d67 = $(`<div id="html_509413f2bd004a0a993649a5ce8d3d67" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE526 | 2019</div>`)[0];
+            popup_4c6cd0f8d8534a4fa78198d660deabb3.setContent(html_509413f2bd004a0a993649a5ce8d3d67);
+        
+
+        circle_marker_4c7806f7aa3a4b33a463f97480c923da.bindPopup(popup_4c6cd0f8d8534a4fa78198d660deabb3)
+        ;
+
+        
+    
+    
+            var circle_marker_31c4a101d991489f9e031089de7d155b = L.circleMarker(
+                [30.012888888888888, 101.86272222222222],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_226953c3e3994c149e2dad49cfed64b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69628e4c330d4ffeab8c49ceadeff6a5 = $(`<div id="html_69628e4c330d4ffeab8c49ceadeff6a5" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE529 | 2019</div>`)[0];
+            popup_226953c3e3994c149e2dad49cfed64b9.setContent(html_69628e4c330d4ffeab8c49ceadeff6a5);
+        
+
+        circle_marker_31c4a101d991489f9e031089de7d155b.bindPopup(popup_226953c3e3994c149e2dad49cfed64b9)
+        ;
+
+        
+    
+    
+            var circle_marker_2523dc3767274a4b830ba81932a6ec3e = L.circleMarker(
+                [30.040277777777778, 101.83777777777777],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_89e5ce2d11314d1f8dfa33a7ee30b3a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4746abf6f8f4287925dff47b28fbbf6 = $(`<div id="html_d4746abf6f8f4287925dff47b28fbbf6" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE535 | 2019</div>`)[0];
+            popup_89e5ce2d11314d1f8dfa33a7ee30b3a6.setContent(html_d4746abf6f8f4287925dff47b28fbbf6);
+        
+
+        circle_marker_2523dc3767274a4b830ba81932a6ec3e.bindPopup(popup_89e5ce2d11314d1f8dfa33a7ee30b3a6)
+        ;
+
+        
+    
+    
+            var circle_marker_01f0592f6b7344669288428895a40857 = L.circleMarker(
+                [30.826777777777778, 101.28227777777778],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_29aeec55e66842b38143b7428ef80f81 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08bdbdff6fd1417d84cbd7224e369bed = $(`<div id="html_08bdbdff6fd1417d84cbd7224e369bed" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE561 | 2019</div>`)[0];
+            popup_29aeec55e66842b38143b7428ef80f81.setContent(html_08bdbdff6fd1417d84cbd7224e369bed);
+        
+
+        circle_marker_01f0592f6b7344669288428895a40857.bindPopup(popup_29aeec55e66842b38143b7428ef80f81)
+        ;
+
+        
+    
+    
+            var circle_marker_51f6dd791de6419ca55b91b18180543a = L.circleMarker(
+                [31.724999999999998, 100.74444444444444],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_2d4f90381cfa4d71abd0e415a5795812 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6cb44f97dd1f49ed9be3ec35271a2ddd = $(`<div id="html_6cb44f97dd1f49ed9be3ec35271a2ddd" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE581 | 2019</div>`)[0];
+            popup_2d4f90381cfa4d71abd0e415a5795812.setContent(html_6cb44f97dd1f49ed9be3ec35271a2ddd);
+        
+
+        circle_marker_51f6dd791de6419ca55b91b18180543a.bindPopup(popup_2d4f90381cfa4d71abd0e415a5795812)
+        ;
+
+        
+    
+    
+            var circle_marker_b8cfe35e137d47f083d49c68e5e59aed = L.circleMarker(
+                [32.13869444444445, 101.03999999999999],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_1630d84de0464821942723e7be1a615a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b78ed9a30384950b29872aa7601f700 = $(`<div id="html_4b78ed9a30384950b29872aa7601f700" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE608 | 2019</div>`)[0];
+            popup_1630d84de0464821942723e7be1a615a.setContent(html_4b78ed9a30384950b29872aa7601f700);
+        
+
+        circle_marker_b8cfe35e137d47f083d49c68e5e59aed.bindPopup(popup_1630d84de0464821942723e7be1a615a)
+        ;
+
+        
+    
+    
+            var circle_marker_a5e49580511e4b46a920ddd5e7aae253 = L.circleMarker(
+                [32.13869444444445, 101.03999999999999],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_9d767706c4ff40139ca6903524ddd9f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37fb9700bc5d4e07bdea145eb07da798 = $(`<div id="html_37fb9700bc5d4e07bdea145eb07da798" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE617 | 2019</div>`)[0];
+            popup_9d767706c4ff40139ca6903524ddd9f6.setContent(html_37fb9700bc5d4e07bdea145eb07da798);
+        
+
+        circle_marker_a5e49580511e4b46a920ddd5e7aae253.bindPopup(popup_9d767706c4ff40139ca6903524ddd9f6)
+        ;
+
+        
+    
+    
+            var circle_marker_613b6e5be45a4e8c9de284b96f2b1d99 = L.circleMarker(
+                [32.309999999999995, 100.83694444444444],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_8ecd119c364d49d5b83f2c1a9a306f6e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d3403b9af9a45fe8dc4652441d9f421 = $(`<div id="html_1d3403b9af9a45fe8dc4652441d9f421" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE627 | 2019</div>`)[0];
+            popup_8ecd119c364d49d5b83f2c1a9a306f6e.setContent(html_1d3403b9af9a45fe8dc4652441d9f421);
+        
+
+        circle_marker_613b6e5be45a4e8c9de284b96f2b1d99.bindPopup(popup_8ecd119c364d49d5b83f2c1a9a306f6e)
+        ;
+
+        
+    
+    
+            var circle_marker_0325446a493f403682efe608610b9ec0 = L.circleMarker(
+                [32.32527777777778, 101.08063888888888],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_d9af82310a104c0f8746242428d7f0ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1219b8fbbe764e3aa68e281092a35aa9 = $(`<div id="html_1219b8fbbe764e3aa68e281092a35aa9" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE638 | 2019</div>`)[0];
+            popup_d9af82310a104c0f8746242428d7f0ab.setContent(html_1219b8fbbe764e3aa68e281092a35aa9);
+        
+
+        circle_marker_0325446a493f403682efe608610b9ec0.bindPopup(popup_d9af82310a104c0f8746242428d7f0ab)
+        ;
+
+        
+    
+    
+            var circle_marker_143fdfb7c775415f817bfa78268eff46 = L.circleMarker(
+                [32.337500000000006, 101.42083333333333],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_9eda2093c72b48ad96b790af01165317 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d34fda471038420fb7cdbe57c2704c81 = $(`<div id="html_d34fda471038420fb7cdbe57c2704c81" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE639 | 2019</div>`)[0];
+            popup_9eda2093c72b48ad96b790af01165317.setContent(html_d34fda471038420fb7cdbe57c2704c81);
+        
+
+        circle_marker_143fdfb7c775415f817bfa78268eff46.bindPopup(popup_9eda2093c72b48ad96b790af01165317)
+        ;
+
+        
+    
+    
+            var circle_marker_a63c57ddd3604acbbaf832545d38a994 = L.circleMarker(
+                [32.09055555555556, 102.56333333333333],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_b377c63c935a4c28af4444a391f4d8f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3acad97e4ec64eec9c8758718e3f4b0e = $(`<div id="html_3acad97e4ec64eec9c8758718e3f4b0e" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE661 | 2019</div>`)[0];
+            popup_b377c63c935a4c28af4444a391f4d8f8.setContent(html_3acad97e4ec64eec9c8758718e3f4b0e);
+        
+
+        circle_marker_a63c57ddd3604acbbaf832545d38a994.bindPopup(popup_b377c63c935a4c28af4444a391f4d8f8)
+        ;
+
+        
+    
+    
+            var circle_marker_801e178a6eed4bdc8c0f4c0bc12f9818 = L.circleMarker(
+                [32.32241666666667, 102.45541666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_7aeabe870dec42e481bebace6fc5f914 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8da61881f6f4a51983c5557153b424c = $(`<div id="html_e8da61881f6f4a51983c5557153b424c" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE667 | 2019</div>`)[0];
+            popup_7aeabe870dec42e481bebace6fc5f914.setContent(html_e8da61881f6f4a51983c5557153b424c);
+        
+
+        circle_marker_801e178a6eed4bdc8c0f4c0bc12f9818.bindPopup(popup_7aeabe870dec42e481bebace6fc5f914)
+        ;
+
+        
+    
+    
+            var circle_marker_6ebc73860db74281aef4effdccd3ccf1 = L.circleMarker(
+                [32.711111111111116, 102.11736111111111],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_b4abf242f6944eefb3b0cd2fc68785a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db9af62b1e8d4c6e9234aea1e726e305 = $(`<div id="html_db9af62b1e8d4c6e9234aea1e726e305" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE682 | 2019</div>`)[0];
+            popup_b4abf242f6944eefb3b0cd2fc68785a8.setContent(html_db9af62b1e8d4c6e9234aea1e726e305);
+        
+
+        circle_marker_6ebc73860db74281aef4effdccd3ccf1.bindPopup(popup_b4abf242f6944eefb3b0cd2fc68785a8)
+        ;
+
+        
+    
+    
+            var circle_marker_b45d76d4bd91453cb4885feec4c4a952 = L.circleMarker(
+                [33.31375, 101.28361111111111],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_eb9153658bce4b86b77edab4d34d10c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_170e1829bdcf47eaa24144ee6836df63 = $(`<div id="html_170e1829bdcf47eaa24144ee6836df63" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE703 | 2019</div>`)[0];
+            popup_eb9153658bce4b86b77edab4d34d10c5.setContent(html_170e1829bdcf47eaa24144ee6836df63);
+        
+
+        circle_marker_b45d76d4bd91453cb4885feec4c4a952.bindPopup(popup_eb9153658bce4b86b77edab4d34d10c5)
+        ;
+
+        
+    
+    
+            var circle_marker_4e6b439bc029478abfea1051e9c68ec2 = L.circleMarker(
+                [33.54694444444444, 101.53597222222223],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_df9ef76df58a449c948cb80b64d7e40c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dafc1f273870440eb80241943d3a4637 = $(`<div id="html_dafc1f273870440eb80241943d3a4637" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE706 | 2019</div>`)[0];
+            popup_df9ef76df58a449c948cb80b64d7e40c.setContent(html_dafc1f273870440eb80241943d3a4637);
+        
+
+        circle_marker_4e6b439bc029478abfea1051e9c68ec2.bindPopup(popup_df9ef76df58a449c948cb80b64d7e40c)
+        ;
+
+        
+    
+    
+            var circle_marker_15f46e9ac4b84c76a4fbec2989abc278 = L.circleMarker(
+                [34.113055555555555, 102.77888888888889],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_a59af36369054167a40fc2f4144caac7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87f9e6b1fb0342da910cfd8adb60317c = $(`<div id="html_87f9e6b1fb0342da910cfd8adb60317c" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | DE743 | 2019</div>`)[0];
+            popup_a59af36369054167a40fc2f4144caac7.setContent(html_87f9e6b1fb0342da910cfd8adb60317c);
+        
+
+        circle_marker_15f46e9ac4b84c76a4fbec2989abc278.bindPopup(popup_a59af36369054167a40fc2f4144caac7)
+        ;
+
+        
+    
+    
+            var circle_marker_cb0f216f16a340beba9ea9f3dcf32cb2 = L.circleMarker(
+                [30.01527777777778, 101.85944444444443],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.509995655950528, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_baf72057fe22432a8a15ec616c1175b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb589969c602469ebbb76f04a280778b = $(`<div id="html_bb589969c602469ebbb76f04a280778b" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | 27565 | 1997</div>`)[0];
+            popup_baf72057fe22432a8a15ec616c1175b3.setContent(html_bb589969c602469ebbb76f04a280778b);
+        
+
+        circle_marker_cb0f216f16a340beba9ea9f3dcf32cb2.bindPopup(popup_baf72057fe22432a8a15ec616c1175b3)
+        ;
+
+        
+    
+    
+            var circle_marker_139f63ef7b234b88be2f289721a08e2b = L.circleMarker(
+                [31.726388888888888, 100.73527777777778],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.509995655950528, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_403111b05fe546789727d05d02f8e388 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18ff12bd15024370acf30eaaf459e6fb = $(`<div id="html_18ff12bd15024370acf30eaaf459e6fb" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | 27839 | 1997</div>`)[0];
+            popup_403111b05fe546789727d05d02f8e388.setContent(html_18ff12bd15024370acf30eaaf459e6fb);
+        
+
+        circle_marker_139f63ef7b234b88be2f289721a08e2b.bindPopup(popup_403111b05fe546789727d05d02f8e388)
+        ;
+
+        
+    
+    
+            var circle_marker_83d2a939d55b496e9a1ca24c56bce8d3 = L.circleMarker(
+                [29.14, 100.15722222222223],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.256997823576231, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_a134e8bf653f4af3ac8e20ef993e12b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dcae758f4fab43ec8bf183bd65e5f20c = $(`<div id="html_dcae758f4fab43ec8bf183bd65e5f20c" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | 28127 | 1998</div>`)[0];
+            popup_a134e8bf653f4af3ac8e20ef993e12b2.setContent(html_dcae758f4fab43ec8bf183bd65e5f20c);
+        
+
+        circle_marker_83d2a939d55b496e9a1ca24c56bce8d3.bindPopup(popup_a134e8bf653f4af3ac8e20ef993e12b2)
+        ;
+
+        
+    
+    
+            var circle_marker_b6f99231cc77423199a85ae7fcee286e = L.circleMarker(
+                [28.74638888888889, 100.26916666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.256997823576231, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_28d5f125ec714d02b2b454f1fbd56aaa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8e300c1fc5244c69aa040b0c6f428b6 = $(`<div id="html_e8e300c1fc5244c69aa040b0c6f428b6" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides-subsp.-tibetica | 28229 | 1998</div>`)[0];
+            popup_28d5f125ec714d02b2b454f1fbd56aaa.setContent(html_e8e300c1fc5244c69aa040b0c6f428b6);
+        
+
+        circle_marker_b6f99231cc77423199a85ae7fcee286e.bindPopup(popup_28d5f125ec714d02b2b454f1fbd56aaa)
+        ;
+
+        
+    
+    
+            var circle_marker_4e5e8d4a470f4353a1e172e488267b1f = L.circleMarker(
+                [28.74638888888889, 100.26916666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.256997823576231, "stroke": true, "weight": 3}
+            ).addTo(map_6cb377d4f7274502ac8dfaa76ce946fd);
+        
+    
+        var popup_2b88169441004db7a926d02c601bebca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e389b340cd5d4f5c92e36ade456b994b = $(`<div id="html_e389b340cd5d4f5c92e36ade456b994b" style="width: 100.0%; height: 100.0%;">Pedicularis-rhinanthoides | 28264 | 1998</div>`)[0];
+            popup_2b88169441004db7a926d02c601bebca.setContent(html_e389b340cd5d4f5c92e36ade456b994b);
+        
+
+        circle_marker_4e5e8d4a470f4353a1e172e488267b1f.bindPopup(popup_2b88169441004db7a926d02c601bebca)
+        ;
+
+        
+    
+</script>

@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_16572840742d4df398d204a3235eaa2c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_16572840742d4df398d204a3235eaa2c" ></div>
+        
+</body>
+<script>    
+    
+            var map_16572840742d4df398d204a3235eaa2c = L.map(
+                "map_16572840742d4df398d204a3235eaa2c",
+                {
+                    center: [30.3849, 101.0083],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d8a1a1e5648847e9aaf1450d2f26f91a = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+            var circle_marker_e56d327ac30f4322a288a0e549fb377a = L.circleMarker(
+                [27.959194444444442, 99.70716666666667],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_1b3add201aab4fcba35e0e541dd15af3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7d3d3df38304b98889b8e381624697b = $(`<div id="html_c7d3d3df38304b98889b8e381624697b" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE4 | 2018</div>`)[0];
+            popup_1b3add201aab4fcba35e0e541dd15af3.setContent(html_c7d3d3df38304b98889b8e381624697b);
+        
+
+        circle_marker_e56d327ac30f4322a288a0e549fb377a.bindPopup(popup_1b3add201aab4fcba35e0e541dd15af3)
+        ;
+
+        
+    
+    
+            var circle_marker_832bef5cc9c44045bf0473d1c5d4c89c = L.circleMarker(
+                [29.14472222222222, 100.03477777777778],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_8b4cb0c8d8ea4760bb5d4972355f95a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ddaaa6b6f34451881913810db1ca2ff = $(`<div id="html_9ddaaa6b6f34451881913810db1ca2ff" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE54 | 2018</div>`)[0];
+            popup_8b4cb0c8d8ea4760bb5d4972355f95a8.setContent(html_9ddaaa6b6f34451881913810db1ca2ff);
+        
+
+        circle_marker_832bef5cc9c44045bf0473d1c5d4c89c.bindPopup(popup_8b4cb0c8d8ea4760bb5d4972355f95a8)
+        ;
+
+        
+    
+    
+            var circle_marker_ed3d674301e64eb9a1b2ec14bc80f9b6 = L.circleMarker(
+                [29.33486111111111, 100.09941666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_4993a61892704d53a3123649cb27be98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b05de514eec6496a9c7aeda5fd43c9ee = $(`<div id="html_b05de514eec6496a9c7aeda5fd43c9ee" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE61 | 2018</div>`)[0];
+            popup_4993a61892704d53a3123649cb27be98.setContent(html_b05de514eec6496a9c7aeda5fd43c9ee);
+        
+
+        circle_marker_ed3d674301e64eb9a1b2ec14bc80f9b6.bindPopup(popup_4993a61892704d53a3123649cb27be98)
+        ;
+
+        
+    
+    
+            var circle_marker_d1ba42155947460f8593c22c300b30fb = L.circleMarker(
+                [30.41916666666667, 101.54805555555555],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_131f5fe9e60644419325ea145e8d2448 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2738cde3d0b44e9584cb8ebafbfa2ff3 = $(`<div id="html_2738cde3d0b44e9584cb8ebafbfa2ff3" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE132 | 2018</div>`)[0];
+            popup_131f5fe9e60644419325ea145e8d2448.setContent(html_2738cde3d0b44e9584cb8ebafbfa2ff3);
+        
+
+        circle_marker_d1ba42155947460f8593c22c300b30fb.bindPopup(popup_131f5fe9e60644419325ea145e8d2448)
+        ;
+
+        
+    
+    
+            var circle_marker_b5947f5686d041f49da05f74ac6b9cb2 = L.circleMarker(
+                [30.57702777777778, 101.41797222222223],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_9faf47ec827949688cb4c2f6c4f331c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1682fd6836e54619b753714a479412c0 = $(`<div id="html_1682fd6836e54619b753714a479412c0" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE141 | 2018</div>`)[0];
+            popup_9faf47ec827949688cb4c2f6c4f331c7.setContent(html_1682fd6836e54619b753714a479412c0);
+        
+
+        circle_marker_b5947f5686d041f49da05f74ac6b9cb2.bindPopup(popup_9faf47ec827949688cb4c2f6c4f331c7)
+        ;
+
+        
+    
+    
+            var circle_marker_4fdce408dca04b4fbc23b89696144a44 = L.circleMarker(
+                [30.64311111111111, 101.4041388888889],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_32756b21d0fc4474ba9380ac2d5a16a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3c313d8b78e4ae8ab4edbfeb228091c = $(`<div id="html_e3c313d8b78e4ae8ab4edbfeb228091c" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE154 | 2018</div>`)[0];
+            popup_32756b21d0fc4474ba9380ac2d5a16a3.setContent(html_e3c313d8b78e4ae8ab4edbfeb228091c);
+        
+
+        circle_marker_4fdce408dca04b4fbc23b89696144a44.bindPopup(popup_32756b21d0fc4474ba9380ac2d5a16a3)
+        ;
+
+        
+    
+    
+            var circle_marker_87728083aebf4914803672f093e7bd4d = L.circleMarker(
+                [30.71183333333333, 101.36433333333333],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_3e74d0a8d7b8423999f1ae49f1edfd0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ef46e2a486342feb27d772d40ebdca9 = $(`<div id="html_8ef46e2a486342feb27d772d40ebdca9" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE156 | 2018</div>`)[0];
+            popup_3e74d0a8d7b8423999f1ae49f1edfd0d.setContent(html_8ef46e2a486342feb27d772d40ebdca9);
+        
+
+        circle_marker_87728083aebf4914803672f093e7bd4d.bindPopup(popup_3e74d0a8d7b8423999f1ae49f1edfd0d)
+        ;
+
+        
+    
+    
+            var circle_marker_7ba1ba6c0cf24aaeb601d6e1985c061d = L.circleMarker(
+                [30.71183333333333, 101.36433333333333],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_88abd3aa41b448a3b45f0e2d8114cac3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f5cbcf7cae5420dbf114aea23458ab5 = $(`<div id="html_2f5cbcf7cae5420dbf114aea23458ab5" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE165 | 2018</div>`)[0];
+            popup_88abd3aa41b448a3b45f0e2d8114cac3.setContent(html_2f5cbcf7cae5420dbf114aea23458ab5);
+        
+
+        circle_marker_7ba1ba6c0cf24aaeb601d6e1985c061d.bindPopup(popup_88abd3aa41b448a3b45f0e2d8114cac3)
+        ;
+
+        
+    
+    
+            var circle_marker_ed4232667856449f90430f66f2486734 = L.circleMarker(
+                [30.826777777777778, 101.28227777777778],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_2955a8c135494740a2aa59f91e7f50f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_740217dbbfd541868c095bb278d30549 = $(`<div id="html_740217dbbfd541868c095bb278d30549" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE175 | 2018</div>`)[0];
+            popup_2955a8c135494740a2aa59f91e7f50f8.setContent(html_740217dbbfd541868c095bb278d30549);
+        
+
+        circle_marker_ed4232667856449f90430f66f2486734.bindPopup(popup_2955a8c135494740a2aa59f91e7f50f8)
+        ;
+
+        
+    
+    
+            var circle_marker_baf6e7dc90984acd9dac1ebd5996a389 = L.circleMarker(
+                [31.57472222222222, 100.72094444444444],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_087a77540ce64d69b60c0c8eb58eefec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec19f3374dbc48ceb6e9eb002dd634d5 = $(`<div id="html_ec19f3374dbc48ceb6e9eb002dd634d5" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE193 | 2018</div>`)[0];
+            popup_087a77540ce64d69b60c0c8eb58eefec.setContent(html_ec19f3374dbc48ceb6e9eb002dd634d5);
+        
+
+        circle_marker_baf6e7dc90984acd9dac1ebd5996a389.bindPopup(popup_087a77540ce64d69b60c0c8eb58eefec)
+        ;
+
+        
+    
+    
+            var circle_marker_d9dd0ef323784203a4da8172d79ffe8a = L.circleMarker(
+                [31.54313888888889, 100.47063888888889],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_87679cc0609e4bbfb5e05d5433eaefc0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70639f529a72494b8f71647a5f930ea1 = $(`<div id="html_70639f529a72494b8f71647a5f930ea1" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE228 | 2018</div>`)[0];
+            popup_87679cc0609e4bbfb5e05d5433eaefc0.setContent(html_70639f529a72494b8f71647a5f930ea1);
+        
+
+        circle_marker_d9dd0ef323784203a4da8172d79ffe8a.bindPopup(popup_87679cc0609e4bbfb5e05d5433eaefc0)
+        ;
+
+        
+    
+    
+            var circle_marker_14ef9cf05f9f46558f4880f3553c8691 = L.circleMarker(
+                [31.651888888888887, 100.25841666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_eb03b9a8a5ef4c87a96b4990314182fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09b7862378cd4118b58ff4c85db69ade = $(`<div id="html_09b7862378cd4118b58ff4c85db69ade" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE246 | 2018</div>`)[0];
+            popup_eb03b9a8a5ef4c87a96b4990314182fc.setContent(html_09b7862378cd4118b58ff4c85db69ade);
+        
+
+        circle_marker_14ef9cf05f9f46558f4880f3553c8691.bindPopup(popup_eb03b9a8a5ef4c87a96b4990314182fc)
+        ;
+
+        
+    
+    
+            var circle_marker_0ed29b575e10487b985c3d1b66e8b244 = L.circleMarker(
+                [31.62611111111111, 100.22330555555556],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_439ede5c450147029472dcc9754507cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e368ecabe3db465f8cd9bf52e29dbc9a = $(`<div id="html_e368ecabe3db465f8cd9bf52e29dbc9a" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE257 | 2018</div>`)[0];
+            popup_439ede5c450147029472dcc9754507cd.setContent(html_e368ecabe3db465f8cd9bf52e29dbc9a);
+        
+
+        circle_marker_0ed29b575e10487b985c3d1b66e8b244.bindPopup(popup_439ede5c450147029472dcc9754507cd)
+        ;
+
+        
+    
+    
+            var circle_marker_93b3d4af3ab7403fa01980c4b43d090a = L.circleMarker(
+                [31.58661111111111, 100.14166666666668],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_6df398d66cdd4b14806b29d7baa3e7de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d66ce3083d154477abf039593581ee11 = $(`<div id="html_d66ce3083d154477abf039593581ee11" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE265 | 2018</div>`)[0];
+            popup_6df398d66cdd4b14806b29d7baa3e7de.setContent(html_d66ce3083d154477abf039593581ee11);
+        
+
+        circle_marker_93b3d4af3ab7403fa01980c4b43d090a.bindPopup(popup_6df398d66cdd4b14806b29d7baa3e7de)
+        ;
+
+        
+    
+    
+            var circle_marker_519a1213d43d482591c73ce413616674 = L.circleMarker(
+                [31.715305555555556, 99.61627777777777],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_dd6dbc17f6c64b8fa6d4d7d3238d277c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d76fa7cdc8ea40e8a3b28b39132dc591 = $(`<div id="html_d76fa7cdc8ea40e8a3b28b39132dc591" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE278 | 2018</div>`)[0];
+            popup_dd6dbc17f6c64b8fa6d4d7d3238d277c.setContent(html_d76fa7cdc8ea40e8a3b28b39132dc591);
+        
+
+        circle_marker_519a1213d43d482591c73ce413616674.bindPopup(popup_dd6dbc17f6c64b8fa6d4d7d3238d277c)
+        ;
+
+        
+    
+    
+            var circle_marker_240ce639980b46bc9e70df2d938ecd02 = L.circleMarker(
+                [31.911027777777775, 99.25786111111111],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_c17d85882e8d498c8038a8e701e28f6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03cc400a881e4d4899cd2c83ce248b4f = $(`<div id="html_03cc400a881e4d4899cd2c83ce248b4f" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE282 | 2018</div>`)[0];
+            popup_c17d85882e8d498c8038a8e701e28f6f.setContent(html_03cc400a881e4d4899cd2c83ce248b4f);
+        
+
+        circle_marker_240ce639980b46bc9e70df2d938ecd02.bindPopup(popup_c17d85882e8d498c8038a8e701e28f6f)
+        ;
+
+        
+    
+    
+            var circle_marker_190be86d10754e26b78a55f614d470c3 = L.circleMarker(
+                [32.066861111111116, 99.00422222222223],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_95d244ad3e7841a9812fc2f0c15ad36e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1218fb1959e6451a85e33341a1a889f0 = $(`<div id="html_1218fb1959e6451a85e33341a1a889f0" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE298 | 2018</div>`)[0];
+            popup_95d244ad3e7841a9812fc2f0c15ad36e.setContent(html_1218fb1959e6451a85e33341a1a889f0);
+        
+
+        circle_marker_190be86d10754e26b78a55f614d470c3.bindPopup(popup_95d244ad3e7841a9812fc2f0c15ad36e)
+        ;
+
+        
+    
+    
+            var circle_marker_30d17914e008439880bd0430c1f0b0db = L.circleMarker(
+                [32.009027777777774, 99.04827777777777],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_65950dddaeb44b199ecfcbda21111241 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ba69aa341cc470f89eb0eb14a211039 = $(`<div id="html_8ba69aa341cc470f89eb0eb14a211039" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE308 | 2018</div>`)[0];
+            popup_65950dddaeb44b199ecfcbda21111241.setContent(html_8ba69aa341cc470f89eb0eb14a211039);
+        
+
+        circle_marker_30d17914e008439880bd0430c1f0b0db.bindPopup(popup_65950dddaeb44b199ecfcbda21111241)
+        ;
+
+        
+    
+    
+            var circle_marker_7b3e7c4b00fb4433a395a1479b2bc07b = L.circleMarker(
+                [31.88711111111111, 99.03377777777777],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_ee91b042c2d04ebf9b35856eac751cb2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e042896e154c418ca8d9f7785d042768 = $(`<div id="html_e042896e154c418ca8d9f7785d042768" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE313 | 2018</div>`)[0];
+            popup_ee91b042c2d04ebf9b35856eac751cb2.setContent(html_e042896e154c418ca8d9f7785d042768);
+        
+
+        circle_marker_7b3e7c4b00fb4433a395a1479b2bc07b.bindPopup(popup_ee91b042c2d04ebf9b35856eac751cb2)
+        ;
+
+        
+    
+    
+            var circle_marker_96172534c4f64f398a7ce660ad5ab2e2 = L.circleMarker(
+                [30.980833333333333, 98.95905555555557],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_c1d23e5cf8344f77b65f7ef18d46a2f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa9e63b0d64544678d8a37c96427ccfb = $(`<div id="html_aa9e63b0d64544678d8a37c96427ccfb" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE356 | 2018</div>`)[0];
+            popup_c1d23e5cf8344f77b65f7ef18d46a2f6.setContent(html_aa9e63b0d64544678d8a37c96427ccfb);
+        
+
+        circle_marker_96172534c4f64f398a7ce660ad5ab2e2.bindPopup(popup_c1d23e5cf8344f77b65f7ef18d46a2f6)
+        ;
+
+        
+    
+    
+            var circle_marker_1daab93462294c7e8f57588f379da1d8 = L.circleMarker(
+                [30.597694444444443, 99.1883888888889],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_1306a227a24844c1993e3a6d8999395b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a4e9812172044bdb35fa1c687f8c83b = $(`<div id="html_3a4e9812172044bdb35fa1c687f8c83b" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE369 | 2018</div>`)[0];
+            popup_1306a227a24844c1993e3a6d8999395b.setContent(html_3a4e9812172044bdb35fa1c687f8c83b);
+        
+
+        circle_marker_1daab93462294c7e8f57588f379da1d8.bindPopup(popup_1306a227a24844c1993e3a6d8999395b)
+        ;
+
+        
+    
+    
+            var circle_marker_74ef5d00e3ba4adc84e92a08b5fb4a15 = L.circleMarker(
+                [30.287361111111114, 99.49497222222222],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_640bd9c486bd4a538f59ed46e2f0279e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91a8a691fcd3450e9e26bf52ba1239f9 = $(`<div id="html_91a8a691fcd3450e9e26bf52ba1239f9" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE383 | 2018</div>`)[0];
+            popup_640bd9c486bd4a538f59ed46e2f0279e.setContent(html_91a8a691fcd3450e9e26bf52ba1239f9);
+        
+
+        circle_marker_74ef5d00e3ba4adc84e92a08b5fb4a15.bindPopup(popup_640bd9c486bd4a538f59ed46e2f0279e)
+        ;
+
+        
+    
+    
+            var circle_marker_60f5a9d4b5b34cf99f84883a4ab80073 = L.circleMarker(
+                [30.297027777777778, 99.671],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_ee7a24eb2b624db3aa2505832f8994fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9dce9648a9154c148a11a09638f54c5a = $(`<div id="html_9dce9648a9154c148a11a09638f54c5a" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora var. tubiformes | DE395 | 2018</div>`)[0];
+            popup_ee7a24eb2b624db3aa2505832f8994fb.setContent(html_9dce9648a9154c148a11a09638f54c5a);
+        
+
+        circle_marker_60f5a9d4b5b34cf99f84883a4ab80073.bindPopup(popup_ee7a24eb2b624db3aa2505832f8994fb)
+        ;
+
+        
+    
+    
+            var circle_marker_5ec67b08470f4d94aaab83e44c3132b3 = L.circleMarker(
+                [30.227277777777775, 100.24769444444445],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_fab87bf283b24668a554d6f8a1462c01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43ef1006667b4a0ba32fd7c96fc40c72 = $(`<div id="html_43ef1006667b4a0ba32fd7c96fc40c72" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE402 | 2018</div>`)[0];
+            popup_fab87bf283b24668a554d6f8a1462c01.setContent(html_43ef1006667b4a0ba32fd7c96fc40c72);
+        
+
+        circle_marker_5ec67b08470f4d94aaab83e44c3132b3.bindPopup(popup_fab87bf283b24668a554d6f8a1462c01)
+        ;
+
+        
+    
+    
+            var circle_marker_453495e7f36f444f9700d06be939470b = L.circleMarker(
+                [29.141805555555557, 100.15661111111112],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_e06fdfe5f7674d5b9c26182493161dbe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b109d7792ce4df4abc7e2538fe41549 = $(`<div id="html_4b109d7792ce4df4abc7e2538fe41549" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE424 | 2018</div>`)[0];
+            popup_e06fdfe5f7674d5b9c26182493161dbe.setContent(html_4b109d7792ce4df4abc7e2538fe41549);
+        
+
+        circle_marker_453495e7f36f444f9700d06be939470b.bindPopup(popup_e06fdfe5f7674d5b9c26182493161dbe)
+        ;
+
+        
+    
+    
+            var circle_marker_bc90c5212f6842fea19b59d2b6a9682d = L.circleMarker(
+                [28.74638888888889, 100.26916666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_58b6683b446d4f8f89e3574dc64d0a3a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10e9c3f43dec4eeea6c0c217ecff7d21 = $(`<div id="html_10e9c3f43dec4eeea6c0c217ecff7d21" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE436 | 2018</div>`)[0];
+            popup_58b6683b446d4f8f89e3574dc64d0a3a.setContent(html_10e9c3f43dec4eeea6c0c217ecff7d21);
+        
+
+        circle_marker_bc90c5212f6842fea19b59d2b6a9682d.bindPopup(popup_58b6683b446d4f8f89e3574dc64d0a3a)
+        ;
+
+        
+    
+    
+            var circle_marker_8027505f6677483fadcd2bd1abb91857 = L.circleMarker(
+                [27.80763888888889, 99.76297222222222],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_134adb2a524740e88545c86cbd00e4ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a8dcf26e4814b54be3faa2ce6ce2b48 = $(`<div id="html_3a8dcf26e4814b54be3faa2ce6ce2b48" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE464 | 2018</div>`)[0];
+            popup_134adb2a524740e88545c86cbd00e4ed.setContent(html_3a8dcf26e4814b54be3faa2ce6ce2b48);
+        
+
+        circle_marker_8027505f6677483fadcd2bd1abb91857.bindPopup(popup_134adb2a524740e88545c86cbd00e4ed)
+        ;
+
+        
+    
+    
+            var circle_marker_9ce94dad0ed44f898522d78744d7e566 = L.circleMarker(
+                [28.290277777777778, 101.15494444444445],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_317fa2d07b2e4586b01b139ba5e30dba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce03e5653dc04a8d9948e35d8ef58c92 = $(`<div id="html_ce03e5653dc04a8d9948e35d8ef58c92" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE498 | 2019</div>`)[0];
+            popup_317fa2d07b2e4586b01b139ba5e30dba.setContent(html_ce03e5653dc04a8d9948e35d8ef58c92);
+        
+
+        circle_marker_9ce94dad0ed44f898522d78744d7e566.bindPopup(popup_317fa2d07b2e4586b01b139ba5e30dba)
+        ;
+
+        
+    
+    
+            var circle_marker_a92e35137ac446e7ab8e5271d7088433 = L.circleMarker(
+                [30.012888888888888, 101.86272222222222],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_3f4aa005a65b455284205d1c97aead7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95eb4f5f868640a18cb9bf3abaac2ac0 = $(`<div id="html_95eb4f5f868640a18cb9bf3abaac2ac0" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE531 | 2019</div>`)[0];
+            popup_3f4aa005a65b455284205d1c97aead7b.setContent(html_95eb4f5f868640a18cb9bf3abaac2ac0);
+        
+
+        circle_marker_a92e35137ac446e7ab8e5271d7088433.bindPopup(popup_3f4aa005a65b455284205d1c97aead7b)
+        ;
+
+        
+    
+    
+            var circle_marker_5f984218b46c4e03b56e0da0a8686e0c = L.circleMarker(
+                [32.13869444444445, 101.03999999999999],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_07f2a1d494e040bd990df7c44b1b8063 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d7e3de84ee85459bbc1a83f65ffc6df5 = $(`<div id="html_d7e3de84ee85459bbc1a83f65ffc6df5" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE622 | 2019</div>`)[0];
+            popup_07f2a1d494e040bd990df7c44b1b8063.setContent(html_d7e3de84ee85459bbc1a83f65ffc6df5);
+        
+
+        circle_marker_5f984218b46c4e03b56e0da0a8686e0c.bindPopup(popup_07f2a1d494e040bd990df7c44b1b8063)
+        ;
+
+        
+    
+    
+            var circle_marker_9a0a2eff7dd94674aab578aa7c2b835a = L.circleMarker(
+                [32.32527777777778, 101.08063888888888],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_6fba26a80d2a48569fec8799a0543271 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a7d5679fa474e47b3da9414bfc82ac5 = $(`<div id="html_7a7d5679fa474e47b3da9414bfc82ac5" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE634 | 2019</div>`)[0];
+            popup_6fba26a80d2a48569fec8799a0543271.setContent(html_7a7d5679fa474e47b3da9414bfc82ac5);
+        
+
+        circle_marker_9a0a2eff7dd94674aab578aa7c2b835a.bindPopup(popup_6fba26a80d2a48569fec8799a0543271)
+        ;
+
+        
+    
+    
+            var circle_marker_6cb74d0d69774b939928637318473237 = L.circleMarker(
+                [32.337500000000006, 101.42083333333333],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_51261bf2bc1c42d28a2e2a86678fd71b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a974cc01c5d41c5b5aa6161c1ddb395 = $(`<div id="html_0a974cc01c5d41c5b5aa6161c1ddb395" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE644 | 2019</div>`)[0];
+            popup_51261bf2bc1c42d28a2e2a86678fd71b.setContent(html_0a974cc01c5d41c5b5aa6161c1ddb395);
+        
+
+        circle_marker_6cb74d0d69774b939928637318473237.bindPopup(popup_51261bf2bc1c42d28a2e2a86678fd71b)
+        ;
+
+        
+    
+    
+            var circle_marker_a48ddf5d9c8747c0a93c54c3917dcbd3 = L.circleMarker(
+                [31.6575, 100.70130555555556],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_d48bb94ad72549aeaa58077671c1e918 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76439410423a4ba7b8e6b5824c300260 = $(`<div id="html_76439410423a4ba7b8e6b5824c300260" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE651 | 2019</div>`)[0];
+            popup_d48bb94ad72549aeaa58077671c1e918.setContent(html_76439410423a4ba7b8e6b5824c300260);
+        
+
+        circle_marker_a48ddf5d9c8747c0a93c54c3917dcbd3.bindPopup(popup_d48bb94ad72549aeaa58077671c1e918)
+        ;
+
+        
+    
+    
+            var circle_marker_2178666fa9674e02b141fdfe19ff81bb = L.circleMarker(
+                [32.32241666666667, 102.45541666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_6d9ac621d10f446195b24857e7f617e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e45c73b311d444818c769198a8ebdc23 = $(`<div id="html_e45c73b311d444818c769198a8ebdc23" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE669 | 2019</div>`)[0];
+            popup_6d9ac621d10f446195b24857e7f617e8.setContent(html_e45c73b311d444818c769198a8ebdc23);
+        
+
+        circle_marker_2178666fa9674e02b141fdfe19ff81bb.bindPopup(popup_6d9ac621d10f446195b24857e7f617e8)
+        ;
+
+        
+    
+    
+            var circle_marker_6aad4575f9274c43b4b4b841362894fe = L.circleMarker(
+                [32.711111111111116, 102.11736111111111],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_3597d11ff0bd423081436717bbb2df59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c02533f68162483ab90e831b277abcf8 = $(`<div id="html_c02533f68162483ab90e831b277abcf8" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE685 | 2019</div>`)[0];
+            popup_3597d11ff0bd423081436717bbb2df59.setContent(html_c02533f68162483ab90e831b277abcf8);
+        
+
+        circle_marker_6aad4575f9274c43b4b4b841362894fe.bindPopup(popup_3597d11ff0bd423081436717bbb2df59)
+        ;
+
+        
+    
+    
+            var circle_marker_90281d2523a744aca8bc8d0411a21063 = L.circleMarker(
+                [32.908055555555556, 101.89055555555557],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_9b60f88d099544d8a7a4045e14aa16d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_887fb3c10de14e9e80e72cb8df10ea1b = $(`<div id="html_887fb3c10de14e9e80e72cb8df10ea1b" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE693 | 2019</div>`)[0];
+            popup_9b60f88d099544d8a7a4045e14aa16d4.setContent(html_887fb3c10de14e9e80e72cb8df10ea1b);
+        
+
+        circle_marker_90281d2523a744aca8bc8d0411a21063.bindPopup(popup_9b60f88d099544d8a7a4045e14aa16d4)
+        ;
+
+        
+    
+    
+            var circle_marker_323de3322ed44e74be335d156c484bf5 = L.circleMarker(
+                [33.31375, 101.28361111111111],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_78edda26cb0e4a69afcf35204bf86410 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45aec9abceb5416da42ff2774f0409db = $(`<div id="html_45aec9abceb5416da42ff2774f0409db" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE696 | 2019</div>`)[0];
+            popup_78edda26cb0e4a69afcf35204bf86410.setContent(html_45aec9abceb5416da42ff2774f0409db);
+        
+
+        circle_marker_323de3322ed44e74be335d156c484bf5.bindPopup(popup_78edda26cb0e4a69afcf35204bf86410)
+        ;
+
+        
+    
+    
+            var circle_marker_951963c033724d2f8a17a65e9e7b0550 = L.circleMarker(
+                [33.93944444444444, 102.03019444444445],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_290d77d1b78d431baefd380d87a7d012 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fda30f152eee42ba99b488774f917719 = $(`<div id="html_fda30f152eee42ba99b488774f917719" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE717 | 2019</div>`)[0];
+            popup_290d77d1b78d431baefd380d87a7d012.setContent(html_fda30f152eee42ba99b488774f917719);
+        
+
+        circle_marker_951963c033724d2f8a17a65e9e7b0550.bindPopup(popup_290d77d1b78d431baefd380d87a7d012)
+        ;
+
+        
+    
+    
+            var circle_marker_d23d96e087bf43c697f5f3625bc3840e = L.circleMarker(
+                [34.113055555555555, 102.77888888888889],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_91d06a97d29e4638964bac34d62e8b20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1d20c5eaf394596a35697ab0f40193f = $(`<div id="html_d1d20c5eaf394596a35697ab0f40193f" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | DE742 | 2019</div>`)[0];
+            popup_91d06a97d29e4638964bac34d62e8b20.setContent(html_d1d20c5eaf394596a35697ab0f40193f);
+        
+
+        circle_marker_d23d96e087bf43c697f5f3625bc3840e.bindPopup(popup_91d06a97d29e4638964bac34d62e8b20)
+        ;
+
+        
+    
+    
+            var circle_marker_25d7e1234c924fddafec7939130001d5 = L.circleMarker(
+                [30.040277777777778, 101.83833333333332],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.509995655950528, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_bf766952ee58442a91db9d47db0ed0a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_522ca8641eab4de485b69061882e7be6 = $(`<div id="html_522ca8641eab4de485b69061882e7be6" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | 27508 | 1997</div>`)[0];
+            popup_bf766952ee58442a91db9d47db0ed0a3.setContent(html_522ca8641eab4de485b69061882e7be6);
+        
+
+        circle_marker_25d7e1234c924fddafec7939130001d5.bindPopup(popup_bf766952ee58442a91db9d47db0ed0a3)
+        ;
+
+        
+    
+    
+            var circle_marker_1de4d719afff44caafd5a77aef330e28 = L.circleMarker(
+                [28.74638888888889, 100.26916666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.256997823576231, "stroke": true, "weight": 3}
+            ).addTo(map_16572840742d4df398d204a3235eaa2c);
+        
+    
+        var popup_f4591996a4c94de98254ffe5216c443d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f61994acaf514d7fba412566ff31c6a8 = $(`<div id="html_f61994acaf514d7fba412566ff31c6a8" style="width: 100.0%; height: 100.0%;">Pedicularis-longiflora | 28270 | 1998</div>`)[0];
+            popup_f4591996a4c94de98254ffe5216c443d.setContent(html_f61994acaf514d7fba412566ff31c6a8);
+        
+
+        circle_marker_1de4d719afff44caafd5a77aef330e28.bindPopup(popup_f4591996a4c94de98254ffe5216c443d)
+        ;
+
+        
+    
+</script>
