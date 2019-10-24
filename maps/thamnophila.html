@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_56dc4be28cef4f298ffbaa6ade45f6e3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_56dc4be28cef4f298ffbaa6ade45f6e3" ></div>
+        
+</body>
+<script>    
+    
+            var map_56dc4be28cef4f298ffbaa6ade45f6e3 = L.map(
+                "map_56dc4be28cef4f298ffbaa6ade45f6e3",
+                {
+                    center: [30.3849, 101.0083],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d8341ca16b364e3d9068a51928f6525f = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_56dc4be28cef4f298ffbaa6ade45f6e3);
+        
+    
+            var circle_marker_f9b5273229924a78b650dd458ff9c145 = L.circleMarker(
+                [28.60027777777778, 100.28666666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_56dc4be28cef4f298ffbaa6ade45f6e3);
+        
+    
+        var popup_2dbe1534e43e405e92340b5b8070a653 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0cf32d20cb2483092883ae47a1ae512 = $(`<div id="html_a0cf32d20cb2483092883ae47a1ae512" style="width: 100.0%; height: 100.0%;">Pedicularis-thamnophila | DE428 | 2018</div>`)[0];
+            popup_2dbe1534e43e405e92340b5b8070a653.setContent(html_a0cf32d20cb2483092883ae47a1ae512);
+        
+
+        circle_marker_f9b5273229924a78b650dd458ff9c145.bindPopup(popup_2dbe1534e43e405e92340b5b8070a653)
+        ;
+
+        
+    
+    
+            var circle_marker_c8f28c20bc414ed8991dbcc6f046b59b = L.circleMarker(
+                [28.974138888888888, 99.75808333333333],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_56dc4be28cef4f298ffbaa6ade45f6e3);
+        
+    
+        var popup_247094683cf940e2979195d56a1eaf5c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d489a854e152476dbc8691cc8e463a96 = $(`<div id="html_d489a854e152476dbc8691cc8e463a96" style="width: 100.0%; height: 100.0%;">Pedicularis-thamnophila | DE446 | 2018</div>`)[0];
+            popup_247094683cf940e2979195d56a1eaf5c.setContent(html_d489a854e152476dbc8691cc8e463a96);
+        
+
+        circle_marker_c8f28c20bc414ed8991dbcc6f046b59b.bindPopup(popup_247094683cf940e2979195d56a1eaf5c)
+        ;
+
+        
+    
+    
+            var circle_marker_5b5a8c72250d4ff1816ec9bfbb29339d = L.circleMarker(
+                [29.04136111111111, 99.70455555555556],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_56dc4be28cef4f298ffbaa6ade45f6e3);
+        
+    
+        var popup_a00180a1834147b580a8617eec9762a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d20cff1ce1ef4807948903526b4345f8 = $(`<div id="html_d20cff1ce1ef4807948903526b4345f8" style="width: 100.0%; height: 100.0%;">Pedicularis-thamnophila | DE455 | 2018</div>`)[0];
+            popup_a00180a1834147b580a8617eec9762a1.setContent(html_d20cff1ce1ef4807948903526b4345f8);
+        
+
+        circle_marker_5b5a8c72250d4ff1816ec9bfbb29339d.bindPopup(popup_a00180a1834147b580a8617eec9762a1)
+        ;
+
+        
+    
+    
+            var circle_marker_3222aa3690fb4ab78181e0295d1955d1 = L.circleMarker(
+                [28.116944444444446, 101.17425],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_56dc4be28cef4f298ffbaa6ade45f6e3);
+        
+    
+        var popup_93fe07dc2e2e4731a5aa981b11555f76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9bd19fea75464c8e85909eb392a4d0a8 = $(`<div id="html_9bd19fea75464c8e85909eb392a4d0a8" style="width: 100.0%; height: 100.0%;">Pedicularis-thamnophila | DE477 | 2019</div>`)[0];
+            popup_93fe07dc2e2e4731a5aa981b11555f76.setContent(html_9bd19fea75464c8e85909eb392a4d0a8);
+        
+
+        circle_marker_3222aa3690fb4ab78181e0295d1955d1.bindPopup(popup_93fe07dc2e2e4731a5aa981b11555f76)
+        ;
+
+        
+    
+    
+            var circle_marker_655e5e85d9714fb08ca34a6e6643634d = L.circleMarker(
+                [28.12911111111111, 101.16125000000001],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_56dc4be28cef4f298ffbaa6ade45f6e3);
+        
+    
+        var popup_3731a8ac987f4cffac9da81c9502bd9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05ae419568e7470f844a83a08b49a372 = $(`<div id="html_05ae419568e7470f844a83a08b49a372" style="width: 100.0%; height: 100.0%;">Pedicularis-thamnophila | DE478 | 2019</div>`)[0];
+            popup_3731a8ac987f4cffac9da81c9502bd9f.setContent(html_05ae419568e7470f844a83a08b49a372);
+        
+
+        circle_marker_655e5e85d9714fb08ca34a6e6643634d.bindPopup(popup_3731a8ac987f4cffac9da81c9502bd9f)
+        ;
+
+        
+    
+    
+            var circle_marker_334c5568eddd433098546b3cd0aba16b = L.circleMarker(
+                [29.044722222222223, 99.71138888888889],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.256997823576231, "stroke": true, "weight": 3}
+            ).addTo(map_56dc4be28cef4f298ffbaa6ade45f6e3);
+        
+    
+        var popup_f69ada5d2bea4816830300ae1c0c5379 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7140909f283f49cb86142891bf175289 = $(`<div id="html_7140909f283f49cb86142891bf175289" style="width: 100.0%; height: 100.0%;">Pedicularis-thamnophila | 28967 | 1998</div>`)[0];
+            popup_f69ada5d2bea4816830300ae1c0c5379.setContent(html_7140909f283f49cb86142891bf175289);
+        
+
+        circle_marker_334c5568eddd433098546b3cd0aba16b.bindPopup(popup_f69ada5d2bea4816830300ae1c0c5379)
+        ;
+
+        
+    
+</script>

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3fa6b1821086475fbbc99fa289aeb761 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_3fa6b1821086475fbbc99fa289aeb761" ></div>
+        
+</body>
+<script>    
+    
+            var map_3fa6b1821086475fbbc99fa289aeb761 = L.map(
+                "map_3fa6b1821086475fbbc99fa289aeb761",
+                {
+                    center: [30.3849, 101.0083],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b3e84c650dab44be9ed1b9e980518619 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3fa6b1821086475fbbc99fa289aeb761);
+        
+    
+            var circle_marker_ffe5489294ea4c00b367179eea190ccc = L.circleMarker(
+                [28.58586111111111, 99.83722222222222],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3fa6b1821086475fbbc99fa289aeb761);
+        
+    
+        var popup_5e23e9b8b0914f98ad974d8e3c5323b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb135ee1ad9d41d8bca679557bd5f865 = $(`<div id="html_eb135ee1ad9d41d8bca679557bd5f865" style="width: 100.0%; height: 100.0%;">Pedicularis-cyathophylla | DE21 | 2018</div>`)[0];
+            popup_5e23e9b8b0914f98ad974d8e3c5323b6.setContent(html_eb135ee1ad9d41d8bca679557bd5f865);
+        
+
+        circle_marker_ffe5489294ea4c00b367179eea190ccc.bindPopup(popup_5e23e9b8b0914f98ad974d8e3c5323b6)
+        ;
+
+        
+    
+    
+            var circle_marker_63a90fb28dd143d09f7186b76aba3a56 = L.circleMarker(
+                [30.063972222222223, 101.31663888888889],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3fa6b1821086475fbbc99fa289aeb761);
+        
+    
+        var popup_e00d41b6c98d477ea80643f6c89f1230 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85fde52ae1d344bfa64cdc9b2387b8c1 = $(`<div id="html_85fde52ae1d344bfa64cdc9b2387b8c1" style="width: 100.0%; height: 100.0%;">Pedicularis-cyathophylla | DE107 | 2018</div>`)[0];
+            popup_e00d41b6c98d477ea80643f6c89f1230.setContent(html_85fde52ae1d344bfa64cdc9b2387b8c1);
+        
+
+        circle_marker_63a90fb28dd143d09f7186b76aba3a56.bindPopup(popup_e00d41b6c98d477ea80643f6c89f1230)
+        ;
+
+        
+    
+    
+            var circle_marker_f1666d65f79449c989442852263cae3c = L.circleMarker(
+                [30.787694444444448, 101.30772222222222],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3fa6b1821086475fbbc99fa289aeb761);
+        
+    
+        var popup_1ba92751416942bd884dca0ac0d91970 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_40be59c317894fab850df51b03bbc7ff = $(`<div id="html_40be59c317894fab850df51b03bbc7ff" style="width: 100.0%; height: 100.0%;">Pedicularis-cyathophylla | DE172 | 2018</div>`)[0];
+            popup_1ba92751416942bd884dca0ac0d91970.setContent(html_40be59c317894fab850df51b03bbc7ff);
+        
+
+        circle_marker_f1666d65f79449c989442852263cae3c.bindPopup(popup_1ba92751416942bd884dca0ac0d91970)
+        ;
+
+        
+    
+    
+            var circle_marker_1d286e1f75164f9a859a716668e7ff1e = L.circleMarker(
+                [31.6575, 100.70130555555556],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3fa6b1821086475fbbc99fa289aeb761);
+        
+    
+        var popup_ff60e5673b35401e8e6c2c97c12dd39f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e47f09b7063a45378a2e9174fb3bad1c = $(`<div id="html_e47f09b7063a45378a2e9174fb3bad1c" style="width: 100.0%; height: 100.0%;">Pedicularis-cyathophylla | DE197 | 2018</div>`)[0];
+            popup_ff60e5673b35401e8e6c2c97c12dd39f.setContent(html_e47f09b7063a45378a2e9174fb3bad1c);
+        
+
+        circle_marker_1d286e1f75164f9a859a716668e7ff1e.bindPopup(popup_ff60e5673b35401e8e6c2c97c12dd39f)
+        ;
+
+        
+    
+    
+            var circle_marker_703bf7dc874947a384a14abf9079fdcd = L.circleMarker(
+                [31.6575, 100.70130555555556],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3fa6b1821086475fbbc99fa289aeb761);
+        
+    
+        var popup_c1e617b9a3884f24a29aa8e6177c9f1e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a17effeaf9d44eaf829de2657cce3e30 = $(`<div id="html_a17effeaf9d44eaf829de2657cce3e30" style="width: 100.0%; height: 100.0%;">Pedicularis-cyathophylla | DE204 | 2018</div>`)[0];
+            popup_c1e617b9a3884f24a29aa8e6177c9f1e.setContent(html_a17effeaf9d44eaf829de2657cce3e30);
+        
+
+        circle_marker_703bf7dc874947a384a14abf9079fdcd.bindPopup(popup_c1e617b9a3884f24a29aa8e6177c9f1e)
+        ;
+
+        
+    
+    
+            var circle_marker_a889dcb657a74e129529935bf8fd8758 = L.circleMarker(
+                [31.787916666666668, 100.74775],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3fa6b1821086475fbbc99fa289aeb761);
+        
+    
+        var popup_5ca75bda0c944d9faec1db547332d1d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ecd9a43ccb0444eaaab305d7da6523fc = $(`<div id="html_ecd9a43ccb0444eaaab305d7da6523fc" style="width: 100.0%; height: 100.0%;">Pedicularis-cyathophylla | DE211 | 2018</div>`)[0];
+            popup_5ca75bda0c944d9faec1db547332d1d0.setContent(html_ecd9a43ccb0444eaaab305d7da6523fc);
+        
+
+        circle_marker_a889dcb657a74e129529935bf8fd8758.bindPopup(popup_5ca75bda0c944d9faec1db547332d1d0)
+        ;
+
+        
+    
+    
+            var circle_marker_00ce9b48bf954c42ac0513ded4b584e4 = L.circleMarker(
+                [31.83186111111111, 100.73927777777777],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3fa6b1821086475fbbc99fa289aeb761);
+        
+    
+        var popup_1615db2b2e2e4b89a39ddeb0b3a54962 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8fc21f199fe145ce9afd251185af29aa = $(`<div id="html_8fc21f199fe145ce9afd251185af29aa" style="width: 100.0%; height: 100.0%;">Pedicularis-cyathophylla | DE213 | 2018</div>`)[0];
+            popup_1615db2b2e2e4b89a39ddeb0b3a54962.setContent(html_8fc21f199fe145ce9afd251185af29aa);
+        
+
+        circle_marker_00ce9b48bf954c42ac0513ded4b584e4.bindPopup(popup_1615db2b2e2e4b89a39ddeb0b3a54962)
+        ;
+
+        
+    
+    
+            var circle_marker_8cfb66334944438ea56992704f4181c8 = L.circleMarker(
+                [31.044305555555557, 98.90880555555556],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3fa6b1821086475fbbc99fa289aeb761);
+        
+    
+        var popup_22b35dd08ad9457fb27ce5744b5b1d4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3c78da9edc0433b92a4040cd148c2e2 = $(`<div id="html_f3c78da9edc0433b92a4040cd148c2e2" style="width: 100.0%; height: 100.0%;">Pedicularis-cyathophylla | DE344 | 2018</div>`)[0];
+            popup_22b35dd08ad9457fb27ce5744b5b1d4f.setContent(html_f3c78da9edc0433b92a4040cd148c2e2);
+        
+
+        circle_marker_8cfb66334944438ea56992704f4181c8.bindPopup(popup_22b35dd08ad9457fb27ce5744b5b1d4f)
+        ;
+
+        
+    
+    
+            var circle_marker_9ca729e5484b4ea5b3883872b1e839f8 = L.circleMarker(
+                [30.980833333333333, 98.95905555555557],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3fa6b1821086475fbbc99fa289aeb761);
+        
+    
+        var popup_1e74d957c0af47309511151d8adc857d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f75bfb345ec4c20a9324c81dd223998 = $(`<div id="html_4f75bfb345ec4c20a9324c81dd223998" style="width: 100.0%; height: 100.0%;">Pedicularis-cyathophylla | DE354 | 2018</div>`)[0];
+            popup_1e74d957c0af47309511151d8adc857d.setContent(html_4f75bfb345ec4c20a9324c81dd223998);
+        
+
+        circle_marker_9ca729e5484b4ea5b3883872b1e839f8.bindPopup(popup_1e74d957c0af47309511151d8adc857d)
+        ;
+
+        
+    
+    
+            var circle_marker_bb69dd945bfa4c2cab3af40c6d0b8c8b = L.circleMarker(
+                [29.820833333333333, 100.34588888888888],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3fa6b1821086475fbbc99fa289aeb761);
+        
+    
+        var popup_eea13225bccd44638deea4bd232391f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9623adb62b924869b9fe652dd8805fcc = $(`<div id="html_9623adb62b924869b9fe652dd8805fcc" style="width: 100.0%; height: 100.0%;">Pedicularis-cyathophylla | DE413 | 2018</div>`)[0];
+            popup_eea13225bccd44638deea4bd232391f0.setContent(html_9623adb62b924869b9fe652dd8805fcc);
+        
+
+        circle_marker_bb69dd945bfa4c2cab3af40c6d0b8c8b.bindPopup(popup_eea13225bccd44638deea4bd232391f0)
+        ;
+
+        
+    
+    
+            var circle_marker_73dcf3f2f3a948c389ae1cedd086ab62 = L.circleMarker(
+                [29.141805555555557, 100.15661111111112],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3fa6b1821086475fbbc99fa289aeb761);
+        
+    
+        var popup_b77fd80926264262853760fe8339df67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2372650e03ff4607bf0f8d65e3dbeca9 = $(`<div id="html_2372650e03ff4607bf0f8d65e3dbeca9" style="width: 100.0%; height: 100.0%;">Pedicularis-cyathophylla | DE421 | 2018</div>`)[0];
+            popup_b77fd80926264262853760fe8339df67.setContent(html_2372650e03ff4607bf0f8d65e3dbeca9);
+        
+
+        circle_marker_73dcf3f2f3a948c389ae1cedd086ab62.bindPopup(popup_b77fd80926264262853760fe8339df67)
+        ;
+
+        
+    
+    
+            var circle_marker_b7f4a22cb0944adba5ce670a93c5f7d7 = L.circleMarker(
+                [28.955555555555556, 99.75330555555556],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3fa6b1821086475fbbc99fa289aeb761);
+        
+    
+        var popup_81dc44d4760e40d4894759bf85c2be6d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0cac03e12a647e6a784cc28b5811b79 = $(`<div id="html_e0cac03e12a647e6a784cc28b5811b79" style="width: 100.0%; height: 100.0%;">Pedicularis-cyathophylla | DE449 | 2018</div>`)[0];
+            popup_81dc44d4760e40d4894759bf85c2be6d.setContent(html_e0cac03e12a647e6a784cc28b5811b79);
+        
+
+        circle_marker_b7f4a22cb0944adba5ce670a93c5f7d7.bindPopup(popup_81dc44d4760e40d4894759bf85c2be6d)
+        ;
+
+        
+    
+    
+            var circle_marker_359b3bf633fd44c48710515dcea641eb = L.circleMarker(
+                [31.695972222222224, 100.705],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3fa6b1821086475fbbc99fa289aeb761);
+        
+    
+        var popup_e9b8414dce1b483b8470f7bb0b5e0e05 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e9538933ee84e3d8e22a6795d1e3668 = $(`<div id="html_3e9538933ee84e3d8e22a6795d1e3668" style="width: 100.0%; height: 100.0%;">Pedicularis-cyathophylla | DE656 | 2019</div>`)[0];
+            popup_e9b8414dce1b483b8470f7bb0b5e0e05.setContent(html_3e9538933ee84e3d8e22a6795d1e3668);
+        
+
+        circle_marker_359b3bf633fd44c48710515dcea641eb.bindPopup(popup_e9b8414dce1b483b8470f7bb0b5e0e05)
+        ;
+
+        
+    
+    
+            var circle_marker_b695f663d2cc432ea07a8c0f3ea6ea49 = L.circleMarker(
+                [31.863750000000003, 102.71583333333334],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3fa6b1821086475fbbc99fa289aeb761);
+        
+    
+        var popup_038c608d3cb841ff85cdff6d61ea3237 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef45b543021f44978db47b8188fb1f43 = $(`<div id="html_ef45b543021f44978db47b8188fb1f43" style="width: 100.0%; height: 100.0%;">Pedicularis-cyathophylla | DE778 | 2019</div>`)[0];
+            popup_038c608d3cb841ff85cdff6d61ea3237.setContent(html_ef45b543021f44978db47b8188fb1f43);
+        
+
+        circle_marker_b695f663d2cc432ea07a8c0f3ea6ea49.bindPopup(popup_038c608d3cb841ff85cdff6d61ea3237)
+        ;
+
+        
+    
+    
+            var circle_marker_f9537126ffdf4f699642bee1e9342121 = L.circleMarker(
+                [29.12388888888889, 99.99666666666667],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.256997823576231, "stroke": true, "weight": 3}
+            ).addTo(map_3fa6b1821086475fbbc99fa289aeb761);
+        
+    
+        var popup_55f01be1325140f3862eeffc6f351291 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29b5e7b23b224cf2afd639ae4d932981 = $(`<div id="html_29b5e7b23b224cf2afd639ae4d932981" style="width: 100.0%; height: 100.0%;">Pedicularis-cyathophylla | 28478 | 1998</div>`)[0];
+            popup_55f01be1325140f3862eeffc6f351291.setContent(html_29b5e7b23b224cf2afd639ae4d932981);
+        
+
+        circle_marker_f9537126ffdf4f699642bee1e9342121.bindPopup(popup_55f01be1325140f3862eeffc6f351291)
+        ;
+
+        
+    
+</script>

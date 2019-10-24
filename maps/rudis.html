@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6b6b09fcd3fd48e8bcab3205cc5c9ced {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6b6b09fcd3fd48e8bcab3205cc5c9ced" ></div>
+        
+</body>
+<script>    
+    
+            var map_6b6b09fcd3fd48e8bcab3205cc5c9ced = L.map(
+                "map_6b6b09fcd3fd48e8bcab3205cc5c9ced",
+                {
+                    center: [30.3849, 101.0083],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_85db78bccfe94befb674a6dafc27eefd = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6b6b09fcd3fd48e8bcab3205cc5c9ced);
+        
+    
+            var circle_marker_420f50642bf84b8699564739dca41ac8 = L.circleMarker(
+                [28.61722222222222, 99.83083333333333],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b6b09fcd3fd48e8bcab3205cc5c9ced);
+        
+    
+        var popup_28b45dc3b8b940dd94ab32f35f2c1330 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e3acd7fd58341a19a9400973d735a47 = $(`<div id="html_6e3acd7fd58341a19a9400973d735a47" style="width: 100.0%; height: 100.0%;">Pedicularis-rudis | DE28 | 2018</div>`)[0];
+            popup_28b45dc3b8b940dd94ab32f35f2c1330.setContent(html_6e3acd7fd58341a19a9400973d735a47);
+        
+
+        circle_marker_420f50642bf84b8699564739dca41ac8.bindPopup(popup_28b45dc3b8b940dd94ab32f35f2c1330)
+        ;
+
+        
+    
+    
+            var circle_marker_78ddc78948d245a5a54ccad6f7d4eb38 = L.circleMarker(
+                [30.171111111111113, 101.86888888888888],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.509995655950528, "stroke": true, "weight": 3}
+            ).addTo(map_6b6b09fcd3fd48e8bcab3205cc5c9ced);
+        
+    
+        var popup_378450691fe443ad941f78fc76805a03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9220a423b8e54e7f89b7fc9992fb7845 = $(`<div id="html_9220a423b8e54e7f89b7fc9992fb7845" style="width: 100.0%; height: 100.0%;">Pedicularis-rudis | 27641 | 1997</div>`)[0];
+            popup_378450691fe443ad941f78fc76805a03.setContent(html_9220a423b8e54e7f89b7fc9992fb7845);
+        
+
+        circle_marker_78ddc78948d245a5a54ccad6f7d4eb38.bindPopup(popup_378450691fe443ad941f78fc76805a03)
+        ;
+
+        
+    
+    
+            var circle_marker_0717ded19c744858bd13b810238bce9d = L.circleMarker(
+                [30.284166666666668, 101.5286111111111],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.509995655950528, "stroke": true, "weight": 3}
+            ).addTo(map_6b6b09fcd3fd48e8bcab3205cc5c9ced);
+        
+    
+        var popup_41ed1cdf68854deb82aa687213d1a0ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e911c258dba445819ee2f2038801f5ea = $(`<div id="html_e911c258dba445819ee2f2038801f5ea" style="width: 100.0%; height: 100.0%;">Pedicularis-rudis | 27691 | 1997</div>`)[0];
+            popup_41ed1cdf68854deb82aa687213d1a0ab.setContent(html_e911c258dba445819ee2f2038801f5ea);
+        
+
+        circle_marker_0717ded19c744858bd13b810238bce9d.bindPopup(popup_41ed1cdf68854deb82aa687213d1a0ab)
+        ;
+
+        
+    
+</script>

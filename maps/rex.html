@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a4e63fe5a94345bd8eef1709a97f00d8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_a4e63fe5a94345bd8eef1709a97f00d8" ></div>
+        
+</body>
+<script>    
+    
+            var map_a4e63fe5a94345bd8eef1709a97f00d8 = L.map(
+                "map_a4e63fe5a94345bd8eef1709a97f00d8",
+                {
+                    center: [30.3849, 101.0083],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8204f467de744c0c815e6a6e29396e8c = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a4e63fe5a94345bd8eef1709a97f00d8);
+        
+    
+            var circle_marker_630c25e7366c4313a49a1d7dece8c541 = L.circleMarker(
+                [27.359722222222224, 99.91694444444445],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4e63fe5a94345bd8eef1709a97f00d8);
+        
+    
+        var popup_68d91030360441db91a531096284b1b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83581603867a4795a9e43f67d91fd835 = $(`<div id="html_83581603867a4795a9e43f67d91fd835" style="width: 100.0%; height: 100.0%;">Pedicularis-rex | DE1 | 2018</div>`)[0];
+            popup_68d91030360441db91a531096284b1b6.setContent(html_83581603867a4795a9e43f67d91fd835);
+        
+
+        circle_marker_630c25e7366c4313a49a1d7dece8c541.bindPopup(popup_68d91030360441db91a531096284b1b6)
+        ;
+
+        
+    
+    
+            var circle_marker_b55f8b09acbc4723b7b949db413ab95a = L.circleMarker(
+                [28.57225, 99.82363888888888],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4e63fe5a94345bd8eef1709a97f00d8);
+        
+    
+        var popup_b5f8af0a7e3f403d8e1715e3ad42145a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17d95e58bf05467ea624a8b69d778555 = $(`<div id="html_17d95e58bf05467ea624a8b69d778555" style="width: 100.0%; height: 100.0%;">Pedicularis-Pedicularis rex | DE17 | 2018</div>`)[0];
+            popup_b5f8af0a7e3f403d8e1715e3ad42145a.setContent(html_17d95e58bf05467ea624a8b69d778555);
+        
+
+        circle_marker_b55f8b09acbc4723b7b949db413ab95a.bindPopup(popup_b5f8af0a7e3f403d8e1715e3ad42145a)
+        ;
+
+        
+    
+    
+            var circle_marker_4aa3c476112e4f1e8526a14291bf6988 = L.circleMarker(
+                [29.141111111111112, 99.92833333333334],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4e63fe5a94345bd8eef1709a97f00d8);
+        
+    
+        var popup_35457c2fa4614d7c83ddb4ecaa3ad54d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0be976e41b1448ab9260d8afce8bbfa0 = $(`<div id="html_0be976e41b1448ab9260d8afce8bbfa0" style="width: 100.0%; height: 100.0%;">Pedicularis-rex | DE38 | 2018</div>`)[0];
+            popup_35457c2fa4614d7c83ddb4ecaa3ad54d.setContent(html_0be976e41b1448ab9260d8afce8bbfa0);
+        
+
+        circle_marker_4aa3c476112e4f1e8526a14291bf6988.bindPopup(popup_35457c2fa4614d7c83ddb4ecaa3ad54d)
+        ;
+
+        
+    
+    
+            var circle_marker_a5b8839306a8478ba0c222cf7f119516 = L.circleMarker(
+                [31.044305555555557, 98.90880555555556],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4e63fe5a94345bd8eef1709a97f00d8);
+        
+    
+        var popup_29410d2463754d3a9cacd34fb087fe61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2d38197cbd04578948e42ffb9d399dc = $(`<div id="html_e2d38197cbd04578948e42ffb9d399dc" style="width: 100.0%; height: 100.0%;">Pedicularis-rex | DE343 | 2018</div>`)[0];
+            popup_29410d2463754d3a9cacd34fb087fe61.setContent(html_e2d38197cbd04578948e42ffb9d399dc);
+        
+
+        circle_marker_a5b8839306a8478ba0c222cf7f119516.bindPopup(popup_29410d2463754d3a9cacd34fb087fe61)
+        ;
+
+        
+    
+    
+            var circle_marker_1f5b8794472f452589b818d9e43c6af2 = L.circleMarker(
+                [30.597694444444443, 99.1883888888889],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4e63fe5a94345bd8eef1709a97f00d8);
+        
+    
+        var popup_6e1734295f9647089754629004b3197e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28d727bdf3044a4eb2c736fd07893b09 = $(`<div id="html_28d727bdf3044a4eb2c736fd07893b09" style="width: 100.0%; height: 100.0%;">Pedicularis-rex | DE371 | 2018</div>`)[0];
+            popup_6e1734295f9647089754629004b3197e.setContent(html_28d727bdf3044a4eb2c736fd07893b09);
+        
+
+        circle_marker_1f5b8794472f452589b818d9e43c6af2.bindPopup(popup_6e1734295f9647089754629004b3197e)
+        ;
+
+        
+    
+    
+            var circle_marker_fa94581b7c464e8f98e11a432990c800 = L.circleMarker(
+                [30.260305555555554, 99.44338888888889],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4e63fe5a94345bd8eef1709a97f00d8);
+        
+    
+        var popup_7695c0549b884ff896431acc4e6fefd6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49cd89fa12954f54b61a784d9b5f9708 = $(`<div id="html_49cd89fa12954f54b61a784d9b5f9708" style="width: 100.0%; height: 100.0%;">Pedicularis-rex | DE378 | 2018</div>`)[0];
+            popup_7695c0549b884ff896431acc4e6fefd6.setContent(html_49cd89fa12954f54b61a784d9b5f9708);
+        
+
+        circle_marker_fa94581b7c464e8f98e11a432990c800.bindPopup(popup_7695c0549b884ff896431acc4e6fefd6)
+        ;
+
+        
+    
+    
+            var circle_marker_230ba05c86a7441eb19d9226a12f7aee = L.circleMarker(
+                [29.073833333333333, 99.67630555555556],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4e63fe5a94345bd8eef1709a97f00d8);
+        
+    
+        var popup_c869cd0582ce491983b9bcb8f9d017fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a9470ece20740bda0baf92fad19fc9c = $(`<div id="html_0a9470ece20740bda0baf92fad19fc9c" style="width: 100.0%; height: 100.0%;">Pedicularis-rex | DE459 | 2018</div>`)[0];
+            popup_c869cd0582ce491983b9bcb8f9d017fe.setContent(html_0a9470ece20740bda0baf92fad19fc9c);
+        
+
+        circle_marker_230ba05c86a7441eb19d9226a12f7aee.bindPopup(popup_c869cd0582ce491983b9bcb8f9d017fe)
+        ;
+
+        
+    
+    
+            var circle_marker_eaee08ad6f814bd9b3509ed445d14960 = L.circleMarker(
+                [27.80763888888889, 99.76297222222222],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4e63fe5a94345bd8eef1709a97f00d8);
+        
+    
+        var popup_d90408b9ed344e0eaaa2794be28af4cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e15bc852a8be40a78bf0f561ac0a0dc7 = $(`<div id="html_e15bc852a8be40a78bf0f561ac0a0dc7" style="width: 100.0%; height: 100.0%;">Pedicularis-rex | DE468 | 2018</div>`)[0];
+            popup_d90408b9ed344e0eaaa2794be28af4cb.setContent(html_e15bc852a8be40a78bf0f561ac0a0dc7);
+        
+
+        circle_marker_eaee08ad6f814bd9b3509ed445d14960.bindPopup(popup_d90408b9ed344e0eaaa2794be28af4cb)
+        ;
+
+        
+    
+    
+            var circle_marker_9754ffad9625464f93a4579895798a80 = L.circleMarker(
+                [27.811805555555555, 99.76633333333334],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4e63fe5a94345bd8eef1709a97f00d8);
+        
+    
+        var popup_af6e098ed0804ea19e57de5fe93f63a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41a1e9f124d04f4f827226b35a8cdacc = $(`<div id="html_41a1e9f124d04f4f827226b35a8cdacc" style="width: 100.0%; height: 100.0%;">Pedicularis-rex | DE471 | 2018</div>`)[0];
+            popup_af6e098ed0804ea19e57de5fe93f63a5.setContent(html_41a1e9f124d04f4f827226b35a8cdacc);
+        
+
+        circle_marker_9754ffad9625464f93a4579895798a80.bindPopup(popup_af6e098ed0804ea19e57de5fe93f63a5)
+        ;
+
+        
+    
+    
+            var circle_marker_0e5b2e31b1e04b99a2adee48fa8d264b = L.circleMarker(
+                [28.322222222222223, 101.16638888888889],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4e63fe5a94345bd8eef1709a97f00d8);
+        
+    
+        var popup_3237e42759014954b0e262175091c0da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a01203cfa57d49f384a1994b98120b50 = $(`<div id="html_a01203cfa57d49f384a1994b98120b50" style="width: 100.0%; height: 100.0%;">Pedicularis-rex | DE493 | 2019</div>`)[0];
+            popup_3237e42759014954b0e262175091c0da.setContent(html_a01203cfa57d49f384a1994b98120b50);
+        
+
+        circle_marker_0e5b2e31b1e04b99a2adee48fa8d264b.bindPopup(popup_3237e42759014954b0e262175091c0da)
+        ;
+
+        
+    
+    
+            var circle_marker_c86b91c9ad614e1dbb89d3d8781accc0 = L.circleMarker(
+                [28.290277777777778, 101.15494444444445],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4e63fe5a94345bd8eef1709a97f00d8);
+        
+    
+        var popup_f74088538f254817b5f57cb1e623c09a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0094f354316a430386c3faa0c19872d2 = $(`<div id="html_0094f354316a430386c3faa0c19872d2" style="width: 100.0%; height: 100.0%;">Pedicularis-rex | DE496 | 2019</div>`)[0];
+            popup_f74088538f254817b5f57cb1e623c09a.setContent(html_0094f354316a430386c3faa0c19872d2);
+        
+
+        circle_marker_c86b91c9ad614e1dbb89d3d8781accc0.bindPopup(popup_f74088538f254817b5f57cb1e623c09a)
+        ;
+
+        
+    
+    
+            var circle_marker_36f32550840d4422bf4f854f2cc9babf = L.circleMarker(
+                [27.686158333333335, 101.22363333333334],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4e63fe5a94345bd8eef1709a97f00d8);
+        
+    
+        var popup_9ad5d50b049d4bbe87019844d4b59f08 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1156f0bcc534d258e4878651a11b42a = $(`<div id="html_c1156f0bcc534d258e4878651a11b42a" style="width: 100.0%; height: 100.0%;">Pedicularis-rex | DE503 | 2019</div>`)[0];
+            popup_9ad5d50b049d4bbe87019844d4b59f08.setContent(html_c1156f0bcc534d258e4878651a11b42a);
+        
+
+        circle_marker_36f32550840d4422bf4f854f2cc9babf.bindPopup(popup_9ad5d50b049d4bbe87019844d4b59f08)
+        ;
+
+        
+    
+    
+            var circle_marker_91be14b715ba4c30b83f6f6856f4c045 = L.circleMarker(
+                [27.534572222222224, 101.719575],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4e63fe5a94345bd8eef1709a97f00d8);
+        
+    
+        var popup_d2d20d79997c41b9afcaf3eddd506b22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6f3f7d8e4cc42cd892f80616dc14857 = $(`<div id="html_c6f3f7d8e4cc42cd892f80616dc14857" style="width: 100.0%; height: 100.0%;">Pedicularis-rex | DE505 | 2019</div>`)[0];
+            popup_d2d20d79997c41b9afcaf3eddd506b22.setContent(html_c6f3f7d8e4cc42cd892f80616dc14857);
+        
+
+        circle_marker_91be14b715ba4c30b83f6f6856f4c045.bindPopup(popup_d2d20d79997c41b9afcaf3eddd506b22)
+        ;
+
+        
+    
+    
+            var circle_marker_4acd2d55249441679a8a9ef307256ed6 = L.circleMarker(
+                [29.844166666666666, 102.04519444444445],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4e63fe5a94345bd8eef1709a97f00d8);
+        
+    
+        var popup_8b3a904ae3664d7e8b61329be365f4c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99ceb2881f0f46d6b44284f09eb4cbab = $(`<div id="html_99ceb2881f0f46d6b44284f09eb4cbab" style="width: 100.0%; height: 100.0%;">Pedicularis-rex | DE510 | 2019</div>`)[0];
+            popup_8b3a904ae3664d7e8b61329be365f4c6.setContent(html_99ceb2881f0f46d6b44284f09eb4cbab);
+        
+
+        circle_marker_4acd2d55249441679a8a9ef307256ed6.bindPopup(popup_8b3a904ae3664d7e8b61329be365f4c6)
+        ;
+
+        
+    
+    
+            var circle_marker_eb509bbefd25400bb8f2103b25a19180 = L.circleMarker(
+                [31.42361111111111, 100.62083333333332],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4e63fe5a94345bd8eef1709a97f00d8);
+        
+    
+        var popup_bcd6c1c5db984fe093a50695e5287d6b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf493a9e677d4f1daed43b75725e9296 = $(`<div id="html_bf493a9e677d4f1daed43b75725e9296" style="width: 100.0%; height: 100.0%;">Pedicularis-rex | DE595 | 2019</div>`)[0];
+            popup_bcd6c1c5db984fe093a50695e5287d6b.setContent(html_bf493a9e677d4f1daed43b75725e9296);
+        
+
+        circle_marker_eb509bbefd25400bb8f2103b25a19180.bindPopup(popup_bcd6c1c5db984fe093a50695e5287d6b)
+        ;
+
+        
+    
+    
+            var circle_marker_5e7396dd780045d8bb4a9fdfcafcf151 = L.circleMarker(
+                [31.935277777777777, 102.64333333333335],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4e63fe5a94345bd8eef1709a97f00d8);
+        
+    
+        var popup_4b2e16bbe1904033bec8eb3ca34ebf02 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7641115fd6b46f6acf5b7e14f221e02 = $(`<div id="html_b7641115fd6b46f6acf5b7e14f221e02" style="width: 100.0%; height: 100.0%;">Pedicularis-rex | DE755 | 2019</div>`)[0];
+            popup_4b2e16bbe1904033bec8eb3ca34ebf02.setContent(html_b7641115fd6b46f6acf5b7e14f221e02);
+        
+
+        circle_marker_5e7396dd780045d8bb4a9fdfcafcf151.bindPopup(popup_4b2e16bbe1904033bec8eb3ca34ebf02)
+        ;
+
+        
+    
+    
+            var circle_marker_108719ba852f4d248c1cf1a86449a757 = L.circleMarker(
+                [31.863750000000003, 102.71583333333334],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4e63fe5a94345bd8eef1709a97f00d8);
+        
+    
+        var popup_ecfd53a75e2140328f94772c0fec9e3f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73354e4ffe704370840e3438b7d451af = $(`<div id="html_73354e4ffe704370840e3438b7d451af" style="width: 100.0%; height: 100.0%;">Pedicularis-rex | DE776 | 2019</div>`)[0];
+            popup_ecfd53a75e2140328f94772c0fec9e3f.setContent(html_73354e4ffe704370840e3438b7d451af);
+        
+
+        circle_marker_108719ba852f4d248c1cf1a86449a757.bindPopup(popup_ecfd53a75e2140328f94772c0fec9e3f)
+        ;
+
+        
+    
+    
+            var circle_marker_07c37e438ff1418db94c8f01434339ef = L.circleMarker(
+                [29.141111111111112, 99.92833333333334],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.256997823576231, "stroke": true, "weight": 3}
+            ).addTo(map_a4e63fe5a94345bd8eef1709a97f00d8);
+        
+    
+        var popup_5db16bf959c04496a5f9b512644a6cfd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e223ce40d5e4e0aa7319acc6b57078f = $(`<div id="html_9e223ce40d5e4e0aa7319acc6b57078f" style="width: 100.0%; height: 100.0%;">Pedicularis-rex | 28416 | 1998</div>`)[0];
+            popup_5db16bf959c04496a5f9b512644a6cfd.setContent(html_9e223ce40d5e4e0aa7319acc6b57078f);
+        
+
+        circle_marker_07c37e438ff1418db94c8f01434339ef.bindPopup(popup_5db16bf959c04496a5f9b512644a6cfd)
+        ;
+
+        
+    
+</script>

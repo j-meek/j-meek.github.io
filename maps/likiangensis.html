@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b194f36511a64bfab47b4cf48acc92de {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b194f36511a64bfab47b4cf48acc92de" ></div>
+        
+</body>
+<script>    
+    
+            var map_b194f36511a64bfab47b4cf48acc92de = L.map(
+                "map_b194f36511a64bfab47b4cf48acc92de",
+                {
+                    center: [30.3849, 101.0083],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1ac3c55eaffb4042b86d250170e61ea1 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b194f36511a64bfab47b4cf48acc92de);
+        
+    
+            var circle_marker_714f0b9fcfba4309b1a557f5e3689d32 = L.circleMarker(
+                [34.16555555555556, 102.90527777777778],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b194f36511a64bfab47b4cf48acc92de);
+        
+    
+        var popup_5205bf0b0350462ca13c9386cbc12acc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94377e8da775400a96ff1323f367b016 = $(`<div id="html_94377e8da775400a96ff1323f367b016" style="width: 100.0%; height: 100.0%;">Pedicularis-likiangensis | DE740 | 2019</div>`)[0];
+            popup_5205bf0b0350462ca13c9386cbc12acc.setContent(html_94377e8da775400a96ff1323f367b016);
+        
+
+        circle_marker_714f0b9fcfba4309b1a557f5e3689d32.bindPopup(popup_5205bf0b0350462ca13c9386cbc12acc)
+        ;
+
+        
+    
+    
+            var circle_marker_bea24f97586c40198377dd19454a8a78 = L.circleMarker(
+                [28.899166666666666, 100.28555555555555],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.256997823576231, "stroke": true, "weight": 3}
+            ).addTo(map_b194f36511a64bfab47b4cf48acc92de);
+        
+    
+        var popup_0ddc4b8958e94e0788c99d0a6137748b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72734ede126a44a5aba6046f93842398 = $(`<div id="html_72734ede126a44a5aba6046f93842398" style="width: 100.0%; height: 100.0%;">Pedicularis-likiangensis | 28297 | 1998</div>`)[0];
+            popup_0ddc4b8958e94e0788c99d0a6137748b.setContent(html_72734ede126a44a5aba6046f93842398);
+        
+
+        circle_marker_bea24f97586c40198377dd19454a8a78.bindPopup(popup_0ddc4b8958e94e0788c99d0a6137748b)
+        ;
+
+        
+    
+</script>

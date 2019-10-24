@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a6fcbbde91094941a5ad3f5d1e4d32cb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_a6fcbbde91094941a5ad3f5d1e4d32cb" ></div>
+        
+</body>
+<script>    
+    
+            var map_a6fcbbde91094941a5ad3f5d1e4d32cb = L.map(
+                "map_a6fcbbde91094941a5ad3f5d1e4d32cb",
+                {
+                    center: [30.3849, 101.0083],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e4b1c6a80b014eac948ebcf115a0fdb2 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a6fcbbde91094941a5ad3f5d1e4d32cb);
+        
+    
+            var circle_marker_b6b0e2ffa6754ce4abc313756659c2be = L.circleMarker(
+                [27.959194444444442, 99.70716666666667],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a6fcbbde91094941a5ad3f5d1e4d32cb);
+        
+    
+        var popup_d225ec7b859c4b0dad1e197778f5c12b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ffe5dbac1494ba295fe3724463603e0 = $(`<div id="html_0ffe5dbac1494ba295fe3724463603e0" style="width: 100.0%; height: 100.0%;">Pedicularis-siphonantha | DE6 | 2018</div>`)[0];
+            popup_d225ec7b859c4b0dad1e197778f5c12b.setContent(html_0ffe5dbac1494ba295fe3724463603e0);
+        
+
+        circle_marker_b6b0e2ffa6754ce4abc313756659c2be.bindPopup(popup_d225ec7b859c4b0dad1e197778f5c12b)
+        ;
+
+        
+    
+    
+            var circle_marker_ecdfdfdfecb049cdbafe7c7498084fa1 = L.circleMarker(
+                [28.58586111111111, 99.83722222222222],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a6fcbbde91094941a5ad3f5d1e4d32cb);
+        
+    
+        var popup_53b47e51fe9441a08fb975130bed07d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9eab1b27e8074df199fb4b563b398b13 = $(`<div id="html_9eab1b27e8074df199fb4b563b398b13" style="width: 100.0%; height: 100.0%;">Pedicularis-siphonantha | DE20 | 2018</div>`)[0];
+            popup_53b47e51fe9441a08fb975130bed07d5.setContent(html_9eab1b27e8074df199fb4b563b398b13);
+        
+
+        circle_marker_ecdfdfdfecb049cdbafe7c7498084fa1.bindPopup(popup_53b47e51fe9441a08fb975130bed07d5)
+        ;
+
+        
+    
+    
+            var circle_marker_6290a5be500449d0826593203b4d11ac = L.circleMarker(
+                [29.12388888888889, 99.99666666666667],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a6fcbbde91094941a5ad3f5d1e4d32cb);
+        
+    
+        var popup_39fd0023a93b486097bffafb6c9b8dd4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc62c911fa0b4f96897167bc584f8342 = $(`<div id="html_dc62c911fa0b4f96897167bc584f8342" style="width: 100.0%; height: 100.0%;">Pedicularis-siphonantha | DE45 | 2018</div>`)[0];
+            popup_39fd0023a93b486097bffafb6c9b8dd4.setContent(html_dc62c911fa0b4f96897167bc584f8342);
+        
+
+        circle_marker_6290a5be500449d0826593203b4d11ac.bindPopup(popup_39fd0023a93b486097bffafb6c9b8dd4)
+        ;
+
+        
+    
+    
+            var circle_marker_1f2c70ad513a461eb12bf64297f3f2f9 = L.circleMarker(
+                [29.14472222222222, 100.03477777777778],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a6fcbbde91094941a5ad3f5d1e4d32cb);
+        
+    
+        var popup_18a66120027342f49b2be145796dc3d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2a1dbd68b69426886b8faf2060afab8 = $(`<div id="html_a2a1dbd68b69426886b8faf2060afab8" style="width: 100.0%; height: 100.0%;">Pedicularis-siphonantha | DE49 | 2018</div>`)[0];
+            popup_18a66120027342f49b2be145796dc3d9.setContent(html_a2a1dbd68b69426886b8faf2060afab8);
+        
+
+        circle_marker_1f2c70ad513a461eb12bf64297f3f2f9.bindPopup(popup_18a66120027342f49b2be145796dc3d9)
+        ;
+
+        
+    
+    
+            var circle_marker_58b8997e8b7c4e22a60ad7c9ebb6f977 = L.circleMarker(
+                [30.01097222222222, 100.31616666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a6fcbbde91094941a5ad3f5d1e4d32cb);
+        
+    
+        var popup_000afd48fde24d4a88f04a8c8e3a1118 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8fe53b7cf166497ca182a003d90b1d6f = $(`<div id="html_8fe53b7cf166497ca182a003d90b1d6f" style="width: 100.0%; height: 100.0%;">Pedicularis-siphonantha | DE75 | 2018</div>`)[0];
+            popup_000afd48fde24d4a88f04a8c8e3a1118.setContent(html_8fe53b7cf166497ca182a003d90b1d6f);
+        
+
+        circle_marker_58b8997e8b7c4e22a60ad7c9ebb6f977.bindPopup(popup_000afd48fde24d4a88f04a8c8e3a1118)
+        ;
+
+        
+    
+    
+            var circle_marker_904365aa54924bee8402705ed3adeb28 = L.circleMarker(
+                [30.168916666666668, 100.58433333333333],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a6fcbbde91094941a5ad3f5d1e4d32cb);
+        
+    
+        var popup_5c4b1d8a7ff3446c83b78995a134cbd4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2414dfbcde124472a87ee727f1c28cce = $(`<div id="html_2414dfbcde124472a87ee727f1c28cce" style="width: 100.0%; height: 100.0%;">Pedicularis-siphonantha | DE87 | 2018</div>`)[0];
+            popup_5c4b1d8a7ff3446c83b78995a134cbd4.setContent(html_2414dfbcde124472a87ee727f1c28cce);
+        
+
+        circle_marker_904365aa54924bee8402705ed3adeb28.bindPopup(popup_5c4b1d8a7ff3446c83b78995a134cbd4)
+        ;
+
+        
+    
+    
+            var circle_marker_61d803c0149341259daf6220852dcaef = L.circleMarker(
+                [30.71183333333333, 101.36433333333333],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a6fcbbde91094941a5ad3f5d1e4d32cb);
+        
+    
+        var popup_dc0e39ff9cea4c5db09010241994df86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d48061c969a94247b207c724ecc0414e = $(`<div id="html_d48061c969a94247b207c724ecc0414e" style="width: 100.0%; height: 100.0%;">Pedicularis-siphonantha | DE160 | 2018</div>`)[0];
+            popup_dc0e39ff9cea4c5db09010241994df86.setContent(html_d48061c969a94247b207c724ecc0414e);
+        
+
+        circle_marker_61d803c0149341259daf6220852dcaef.bindPopup(popup_dc0e39ff9cea4c5db09010241994df86)
+        ;
+
+        
+    
+    
+            var circle_marker_0333265f8ed94c75b4d4c5d9e1630d79 = L.circleMarker(
+                [30.826777777777778, 101.28227777777778],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a6fcbbde91094941a5ad3f5d1e4d32cb);
+        
+    
+        var popup_c9075b6645154bd3b91f4653ec9a0735 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d1065ea5cfd46e1a0691ac5aaa59d7e = $(`<div id="html_6d1065ea5cfd46e1a0691ac5aaa59d7e" style="width: 100.0%; height: 100.0%;">Pedicularis-siphonantha | DE176 | 2018</div>`)[0];
+            popup_c9075b6645154bd3b91f4653ec9a0735.setContent(html_6d1065ea5cfd46e1a0691ac5aaa59d7e);
+        
+
+        circle_marker_0333265f8ed94c75b4d4c5d9e1630d79.bindPopup(popup_c9075b6645154bd3b91f4653ec9a0735)
+        ;
+
+        
+    
+    
+            var circle_marker_5ed24884504c45ebaeeab7ec7b451fd1 = L.circleMarker(
+                [31.88711111111111, 99.03377777777777],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a6fcbbde91094941a5ad3f5d1e4d32cb);
+        
+    
+        var popup_8d6f5841a2c6449f8db84488551671d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_adf7731fd28e4236962f4b796eb97d27 = $(`<div id="html_adf7731fd28e4236962f4b796eb97d27" style="width: 100.0%; height: 100.0%;">Pedicularis-siphonantha | DE317 | 2018</div>`)[0];
+            popup_8d6f5841a2c6449f8db84488551671d1.setContent(html_adf7731fd28e4236962f4b796eb97d27);
+        
+
+        circle_marker_5ed24884504c45ebaeeab7ec7b451fd1.bindPopup(popup_8d6f5841a2c6449f8db84488551671d1)
+        ;
+
+        
+    
+    
+            var circle_marker_8b0e716697dd4b50a6b8828bdea63d62 = L.circleMarker(
+                [31.044305555555557, 98.90880555555556],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a6fcbbde91094941a5ad3f5d1e4d32cb);
+        
+    
+        var popup_7ec490cd3d514267a5b41fe61f7f2b3a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2daf8a944ed6410aa1cd62a29e7c5e92 = $(`<div id="html_2daf8a944ed6410aa1cd62a29e7c5e92" style="width: 100.0%; height: 100.0%;">Pedicularis-siphonantha | DE345 | 2018</div>`)[0];
+            popup_7ec490cd3d514267a5b41fe61f7f2b3a.setContent(html_2daf8a944ed6410aa1cd62a29e7c5e92);
+        
+
+        circle_marker_8b0e716697dd4b50a6b8828bdea63d62.bindPopup(popup_7ec490cd3d514267a5b41fe61f7f2b3a)
+        ;
+
+        
+    
+    
+            var circle_marker_3dd0c28157b94d319b4a42b7e29be1b1 = L.circleMarker(
+                [30.980833333333333, 98.95905555555557],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a6fcbbde91094941a5ad3f5d1e4d32cb);
+        
+    
+        var popup_e919c5e0f1614d0c9bfda44c4da9ddd5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3dc3935c04bf42168298e73083ebea58 = $(`<div id="html_3dc3935c04bf42168298e73083ebea58" style="width: 100.0%; height: 100.0%;">Pedicularis-siphonantha | DE358 | 2018</div>`)[0];
+            popup_e919c5e0f1614d0c9bfda44c4da9ddd5.setContent(html_3dc3935c04bf42168298e73083ebea58);
+        
+
+        circle_marker_3dd0c28157b94d319b4a42b7e29be1b1.bindPopup(popup_e919c5e0f1614d0c9bfda44c4da9ddd5)
+        ;
+
+        
+    
+    
+            var circle_marker_d966678d72404386a06602213d2ed5e2 = L.circleMarker(
+                [30.597694444444443, 99.1883888888889],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a6fcbbde91094941a5ad3f5d1e4d32cb);
+        
+    
+        var popup_e5cbf776e09a45e684e657dac1f604a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5bdcafa460f84602875201346073f4ed = $(`<div id="html_5bdcafa460f84602875201346073f4ed" style="width: 100.0%; height: 100.0%;">Pedicularis-siphonantha | DE372 | 2018</div>`)[0];
+            popup_e5cbf776e09a45e684e657dac1f604a4.setContent(html_5bdcafa460f84602875201346073f4ed);
+        
+
+        circle_marker_d966678d72404386a06602213d2ed5e2.bindPopup(popup_e5cbf776e09a45e684e657dac1f604a4)
+        ;
+
+        
+    
+    
+            var circle_marker_fb543d2b20024a8eb7a08a098b52f31e = L.circleMarker(
+                [30.260305555555554, 99.44338888888889],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a6fcbbde91094941a5ad3f5d1e4d32cb);
+        
+    
+        var popup_ff06f325855849d9ac92853fa6a3f607 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_063f39080d8248b3b1df78c34488d0b5 = $(`<div id="html_063f39080d8248b3b1df78c34488d0b5" style="width: 100.0%; height: 100.0%;">Pedicularis-siphonantha | DE380 | 2018</div>`)[0];
+            popup_ff06f325855849d9ac92853fa6a3f607.setContent(html_063f39080d8248b3b1df78c34488d0b5);
+        
+
+        circle_marker_fb543d2b20024a8eb7a08a098b52f31e.bindPopup(popup_ff06f325855849d9ac92853fa6a3f607)
+        ;
+
+        
+    
+    
+            var circle_marker_1380d4afa238479786969d5c733fe69c = L.circleMarker(
+                [30.287361111111114, 99.49497222222222],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a6fcbbde91094941a5ad3f5d1e4d32cb);
+        
+    
+        var popup_c9485db06f5f48c0b4c25b954721a6fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e35ca15ce6142a69664c0ed325bd6f5 = $(`<div id="html_3e35ca15ce6142a69664c0ed325bd6f5" style="width: 100.0%; height: 100.0%;">Pedicularis-siphonantha | DE382 | 2018</div>`)[0];
+            popup_c9485db06f5f48c0b4c25b954721a6fa.setContent(html_3e35ca15ce6142a69664c0ed325bd6f5);
+        
+
+        circle_marker_1380d4afa238479786969d5c733fe69c.bindPopup(popup_c9485db06f5f48c0b4c25b954721a6fa)
+        ;
+
+        
+    
+    
+            var circle_marker_b761dfcb171344a2b4458e906499327f = L.circleMarker(
+                [30.297027777777778, 99.671],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a6fcbbde91094941a5ad3f5d1e4d32cb);
+        
+    
+        var popup_38740f87004f46beb766aa9ba23afa95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45a4b6553a414f25969f6c37aa8d8dd4 = $(`<div id="html_45a4b6553a414f25969f6c37aa8d8dd4" style="width: 100.0%; height: 100.0%;">Pedicularis-siphonantha | DE392 | 2018</div>`)[0];
+            popup_38740f87004f46beb766aa9ba23afa95.setContent(html_45a4b6553a414f25969f6c37aa8d8dd4);
+        
+
+        circle_marker_b761dfcb171344a2b4458e906499327f.bindPopup(popup_38740f87004f46beb766aa9ba23afa95)
+        ;
+
+        
+    
+    
+            var circle_marker_5cadffd6ee474e4e9b3fca051c426d3c = L.circleMarker(
+                [30.227277777777775, 100.24769444444445],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a6fcbbde91094941a5ad3f5d1e4d32cb);
+        
+    
+        var popup_18219db6a737433886f79a1cef48b938 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ebdc72b0058f40d49e9a8309f8e06d83 = $(`<div id="html_ebdc72b0058f40d49e9a8309f8e06d83" style="width: 100.0%; height: 100.0%;">Pedicularis-siphonantha | DE400 | 2018</div>`)[0];
+            popup_18219db6a737433886f79a1cef48b938.setContent(html_ebdc72b0058f40d49e9a8309f8e06d83);
+        
+
+        circle_marker_5cadffd6ee474e4e9b3fca051c426d3c.bindPopup(popup_18219db6a737433886f79a1cef48b938)
+        ;
+
+        
+    
+    
+            var circle_marker_5c91326e11284acbb088872b27feea23 = L.circleMarker(
+                [30.223249999999997, 100.26427777777778],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a6fcbbde91094941a5ad3f5d1e4d32cb);
+        
+    
+        var popup_823a6a7e3ba947edaefe5ab803b7ff17 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad9a389f67584fb78e2a68f5207e6660 = $(`<div id="html_ad9a389f67584fb78e2a68f5207e6660" style="width: 100.0%; height: 100.0%;">Pedicularis-siphonantha subsp. delavayi | DE476 | 2018</div>`)[0];
+            popup_823a6a7e3ba947edaefe5ab803b7ff17.setContent(html_ad9a389f67584fb78e2a68f5207e6660);
+        
+
+        circle_marker_5c91326e11284acbb088872b27feea23.bindPopup(popup_823a6a7e3ba947edaefe5ab803b7ff17)
+        ;
+
+        
+    
+    
+            var circle_marker_fa132a25cb5f40eca9c711d2e8070723 = L.circleMarker(
+                [29.820833333333333, 100.34588888888888],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a6fcbbde91094941a5ad3f5d1e4d32cb);
+        
+    
+        var popup_8324afdc1c9f4de08bfaf2fbc5f3986d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7559605bcfb406dae90d374bdf1f6db = $(`<div id="html_b7559605bcfb406dae90d374bdf1f6db" style="width: 100.0%; height: 100.0%;">Pedicularis-siphonantha | DE411 | 2018</div>`)[0];
+            popup_8324afdc1c9f4de08bfaf2fbc5f3986d.setContent(html_b7559605bcfb406dae90d374bdf1f6db);
+        
+
+        circle_marker_fa132a25cb5f40eca9c711d2e8070723.bindPopup(popup_8324afdc1c9f4de08bfaf2fbc5f3986d)
+        ;
+
+        
+    
+    
+            var circle_marker_bdebae7f0df44e308f44e0fd82cde79d = L.circleMarker(
+                [29.141805555555557, 100.15661111111112],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a6fcbbde91094941a5ad3f5d1e4d32cb);
+        
+    
+        var popup_0c13c8f93e344dcc916c4bce50ed3de6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0cf152e45ab64076806117534a39ce1b = $(`<div id="html_0cf152e45ab64076806117534a39ce1b" style="width: 100.0%; height: 100.0%;">Pedicularis-siphonantha | DE423 | 2018</div>`)[0];
+            popup_0c13c8f93e344dcc916c4bce50ed3de6.setContent(html_0cf152e45ab64076806117534a39ce1b);
+        
+
+        circle_marker_bdebae7f0df44e308f44e0fd82cde79d.bindPopup(popup_0c13c8f93e344dcc916c4bce50ed3de6)
+        ;
+
+        
+    
+    
+            var circle_marker_8a7abee0b4e54320a11bde9791fbd784 = L.circleMarker(
+                [28.74638888888889, 100.26916666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a6fcbbde91094941a5ad3f5d1e4d32cb);
+        
+    
+        var popup_6195102410bf4c31b23d7123e0e1d248 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2df09a984cf474a86e15a13cffa0d1a = $(`<div id="html_d2df09a984cf474a86e15a13cffa0d1a" style="width: 100.0%; height: 100.0%;">Pedicularis-siphonantha | DE432 | 2018</div>`)[0];
+            popup_6195102410bf4c31b23d7123e0e1d248.setContent(html_d2df09a984cf474a86e15a13cffa0d1a);
+        
+
+        circle_marker_8a7abee0b4e54320a11bde9791fbd784.bindPopup(popup_6195102410bf4c31b23d7123e0e1d248)
+        ;
+
+        
+    
+    
+            var circle_marker_d06c6fff5ca749d7b25809f4f554f070 = L.circleMarker(
+                [28.99625, 99.74491666666667],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a6fcbbde91094941a5ad3f5d1e4d32cb);
+        
+    
+        var popup_16dbd946d96447e19d00cc05a99d12cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ecf63ea3aa2e4b9abf5a8c07c87320a3 = $(`<div id="html_ecf63ea3aa2e4b9abf5a8c07c87320a3" style="width: 100.0%; height: 100.0%;">Pedicularis-siphonantha | DE451 | 2018</div>`)[0];
+            popup_16dbd946d96447e19d00cc05a99d12cc.setContent(html_ecf63ea3aa2e4b9abf5a8c07c87320a3);
+        
+
+        circle_marker_d06c6fff5ca749d7b25809f4f554f070.bindPopup(popup_16dbd946d96447e19d00cc05a99d12cc)
+        ;
+
+        
+    
+    
+            var circle_marker_1689f8c6c8f4481a8bbcedb3113ec70c = L.circleMarker(
+                [27.80763888888889, 99.76297222222222],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a6fcbbde91094941a5ad3f5d1e4d32cb);
+        
+    
+        var popup_6cd7f60870344a108ad6446870c23205 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4cb60abd7a4c431aa630c0576d9e00a2 = $(`<div id="html_4cb60abd7a4c431aa630c0576d9e00a2" style="width: 100.0%; height: 100.0%;">Pedicularis-siphonantha | DE469 | 2018</div>`)[0];
+            popup_6cd7f60870344a108ad6446870c23205.setContent(html_4cb60abd7a4c431aa630c0576d9e00a2);
+        
+
+        circle_marker_1689f8c6c8f4481a8bbcedb3113ec70c.bindPopup(popup_6cd7f60870344a108ad6446870c23205)
+        ;
+
+        
+    
+    
+            var circle_marker_06c6ae3be49f423ebf49f680860aa453 = L.circleMarker(
+                [28.32161111111111, 101.16708333333334],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a6fcbbde91094941a5ad3f5d1e4d32cb);
+        
+    
+        var popup_6e49287ed83848c68e9a334fbecafc81 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1fa441033b024f6284d1f7c2a7159f4e = $(`<div id="html_1fa441033b024f6284d1f7c2a7159f4e" style="width: 100.0%; height: 100.0%;">Pedicularis-siphonantha | DE485 | 2019</div>`)[0];
+            popup_6e49287ed83848c68e9a334fbecafc81.setContent(html_1fa441033b024f6284d1f7c2a7159f4e);
+        
+
+        circle_marker_06c6ae3be49f423ebf49f680860aa453.bindPopup(popup_6e49287ed83848c68e9a334fbecafc81)
+        ;
+
+        
+    
+    
+            var circle_marker_e64af25a21044c96bd017589abe3e51e = L.circleMarker(
+                [28.290277777777778, 101.15494444444445],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a6fcbbde91094941a5ad3f5d1e4d32cb);
+        
+    
+        var popup_059c5c13fef44d9c978c8db83160ceaf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02ba5e66fb4c4df28ed725dda45c6db8 = $(`<div id="html_02ba5e66fb4c4df28ed725dda45c6db8" style="width: 100.0%; height: 100.0%;">Pedicularis-siphonantha | DE502 | 2019</div>`)[0];
+            popup_059c5c13fef44d9c978c8db83160ceaf.setContent(html_02ba5e66fb4c4df28ed725dda45c6db8);
+        
+
+        circle_marker_e64af25a21044c96bd017589abe3e51e.bindPopup(popup_059c5c13fef44d9c978c8db83160ceaf)
+        ;
+
+        
+    
+    
+            var circle_marker_f7eda35025484600b81beb7a1ac6faff = L.circleMarker(
+                [30.012888888888888, 101.86272222222222],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a6fcbbde91094941a5ad3f5d1e4d32cb);
+        
+    
+        var popup_62d022e54a284c93bb3505dc5762a1d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a328dc9d10284dc194ed853b0edd30e6 = $(`<div id="html_a328dc9d10284dc194ed853b0edd30e6" style="width: 100.0%; height: 100.0%;">Pedicularis-siphonantha | DE530 | 2019</div>`)[0];
+            popup_62d022e54a284c93bb3505dc5762a1d0.setContent(html_a328dc9d10284dc194ed853b0edd30e6);
+        
+
+        circle_marker_f7eda35025484600b81beb7a1ac6faff.bindPopup(popup_62d022e54a284c93bb3505dc5762a1d0)
+        ;
+
+        
+    
+    
+            var circle_marker_0201378dc9cc42e4a5d3d7de7083587b = L.circleMarker(
+                [30.040277777777778, 101.83777777777777],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a6fcbbde91094941a5ad3f5d1e4d32cb);
+        
+    
+        var popup_362e878fef864fae88d442b1817938da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cda2163401fa457ba8e64f8a319952dc = $(`<div id="html_cda2163401fa457ba8e64f8a319952dc" style="width: 100.0%; height: 100.0%;">Pedicularis-siphonantha | DE541 | 2019</div>`)[0];
+            popup_362e878fef864fae88d442b1817938da.setContent(html_cda2163401fa457ba8e64f8a319952dc);
+        
+
+        circle_marker_0201378dc9cc42e4a5d3d7de7083587b.bindPopup(popup_362e878fef864fae88d442b1817938da)
+        ;
+
+        
+    
+    
+            var circle_marker_791934fee7454aa5af93643a5e2c5b4e = L.circleMarker(
+                [29.133888888888887, 100.0425],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.256997823576231, "stroke": true, "weight": 3}
+            ).addTo(map_a6fcbbde91094941a5ad3f5d1e4d32cb);
+        
+    
+        var popup_48aa11dad38e404cbd8e7d2b406ce0aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80435b2115604dde8436bb2c30cb0f12 = $(`<div id="html_80435b2115604dde8436bb2c30cb0f12" style="width: 100.0%; height: 100.0%;">Pedicularis-siphonantha-var.-delavayi | 28187 | 1998</div>`)[0];
+            popup_48aa11dad38e404cbd8e7d2b406ce0aa.setContent(html_80435b2115604dde8436bb2c30cb0f12);
+        
+
+        circle_marker_791934fee7454aa5af93643a5e2c5b4e.bindPopup(popup_48aa11dad38e404cbd8e7d2b406ce0aa)
+        ;
+
+        
+    
+    
+            var circle_marker_7636fa8c12fc4806a6b0f6e116b5a25e = L.circleMarker(
+                [28.74638888888889, 100.26916666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.256997823576231, "stroke": true, "weight": 3}
+            ).addTo(map_a6fcbbde91094941a5ad3f5d1e4d32cb);
+        
+    
+        var popup_24e7f6c5595e4758a0021ef74c8fecc8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_953ff012d6614cc2b8e9d4beec667933 = $(`<div id="html_953ff012d6614cc2b8e9d4beec667933" style="width: 100.0%; height: 100.0%;">Pedicularis-siphonantha | 28272 | 1998</div>`)[0];
+            popup_24e7f6c5595e4758a0021ef74c8fecc8.setContent(html_953ff012d6614cc2b8e9d4beec667933);
+        
+
+        circle_marker_7636fa8c12fc4806a6b0f6e116b5a25e.bindPopup(popup_24e7f6c5595e4758a0021ef74c8fecc8)
+        ;
+
+        
+    
+</script>

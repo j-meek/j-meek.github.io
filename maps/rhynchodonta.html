@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ce115a624cce4f5ba0c262bdb5120e3e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ce115a624cce4f5ba0c262bdb5120e3e" ></div>
+        
+</body>
+<script>    
+    
+            var map_ce115a624cce4f5ba0c262bdb5120e3e = L.map(
+                "map_ce115a624cce4f5ba0c262bdb5120e3e",
+                {
+                    center: [30.3849, 101.0083],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_57c9d49c04df46fdaedf6fe8bc3acb99 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ce115a624cce4f5ba0c262bdb5120e3e);
+        
+    
+            var circle_marker_14a0aee756d143e9ba52db81a95bd998 = L.circleMarker(
+                [29.14472222222222, 100.03477777777778],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ce115a624cce4f5ba0c262bdb5120e3e);
+        
+    
+        var popup_c5b0151859b44f80af8b663560e4d150 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abc052a536554f09ab0d85042a4713df = $(`<div id="html_abc052a536554f09ab0d85042a4713df" style="width: 100.0%; height: 100.0%;">Pedicularis-rhynchodonta | DE53 | 2018</div>`)[0];
+            popup_c5b0151859b44f80af8b663560e4d150.setContent(html_abc052a536554f09ab0d85042a4713df);
+        
+
+        circle_marker_14a0aee756d143e9ba52db81a95bd998.bindPopup(popup_c5b0151859b44f80af8b663560e4d150)
+        ;
+
+        
+    
+    
+            var circle_marker_f4947ca19302431db378d7492aa860f0 = L.circleMarker(
+                [29.33486111111111, 100.09941666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ce115a624cce4f5ba0c262bdb5120e3e);
+        
+    
+        var popup_6a0f66e63e6d40d2958803d94dfea4cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5059b0c0aa354f0fb0a35e02866e67e6 = $(`<div id="html_5059b0c0aa354f0fb0a35e02866e67e6" style="width: 100.0%; height: 100.0%;">Pedicularis-rhynchodonta | DE62 | 2018</div>`)[0];
+            popup_6a0f66e63e6d40d2958803d94dfea4cf.setContent(html_5059b0c0aa354f0fb0a35e02866e67e6);
+        
+
+        circle_marker_f4947ca19302431db378d7492aa860f0.bindPopup(popup_6a0f66e63e6d40d2958803d94dfea4cf)
+        ;
+
+        
+    
+    
+            var circle_marker_6316be1e5e994ed097633ce362ef0e1d = L.circleMarker(
+                [30.168916666666668, 100.58433333333333],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ce115a624cce4f5ba0c262bdb5120e3e);
+        
+    
+        var popup_5716c7511c074725873211a2966e8d9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2e0794568e84b31bd9deabaf9188630 = $(`<div id="html_c2e0794568e84b31bd9deabaf9188630" style="width: 100.0%; height: 100.0%;">Pedicularis-rhynchodonta | DE86 | 2018</div>`)[0];
+            popup_5716c7511c074725873211a2966e8d9f.setContent(html_c2e0794568e84b31bd9deabaf9188630);
+        
+
+        circle_marker_6316be1e5e994ed097633ce362ef0e1d.bindPopup(popup_5716c7511c074725873211a2966e8d9f)
+        ;
+
+        
+    
+    
+            var circle_marker_20223b6ca23b4373b15dc0cfe08d1065 = L.circleMarker(
+                [29.903527777777775, 101.99961111111111],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ce115a624cce4f5ba0c262bdb5120e3e);
+        
+    
+        var popup_e2b61b5deb34422299ebb50779d04585 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec83e2e4d4ab46f3924413a818784ed8 = $(`<div id="html_ec83e2e4d4ab46f3924413a818784ed8" style="width: 100.0%; height: 100.0%;">Pedicularis-rhynchodonta | DE515 | 2019</div>`)[0];
+            popup_e2b61b5deb34422299ebb50779d04585.setContent(html_ec83e2e4d4ab46f3924413a818784ed8);
+        
+
+        circle_marker_20223b6ca23b4373b15dc0cfe08d1065.bindPopup(popup_e2b61b5deb34422299ebb50779d04585)
+        ;
+
+        
+    
+    
+            var circle_marker_aae79d52fa3f4e94bdd2f36815b3c9fd = L.circleMarker(
+                [30.074555555555555, 101.80416666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ce115a624cce4f5ba0c262bdb5120e3e);
+        
+    
+        var popup_579c9f3da9e644288bb1a714f8ba5a20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8c82987b64a46d5915df29be36a241d = $(`<div id="html_b8c82987b64a46d5915df29be36a241d" style="width: 100.0%; height: 100.0%;">Pedicularis-rhynchodonta | DE543 | 2019</div>`)[0];
+            popup_579c9f3da9e644288bb1a714f8ba5a20.setContent(html_b8c82987b64a46d5915df29be36a241d);
+        
+
+        circle_marker_aae79d52fa3f4e94bdd2f36815b3c9fd.bindPopup(popup_579c9f3da9e644288bb1a714f8ba5a20)
+        ;
+
+        
+    
+    
+            var circle_marker_e4bc6e7985f4431ab55026282bbabf82 = L.circleMarker(
+                [29.385833333333334, 100.14944444444446],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.256997823576231, "stroke": true, "weight": 3}
+            ).addTo(map_ce115a624cce4f5ba0c262bdb5120e3e);
+        
+    
+        var popup_5c8fb6491da745e48c9cc0282e295ee2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07bc55a2fc0e403ab0f51bc6b529298a = $(`<div id="html_07bc55a2fc0e403ab0f51bc6b529298a" style="width: 100.0%; height: 100.0%;">Pedicularis-rhynchodonta | 28070 | 1998</div>`)[0];
+            popup_5c8fb6491da745e48c9cc0282e295ee2.setContent(html_07bc55a2fc0e403ab0f51bc6b529298a);
+        
+
+        circle_marker_e4bc6e7985f4431ab55026282bbabf82.bindPopup(popup_5c8fb6491da745e48c9cc0282e295ee2)
+        ;
+
+        
+    
+</script>

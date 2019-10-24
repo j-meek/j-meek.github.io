@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3f550a7dc7e14394be9cb2534e748874 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_3f550a7dc7e14394be9cb2534e748874" ></div>
+        
+</body>
+<script>    
+    
+            var map_3f550a7dc7e14394be9cb2534e748874 = L.map(
+                "map_3f550a7dc7e14394be9cb2534e748874",
+                {
+                    center: [30.3849, 101.0083],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c6c70beae60245fe8d40e9fe44b510ac = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3f550a7dc7e14394be9cb2534e748874);
+        
+    
+            var circle_marker_afd37b123fe540fabe341d8f403eb562 = L.circleMarker(
+                [28.650138888888886, 99.83366666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3f550a7dc7e14394be9cb2534e748874);
+        
+    
+        var popup_7070dbc213564c2fba571e4740adbd0f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7cc2ee0aa2ed43f586b6ce5ef9422581 = $(`<div id="html_7cc2ee0aa2ed43f586b6ce5ef9422581" style="width: 100.0%; height: 100.0%;">Pedicularis-rhodotricha | DE32 | 2018</div>`)[0];
+            popup_7070dbc213564c2fba571e4740adbd0f.setContent(html_7cc2ee0aa2ed43f586b6ce5ef9422581);
+        
+
+        circle_marker_afd37b123fe540fabe341d8f403eb562.bindPopup(popup_7070dbc213564c2fba571e4740adbd0f)
+        ;
+
+        
+    
+    
+            var circle_marker_9356d4cb4dcf42bf85619cdb9dce4f66 = L.circleMarker(
+                [29.33486111111111, 100.09941666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3f550a7dc7e14394be9cb2534e748874);
+        
+    
+        var popup_83bf4fa2ac524c9999f8690a6fe8fecf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a6182a7b87f49c4b56f80e1d4a6fa13 = $(`<div id="html_0a6182a7b87f49c4b56f80e1d4a6fa13" style="width: 100.0%; height: 100.0%;">Pedicularis-rhodotricha | DE66 | 2018</div>`)[0];
+            popup_83bf4fa2ac524c9999f8690a6fe8fecf.setContent(html_0a6182a7b87f49c4b56f80e1d4a6fa13);
+        
+
+        circle_marker_9356d4cb4dcf42bf85619cdb9dce4f66.bindPopup(popup_83bf4fa2ac524c9999f8690a6fe8fecf)
+        ;
+
+        
+    
+    
+            var circle_marker_0206824e9b5e474d868235affcfff78d = L.circleMarker(
+                [30.227277777777775, 100.24769444444445],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3f550a7dc7e14394be9cb2534e748874);
+        
+    
+        var popup_ec184adafb32405c95061bf6cd8c9ca2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_892f7478362e43eba9757b434b3124f8 = $(`<div id="html_892f7478362e43eba9757b434b3124f8" style="width: 100.0%; height: 100.0%;">Pedicularis-rhodotricha | DE398 | 2018</div>`)[0];
+            popup_ec184adafb32405c95061bf6cd8c9ca2.setContent(html_892f7478362e43eba9757b434b3124f8);
+        
+
+        circle_marker_0206824e9b5e474d868235affcfff78d.bindPopup(popup_ec184adafb32405c95061bf6cd8c9ca2)
+        ;
+
+        
+    
+    
+            var circle_marker_87319dfeed6c4d3b820c02614b79042e = L.circleMarker(
+                [29.112222222222222, 100.03277777777778],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3f550a7dc7e14394be9cb2534e748874);
+        
+    
+        var popup_0b849282bca340cf98eeca3d93997d0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_440535a15a734f6b8757fecc129c1f81 = $(`<div id="html_440535a15a734f6b8757fecc129c1f81" style="width: 100.0%; height: 100.0%;">Pedicularis-rhodotricha | DE439 | 2018</div>`)[0];
+            popup_0b849282bca340cf98eeca3d93997d0e.setContent(html_440535a15a734f6b8757fecc129c1f81);
+        
+
+        circle_marker_87319dfeed6c4d3b820c02614b79042e.bindPopup(popup_0b849282bca340cf98eeca3d93997d0e)
+        ;
+
+        
+    
+    
+            var circle_marker_945497bf11314d8483c473d30288f6ec = L.circleMarker(
+                [28.99625, 99.74491666666667],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3f550a7dc7e14394be9cb2534e748874);
+        
+    
+        var popup_549e8b7357564fdf9853d6f3b572c15a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7284a90bc30a468facbe67daed4a5394 = $(`<div id="html_7284a90bc30a468facbe67daed4a5394" style="width: 100.0%; height: 100.0%;">Pedicularis-rhodotricha | DE452 | 2018</div>`)[0];
+            popup_549e8b7357564fdf9853d6f3b572c15a.setContent(html_7284a90bc30a468facbe67daed4a5394);
+        
+
+        circle_marker_945497bf11314d8483c473d30288f6ec.bindPopup(popup_549e8b7357564fdf9853d6f3b572c15a)
+        ;
+
+        
+    
+    
+            var circle_marker_523ab176e3b944d7bdeab7e6a44088f3 = L.circleMarker(
+                [30.040277777777778, 101.83777777777777],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3f550a7dc7e14394be9cb2534e748874);
+        
+    
+        var popup_693fda154005494394bb8a748bb5c6bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ba5c72d63794f3bbafb3f798052ede5 = $(`<div id="html_1ba5c72d63794f3bbafb3f798052ede5" style="width: 100.0%; height: 100.0%;">Pedicularis-rhodotricha | DE534 | 2019</div>`)[0];
+            popup_693fda154005494394bb8a748bb5c6bd.setContent(html_1ba5c72d63794f3bbafb3f798052ede5);
+        
+
+        circle_marker_523ab176e3b944d7bdeab7e6a44088f3.bindPopup(popup_693fda154005494394bb8a748bb5c6bd)
+        ;
+
+        
+    
+    
+            var circle_marker_ffd127c6b7344eb9a2f88304818fb6e1 = L.circleMarker(
+                [30.074555555555555, 101.80416666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3f550a7dc7e14394be9cb2534e748874);
+        
+    
+        var popup_1cb9f813396c4784b55222343b6285b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c224311099d458e9bfe591769fad0e4 = $(`<div id="html_4c224311099d458e9bfe591769fad0e4" style="width: 100.0%; height: 100.0%;">Pedicularis-rhodotricha | DE548 | 2019</div>`)[0];
+            popup_1cb9f813396c4784b55222343b6285b8.setContent(html_4c224311099d458e9bfe591769fad0e4);
+        
+
+        circle_marker_ffd127c6b7344eb9a2f88304818fb6e1.bindPopup(popup_1cb9f813396c4784b55222343b6285b8)
+        ;
+
+        
+    
+    
+            var circle_marker_8da4b04cf48e48ac8d0aeaf26fe11b61 = L.circleMarker(
+                [31.70611111111111, 102.31388888888888],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.509995655950528, "stroke": true, "weight": 3}
+            ).addTo(map_3f550a7dc7e14394be9cb2534e748874);
+        
+    
+        var popup_6c0646ed93484490844876e430d1adb9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd18a97279b34ae6ad7be1ae947e39c4 = $(`<div id="html_fd18a97279b34ae6ad7be1ae947e39c4" style="width: 100.0%; height: 100.0%;">Pedicularis-rhodotricha | 27903 | 1997</div>`)[0];
+            popup_6c0646ed93484490844876e430d1adb9.setContent(html_fd18a97279b34ae6ad7be1ae947e39c4);
+        
+
+        circle_marker_8da4b04cf48e48ac8d0aeaf26fe11b61.bindPopup(popup_6c0646ed93484490844876e430d1adb9)
+        ;
+
+        
+    
+    
+            var circle_marker_9a488ba4be1d48fb88d8db3977c5b3e8 = L.circleMarker(
+                [29.112222222222222, 100.03277777777778],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.256997823576231, "stroke": true, "weight": 3}
+            ).addTo(map_3f550a7dc7e14394be9cb2534e748874);
+        
+    
+        var popup_1116aa84b6a5496aa1ed500e7e9eaaea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41ccacbc9bec41a1b0295fb822e27e32 = $(`<div id="html_41ccacbc9bec41a1b0295fb822e27e32" style="width: 100.0%; height: 100.0%;">Pedicularis-rhodotricha | 28613 | 1998</div>`)[0];
+            popup_1116aa84b6a5496aa1ed500e7e9eaaea.setContent(html_41ccacbc9bec41a1b0295fb822e27e32);
+        
+
+        circle_marker_9a488ba4be1d48fb88d8db3977c5b3e8.bindPopup(popup_1116aa84b6a5496aa1ed500e7e9eaaea)
+        ;
+
+        
+    
+    
+            var circle_marker_8c884cf7ed774eaa8724e04617c75ea4 = L.circleMarker(
+                [29.072499999999998, 99.63222222222221],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.256997823576231, "stroke": true, "weight": 3}
+            ).addTo(map_3f550a7dc7e14394be9cb2534e748874);
+        
+    
+        var popup_b406ddc148134bc1907c35376ecc620a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26a99ad25d014d74badfedab0bfc4dc4 = $(`<div id="html_26a99ad25d014d74badfedab0bfc4dc4" style="width: 100.0%; height: 100.0%;">Pedicularis-rhodotricha | 28872 | 1998</div>`)[0];
+            popup_b406ddc148134bc1907c35376ecc620a.setContent(html_26a99ad25d014d74badfedab0bfc4dc4);
+        
+
+        circle_marker_8c884cf7ed774eaa8724e04617c75ea4.bindPopup(popup_b406ddc148134bc1907c35376ecc620a)
+        ;
+
+        
+    
+    
+            var circle_marker_71514912d95840a2bc8067aabf386bd7 = L.circleMarker(
+                [29.001944444444444, 99.74277777777777],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.256997823576231, "stroke": true, "weight": 3}
+            ).addTo(map_3f550a7dc7e14394be9cb2534e748874);
+        
+    
+        var popup_e6d1974122b54f249a6e3b50d5a81c29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f034e246547848eeb5d7cbfe00e5b2e4 = $(`<div id="html_f034e246547848eeb5d7cbfe00e5b2e4" style="width: 100.0%; height: 100.0%;">Pedicularis-rhodotricha | 28979 | 1998</div>`)[0];
+            popup_e6d1974122b54f249a6e3b50d5a81c29.setContent(html_f034e246547848eeb5d7cbfe00e5b2e4);
+        
+
+        circle_marker_71514912d95840a2bc8067aabf386bd7.bindPopup(popup_e6d1974122b54f249a6e3b50d5a81c29)
+        ;
+
+        
+    
+</script>

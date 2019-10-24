@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bb353a36920045bb852f61800ddd7f8f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_bb353a36920045bb852f61800ddd7f8f" ></div>
+        
+</body>
+<script>    
+    
+            var map_bb353a36920045bb852f61800ddd7f8f = L.map(
+                "map_bb353a36920045bb852f61800ddd7f8f",
+                {
+                    center: [30.3849, 101.0083],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_08d091d37c35472abe34559b61fc2da4 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_bb353a36920045bb852f61800ddd7f8f);
+        
+    
+            var circle_marker_60f46cf001654048aeaff18b6c4275bf = L.circleMarker(
+                [31.98097222222222, 100.96436111111112],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb353a36920045bb852f61800ddd7f8f);
+        
+    
+        var popup_e03f618ac5cf494991927ed92af11776 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ce68ce9a29a4812bf7c4f2f9a08e17c = $(`<div id="html_6ce68ce9a29a4812bf7c4f2f9a08e17c" style="width: 100.0%; height: 100.0%;">Pedicularis-cristatella | DE601 | 2019</div>`)[0];
+            popup_e03f618ac5cf494991927ed92af11776.setContent(html_6ce68ce9a29a4812bf7c4f2f9a08e17c);
+        
+
+        circle_marker_60f46cf001654048aeaff18b6c4275bf.bindPopup(popup_e03f618ac5cf494991927ed92af11776)
+        ;
+
+        
+    
+    
+            var circle_marker_d6904e29e15b483caf25f36616a853f5 = L.circleMarker(
+                [32.13869444444445, 101.03999999999999],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb353a36920045bb852f61800ddd7f8f);
+        
+    
+        var popup_e0719b5a6f3f4c519314b8d9759d31b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5b173b8d4f34af4b00565a14ce47aaf = $(`<div id="html_a5b173b8d4f34af4b00565a14ce47aaf" style="width: 100.0%; height: 100.0%;">Pedicularis-cristatella | DE606 | 2019</div>`)[0];
+            popup_e0719b5a6f3f4c519314b8d9759d31b4.setContent(html_a5b173b8d4f34af4b00565a14ce47aaf);
+        
+
+        circle_marker_d6904e29e15b483caf25f36616a853f5.bindPopup(popup_e0719b5a6f3f4c519314b8d9759d31b4)
+        ;
+
+        
+    
+    
+            var circle_marker_935685b0f0ae49a78e5da719e7667407 = L.circleMarker(
+                [31.51527777777778, 100.69166666666668],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb353a36920045bb852f61800ddd7f8f);
+        
+    
+        var popup_5be3c8631d5245679452f85a950b394b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_261ec003f5e7495a86ffd58e9c852b20 = $(`<div id="html_261ec003f5e7495a86ffd58e9c852b20" style="width: 100.0%; height: 100.0%;">Pedicularis-cristatella | DE647 | 2019</div>`)[0];
+            popup_5be3c8631d5245679452f85a950b394b.setContent(html_261ec003f5e7495a86ffd58e9c852b20);
+        
+
+        circle_marker_935685b0f0ae49a78e5da719e7667407.bindPopup(popup_5be3c8631d5245679452f85a950b394b)
+        ;
+
+        
+    
+    
+            var circle_marker_305f8fc8a85e46fbb2a710316a7e194e = L.circleMarker(
+                [34.16555555555556, 102.90527777777778],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb353a36920045bb852f61800ddd7f8f);
+        
+    
+        var popup_37c75d735fdd4035aa92145b71d9dc8d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a5ca8e5b5d146979ba86571f526dabd = $(`<div id="html_5a5ca8e5b5d146979ba86571f526dabd" style="width: 100.0%; height: 100.0%;">Pedicularis-cristatella | DE738 | 2019</div>`)[0];
+            popup_37c75d735fdd4035aa92145b71d9dc8d.setContent(html_5a5ca8e5b5d146979ba86571f526dabd);
+        
+
+        circle_marker_305f8fc8a85e46fbb2a710316a7e194e.bindPopup(popup_37c75d735fdd4035aa92145b71d9dc8d)
+        ;
+
+        
+    
+    
+            var circle_marker_296c345eda1e4fe0bcf988613d4c5e4f = L.circleMarker(
+                [31.511944444444445, 100.69583333333334],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.509995655950528, "stroke": true, "weight": 3}
+            ).addTo(map_bb353a36920045bb852f61800ddd7f8f);
+        
+    
+        var popup_f28ce3e50a9a496f88b350e06bf02046 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f9bc7379d7e49b98e93016222fe71c8 = $(`<div id="html_4f9bc7379d7e49b98e93016222fe71c8" style="width: 100.0%; height: 100.0%;">Pedicularis-cristatella | 27840 | 1997</div>`)[0];
+            popup_f28ce3e50a9a496f88b350e06bf02046.setContent(html_4f9bc7379d7e49b98e93016222fe71c8);
+        
+
+        circle_marker_296c345eda1e4fe0bcf988613d4c5e4f.bindPopup(popup_f28ce3e50a9a496f88b350e06bf02046)
+        ;
+
+        
+    
+</script>
