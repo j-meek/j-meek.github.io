@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_148897d60a284715a6fde01dbc6870ef {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_148897d60a284715a6fde01dbc6870ef" ></div>
+        
+</body>
+<script>    
+    
+            var map_148897d60a284715a6fde01dbc6870ef = L.map(
+                "map_148897d60a284715a6fde01dbc6870ef",
+                {
+                    center: [30.3849, 101.0083],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7ad2dd78926c45a0bde5dbba8995a272 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_148897d60a284715a6fde01dbc6870ef);
+        
+    
+            var circle_marker_ebedd0e31aa049c0a8bcb15b6c162a34 = L.circleMarker(
+                [28.650138888888886, 99.83366666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_148897d60a284715a6fde01dbc6870ef);
+        
+    
+        var popup_86022e9c9fab4508bfe8641ae13f04d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_003c2d8adc214ab29bef4e2b50092d29 = $(`<div id="html_003c2d8adc214ab29bef4e2b50092d29" style="width: 100.0%; height: 100.0%;">Pedicularis-ingens | DE34 | 2018</div>`)[0];
+            popup_86022e9c9fab4508bfe8641ae13f04d9.setContent(html_003c2d8adc214ab29bef4e2b50092d29);
+        
+
+        circle_marker_ebedd0e31aa049c0a8bcb15b6c162a34.bindPopup(popup_86022e9c9fab4508bfe8641ae13f04d9)
+        ;
+
+        
+    
+    
+            var circle_marker_2191902f219742c98ad2d4811d94657a = L.circleMarker(
+                [30.063972222222223, 101.31663888888889],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_148897d60a284715a6fde01dbc6870ef);
+        
+    
+        var popup_f673a4380104430cbc0d184e79cdd82c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31e466a1b2b947dcad2f3c75af320859 = $(`<div id="html_31e466a1b2b947dcad2f3c75af320859" style="width: 100.0%; height: 100.0%;">Pedicularis-ingens | DE106 | 2018</div>`)[0];
+            popup_f673a4380104430cbc0d184e79cdd82c.setContent(html_31e466a1b2b947dcad2f3c75af320859);
+        
+
+        circle_marker_2191902f219742c98ad2d4811d94657a.bindPopup(popup_f673a4380104430cbc0d184e79cdd82c)
+        ;
+
+        
+    
+    
+            var circle_marker_c36778e888d6494d86e91c1f30615664 = L.circleMarker(
+                [31.6575, 100.70130555555556],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_148897d60a284715a6fde01dbc6870ef);
+        
+    
+        var popup_86a811023f014930a79654e88eb81379 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e83ae39505ad43bfa220a9f40374b023 = $(`<div id="html_e83ae39505ad43bfa220a9f40374b023" style="width: 100.0%; height: 100.0%;">Pedicularis-ingens | DE198 | 2018</div>`)[0];
+            popup_86a811023f014930a79654e88eb81379.setContent(html_e83ae39505ad43bfa220a9f40374b023);
+        
+
+        circle_marker_c36778e888d6494d86e91c1f30615664.bindPopup(popup_86a811023f014930a79654e88eb81379)
+        ;
+
+        
+    
+    
+            var circle_marker_77914aaac5f0470e9a78f3aa1f0d9053 = L.circleMarker(
+                [31.83186111111111, 100.73927777777777],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_148897d60a284715a6fde01dbc6870ef);
+        
+    
+        var popup_7dbc3ce4759d45e788b2f602db466d07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f59427890baf4b7a8f002d34af5b9ed7 = $(`<div id="html_f59427890baf4b7a8f002d34af5b9ed7" style="width: 100.0%; height: 100.0%;">Pedicularis-ingens | DE216 | 2018</div>`)[0];
+            popup_7dbc3ce4759d45e788b2f602db466d07.setContent(html_f59427890baf4b7a8f002d34af5b9ed7);
+        
+
+        circle_marker_77914aaac5f0470e9a78f3aa1f0d9053.bindPopup(popup_7dbc3ce4759d45e788b2f602db466d07)
+        ;
+
+        
+    
+    
+            var circle_marker_2c497acfa504456c90cfdc97706c1703 = L.circleMarker(
+                [31.596555555555554, 100.36897222222221],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_148897d60a284715a6fde01dbc6870ef);
+        
+    
+        var popup_8446bb9b5bd64c58bc9b3de66eb92a15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2eaa1a37728445df937fc805fbcdbe8a = $(`<div id="html_2eaa1a37728445df937fc805fbcdbe8a" style="width: 100.0%; height: 100.0%;">Pedicularis-ingens | DE236 | 2018</div>`)[0];
+            popup_8446bb9b5bd64c58bc9b3de66eb92a15.setContent(html_2eaa1a37728445df937fc805fbcdbe8a);
+        
+
+        circle_marker_2c497acfa504456c90cfdc97706c1703.bindPopup(popup_8446bb9b5bd64c58bc9b3de66eb92a15)
+        ;
+
+        
+    
+    
+            var circle_marker_18d219e77c4140f68f5fdadbc4e72dc6 = L.circleMarker(
+                [31.715305555555556, 99.61627777777777],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_148897d60a284715a6fde01dbc6870ef);
+        
+    
+        var popup_73b45bb17bcb4292966dec4ddcf3ba0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_897b0a87f5d94a58b22249345a764390 = $(`<div id="html_897b0a87f5d94a58b22249345a764390" style="width: 100.0%; height: 100.0%;">Pedicularis-ingens | DE270 | 2018</div>`)[0];
+            popup_73b45bb17bcb4292966dec4ddcf3ba0c.setContent(html_897b0a87f5d94a58b22249345a764390);
+        
+
+        circle_marker_18d219e77c4140f68f5fdadbc4e72dc6.bindPopup(popup_73b45bb17bcb4292966dec4ddcf3ba0c)
+        ;
+
+        
+    
+    
+            var circle_marker_9928b3c294ab4e73b90f12f3dc0c5c36 = L.circleMarker(
+                [31.044305555555557, 98.90880555555556],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_148897d60a284715a6fde01dbc6870ef);
+        
+    
+        var popup_de682fc8297543388b8d7ee75b2b176f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef870dca70fe491db0a43de3926201ad = $(`<div id="html_ef870dca70fe491db0a43de3926201ad" style="width: 100.0%; height: 100.0%;">Pedicularis-ingens | DE351 | 2018</div>`)[0];
+            popup_de682fc8297543388b8d7ee75b2b176f.setContent(html_ef870dca70fe491db0a43de3926201ad);
+        
+
+        circle_marker_9928b3c294ab4e73b90f12f3dc0c5c36.bindPopup(popup_de682fc8297543388b8d7ee75b2b176f)
+        ;
+
+        
+    
+    
+            var circle_marker_dee656494cd9417782c35aab890724eb = L.circleMarker(
+                [30.968249999999998, 98.96863888888889],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_148897d60a284715a6fde01dbc6870ef);
+        
+    
+        var popup_769238efd23f4d388692c73d5232fe9b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd9051271a1f4832b5719eeb61e07f3f = $(`<div id="html_cd9051271a1f4832b5719eeb61e07f3f" style="width: 100.0%; height: 100.0%;">Pedicularis-ingens | DE364 | 2018</div>`)[0];
+            popup_769238efd23f4d388692c73d5232fe9b.setContent(html_cd9051271a1f4832b5719eeb61e07f3f);
+        
+
+        circle_marker_dee656494cd9417782c35aab890724eb.bindPopup(popup_769238efd23f4d388692c73d5232fe9b)
+        ;
+
+        
+    
+    
+            var circle_marker_29438ec81a754c39bc8002736aafe914 = L.circleMarker(
+                [30.227277777777775, 100.24769444444445],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_148897d60a284715a6fde01dbc6870ef);
+        
+    
+        var popup_0b3bd615c2fe458eb004ecc9bc8d9bcf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57dfa5925fc6494787697f7ae62e73c9 = $(`<div id="html_57dfa5925fc6494787697f7ae62e73c9" style="width: 100.0%; height: 100.0%;">Pedicularis-ingens | DE397 | 2018</div>`)[0];
+            popup_0b3bd615c2fe458eb004ecc9bc8d9bcf.setContent(html_57dfa5925fc6494787697f7ae62e73c9);
+        
+
+        circle_marker_29438ec81a754c39bc8002736aafe914.bindPopup(popup_0b3bd615c2fe458eb004ecc9bc8d9bcf)
+        ;
+
+        
+    
+    
+            var circle_marker_a1be50b23d3b442cb7d772bf5fa15656 = L.circleMarker(
+                [28.955555555555556, 99.75330555555556],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_148897d60a284715a6fde01dbc6870ef);
+        
+    
+        var popup_c653569e35aa4ee19bd5a1e6abef1768 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_939c439219dd489f9c8b12eb57bfd762 = $(`<div id="html_939c439219dd489f9c8b12eb57bfd762" style="width: 100.0%; height: 100.0%;">Pedicularis-ingens | DE447 | 2018</div>`)[0];
+            popup_c653569e35aa4ee19bd5a1e6abef1768.setContent(html_939c439219dd489f9c8b12eb57bfd762);
+        
+
+        circle_marker_a1be50b23d3b442cb7d772bf5fa15656.bindPopup(popup_c653569e35aa4ee19bd5a1e6abef1768)
+        ;
+
+        
+    
+    
+            var circle_marker_7fda3c0778cc4184bb621881fef58c39 = L.circleMarker(
+                [31.76152777777778, 100.75722222222223],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_148897d60a284715a6fde01dbc6870ef);
+        
+    
+        var popup_f466ecb7cd74488c99d055a026ffa306 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b240a83516e405d8508d2311197b931 = $(`<div id="html_4b240a83516e405d8508d2311197b931" style="width: 100.0%; height: 100.0%;">Pedicularis-ingens | DE574 | 2019</div>`)[0];
+            popup_f466ecb7cd74488c99d055a026ffa306.setContent(html_4b240a83516e405d8508d2311197b931);
+        
+
+        circle_marker_7fda3c0778cc4184bb621881fef58c39.bindPopup(popup_f466ecb7cd74488c99d055a026ffa306)
+        ;
+
+        
+    
+    
+            var circle_marker_945319c5732f4d0db7e9aae5f1c65b6c = L.circleMarker(
+                [31.72472222222222, 100.74266666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_148897d60a284715a6fde01dbc6870ef);
+        
+    
+        var popup_44466a9c79ba48a38959684c44b3079f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1e6e36c85c94c8ba03cbf2373289a2c = $(`<div id="html_e1e6e36c85c94c8ba03cbf2373289a2c" style="width: 100.0%; height: 100.0%;">Pedicularis-ingens | DE587 | 2019</div>`)[0];
+            popup_44466a9c79ba48a38959684c44b3079f.setContent(html_e1e6e36c85c94c8ba03cbf2373289a2c);
+        
+
+        circle_marker_945319c5732f4d0db7e9aae5f1c65b6c.bindPopup(popup_44466a9c79ba48a38959684c44b3079f)
+        ;
+
+        
+    
+    
+            var circle_marker_e5e6de0f1827474f9f9ca0a167aab7f3 = L.circleMarker(
+                [32.32527777777778, 101.08063888888888],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_148897d60a284715a6fde01dbc6870ef);
+        
+    
+        var popup_87a162d500114d6cb9e48a26e8ae822c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_968b278410a14b24af4db29720701bef = $(`<div id="html_968b278410a14b24af4db29720701bef" style="width: 100.0%; height: 100.0%;">Pedicularis-pseudoingens | DE631 | 2019</div>`)[0];
+            popup_87a162d500114d6cb9e48a26e8ae822c.setContent(html_968b278410a14b24af4db29720701bef);
+        
+
+        circle_marker_e5e6de0f1827474f9f9ca0a167aab7f3.bindPopup(popup_87a162d500114d6cb9e48a26e8ae822c)
+        ;
+
+        
+    
+    
+            var circle_marker_a7e635203ef8471ca08f6f43a06997ee = L.circleMarker(
+                [31.695972222222224, 100.705],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_148897d60a284715a6fde01dbc6870ef);
+        
+    
+        var popup_e3ce2af59c7747cbb6f004a31713504f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6699f727638a42a780ecc8db383dcce0 = $(`<div id="html_6699f727638a42a780ecc8db383dcce0" style="width: 100.0%; height: 100.0%;">Pedicularis-ingens | DE652 | 2019</div>`)[0];
+            popup_e3ce2af59c7747cbb6f004a31713504f.setContent(html_6699f727638a42a780ecc8db383dcce0);
+        
+
+        circle_marker_a7e635203ef8471ca08f6f43a06997ee.bindPopup(popup_e3ce2af59c7747cbb6f004a31713504f)
+        ;
+
+        
+    
+    
+            var circle_marker_33b677910db542d2bfde9c026443fda0 = L.circleMarker(
+                [28.61722222222222, 99.83083333333333],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_148897d60a284715a6fde01dbc6870ef);
+        
+    
+        var popup_a1df343f02e040928bc3ed2a83bfdfd6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4388958d525f4db498d1cae3e532f0d8 = $(`<div id="html_4388958d525f4db498d1cae3e532f0d8" style="width: 100.0%; height: 100.0%;">Pedicularis-rudis | DE28 | 2018</div>`)[0];
+            popup_a1df343f02e040928bc3ed2a83bfdfd6.setContent(html_4388958d525f4db498d1cae3e532f0d8);
+        
+
+        circle_marker_33b677910db542d2bfde9c026443fda0.bindPopup(popup_a1df343f02e040928bc3ed2a83bfdfd6)
+        ;
+
+        
+    
+    
+            var circle_marker_b78680c92af145e1b78fa512f1e5beaf = L.circleMarker(
+                [31.69611111111111, 100.70527777777778],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.509995655950528, "stroke": true, "weight": 3}
+            ).addTo(map_148897d60a284715a6fde01dbc6870ef);
+        
+    
+        var popup_3b715ca03b6b496a85f6e427ff2afc05 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ba670e0bd874b229b88a9097c443ed3 = $(`<div id="html_4ba670e0bd874b229b88a9097c443ed3" style="width: 100.0%; height: 100.0%;">Pedicularis-ingens | 27823 | 1997</div>`)[0];
+            popup_3b715ca03b6b496a85f6e427ff2afc05.setContent(html_4ba670e0bd874b229b88a9097c443ed3);
+        
+
+        circle_marker_b78680c92af145e1b78fa512f1e5beaf.bindPopup(popup_3b715ca03b6b496a85f6e427ff2afc05)
+        ;
+
+        
+    
+    
+            var circle_marker_b78138b67b6f489e9d1a5fc04cf7ea59 = L.circleMarker(
+                [31.761666666666667, 100.75694444444444],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.509995655950528, "stroke": true, "weight": 3}
+            ).addTo(map_148897d60a284715a6fde01dbc6870ef);
+        
+    
+        var popup_f7a10678b29d4b1bb8fca6289da39fa2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a3d1883d69043068e2dacdf2d7e791c = $(`<div id="html_8a3d1883d69043068e2dacdf2d7e791c" style="width: 100.0%; height: 100.0%;">Pedicularis-ingens | 27830 | 1997</div>`)[0];
+            popup_f7a10678b29d4b1bb8fca6289da39fa2.setContent(html_8a3d1883d69043068e2dacdf2d7e791c);
+        
+
+        circle_marker_b78138b67b6f489e9d1a5fc04cf7ea59.bindPopup(popup_f7a10678b29d4b1bb8fca6289da39fa2)
+        ;
+
+        
+    
+    
+            var circle_marker_2a808faff5464b159a916dfe10c6a308 = L.circleMarker(
+                [30.171111111111113, 101.86888888888888],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.509995655950528, "stroke": true, "weight": 3}
+            ).addTo(map_148897d60a284715a6fde01dbc6870ef);
+        
+    
+        var popup_ddd040277ba6438985481be013e9f4ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7449887594d4f8bb947baf1944b1546 = $(`<div id="html_c7449887594d4f8bb947baf1944b1546" style="width: 100.0%; height: 100.0%;">Pedicularis-rudis | 27641 | 1997</div>`)[0];
+            popup_ddd040277ba6438985481be013e9f4ab.setContent(html_c7449887594d4f8bb947baf1944b1546);
+        
+
+        circle_marker_2a808faff5464b159a916dfe10c6a308.bindPopup(popup_ddd040277ba6438985481be013e9f4ab)
+        ;
+
+        
+    
+    
+            var circle_marker_fe8e5e9111f745e2b12cca07bfa4d7c0 = L.circleMarker(
+                [30.284166666666668, 101.5286111111111],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.509995655950528, "stroke": true, "weight": 3}
+            ).addTo(map_148897d60a284715a6fde01dbc6870ef);
+        
+    
+        var popup_b115285cdd274f7196ef37d10f40f36f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad0b1015b0e64b5e8d10079b8df226ab = $(`<div id="html_ad0b1015b0e64b5e8d10079b8df226ab" style="width: 100.0%; height: 100.0%;">Pedicularis-rudis | 27691 | 1997</div>`)[0];
+            popup_b115285cdd274f7196ef37d10f40f36f.setContent(html_ad0b1015b0e64b5e8d10079b8df226ab);
+        
+
+        circle_marker_fe8e5e9111f745e2b12cca07bfa4d7c0.bindPopup(popup_b115285cdd274f7196ef37d10f40f36f)
+        ;
+
+        
+    
+</script>

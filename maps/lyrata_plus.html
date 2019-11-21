@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fb05cd9b0a234f2583bc207ecdb6e7a1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_fb05cd9b0a234f2583bc207ecdb6e7a1" ></div>
+        
+</body>
+<script>    
+    
+            var map_fb05cd9b0a234f2583bc207ecdb6e7a1 = L.map(
+                "map_fb05cd9b0a234f2583bc207ecdb6e7a1",
+                {
+                    center: [30.3849, 101.0083],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ccf39cafd4b34d06a7f495fb8947465e = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_fb05cd9b0a234f2583bc207ecdb6e7a1);
+        
+    
+            var circle_marker_476b03c9805743a1a05b4c36a4e03e0a = L.circleMarker(
+                [31.83186111111111, 100.73927777777777],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fb05cd9b0a234f2583bc207ecdb6e7a1);
+        
+    
+        var popup_67bd39c20c1b4269860ba64db96f8f72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83114234051c4f7fa4b57ec5c5371878 = $(`<div id="html_83114234051c4f7fa4b57ec5c5371878" style="width: 100.0%; height: 100.0%;">Pedicularis-lyrata | DE571 | 2019</div>`)[0];
+            popup_67bd39c20c1b4269860ba64db96f8f72.setContent(html_83114234051c4f7fa4b57ec5c5371878);
+        
+
+        circle_marker_476b03c9805743a1a05b4c36a4e03e0a.bindPopup(popup_67bd39c20c1b4269860ba64db96f8f72)
+        ;
+
+        
+    
+    
+            var circle_marker_484726cd4dbf4bb0a0e68171f36bf958 = L.circleMarker(
+                [31.72472222222222, 100.74266666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fb05cd9b0a234f2583bc207ecdb6e7a1);
+        
+    
+        var popup_a6de8f20a55347c1947912fd4d266343 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c08070c88e064c2c8a6e0eea0e97bbcd = $(`<div id="html_c08070c88e064c2c8a6e0eea0e97bbcd" style="width: 100.0%; height: 100.0%;">Pedicularis-lyrata | DE598 | 2019</div>`)[0];
+            popup_a6de8f20a55347c1947912fd4d266343.setContent(html_c08070c88e064c2c8a6e0eea0e97bbcd);
+        
+
+        circle_marker_484726cd4dbf4bb0a0e68171f36bf958.bindPopup(popup_a6de8f20a55347c1947912fd4d266343)
+        ;
+
+        
+    
+    
+            var circle_marker_df7fd7f7e60b42778d2c5fc6f6d45e18 = L.circleMarker(
+                [32.535555555555554, 102.3325],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fb05cd9b0a234f2583bc207ecdb6e7a1);
+        
+    
+        var popup_21fc37b859a443c38a19e05449433462 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c74bddd003a64448b061d693aac7d451 = $(`<div id="html_c74bddd003a64448b061d693aac7d451" style="width: 100.0%; height: 100.0%;">Pedicularis-lyrata | DE678 | 2019</div>`)[0];
+            popup_21fc37b859a443c38a19e05449433462.setContent(html_c74bddd003a64448b061d693aac7d451);
+        
+
+        circle_marker_df7fd7f7e60b42778d2c5fc6f6d45e18.bindPopup(popup_21fc37b859a443c38a19e05449433462)
+        ;
+
+        
+    
+    
+            var circle_marker_dac7a7c0941d42bf9f5a9b792d2f5e05 = L.circleMarker(
+                [33.31375, 101.28361111111111],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fb05cd9b0a234f2583bc207ecdb6e7a1);
+        
+    
+        var popup_6fbf59f546954408ab5c8902a6ccae9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e3e25e13bde47f6a5e2bff782479db2 = $(`<div id="html_6e3e25e13bde47f6a5e2bff782479db2" style="width: 100.0%; height: 100.0%;">Pedicularis-lyrata | DE700 | 2019</div>`)[0];
+            popup_6fbf59f546954408ab5c8902a6ccae9f.setContent(html_6e3e25e13bde47f6a5e2bff782479db2);
+        
+
+        circle_marker_dac7a7c0941d42bf9f5a9b792d2f5e05.bindPopup(popup_6fbf59f546954408ab5c8902a6ccae9f)
+        ;
+
+        
+    
+    
+            var circle_marker_3b0e5ee592504cdba1609aec713220b9 = L.circleMarker(
+                [33.54694444444444, 101.53597222222223],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fb05cd9b0a234f2583bc207ecdb6e7a1);
+        
+    
+        var popup_d0267525dfd34d2fb23bf1c3759c7c8b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7952f13f9b1e4942a81d9133a4dd27e0 = $(`<div id="html_7952f13f9b1e4942a81d9133a4dd27e0" style="width: 100.0%; height: 100.0%;">Pedicularis-lyrata | DE707 | 2019</div>`)[0];
+            popup_d0267525dfd34d2fb23bf1c3759c7c8b.setContent(html_7952f13f9b1e4942a81d9133a4dd27e0);
+        
+
+        circle_marker_3b0e5ee592504cdba1609aec713220b9.bindPopup(popup_d0267525dfd34d2fb23bf1c3759c7c8b)
+        ;
+
+        
+    
+    
+            var circle_marker_9dd8a8aa29414cf2b5b0868f537e6271 = L.circleMarker(
+                [33.93944444444444, 102.03019444444445],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fb05cd9b0a234f2583bc207ecdb6e7a1);
+        
+    
+        var popup_2b1b853e6d094b6584929340063edc2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0634ad664264d99a99efd0f8773df1a = $(`<div id="html_f0634ad664264d99a99efd0f8773df1a" style="width: 100.0%; height: 100.0%;">Pedicularis-lyrata | DE715 | 2019</div>`)[0];
+            popup_2b1b853e6d094b6584929340063edc2d.setContent(html_f0634ad664264d99a99efd0f8773df1a);
+        
+
+        circle_marker_9dd8a8aa29414cf2b5b0868f537e6271.bindPopup(popup_2b1b853e6d094b6584929340063edc2d)
+        ;
+
+        
+    
+    
+            var circle_marker_4a35d37a6847448f85420ae76aa6af14 = L.circleMarker(
+                [30.41916666666667, 101.54805555555555],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fb05cd9b0a234f2583bc207ecdb6e7a1);
+        
+    
+        var popup_ec94417852b14d2ebd8e4ab229c9ec97 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1d4c0e146334aca923c4d8f77cab8d3 = $(`<div id="html_b1d4c0e146334aca923c4d8f77cab8d3" style="width: 100.0%; height: 100.0%;">Pedicularis-lutescens | DE126 | 2018</div>`)[0];
+            popup_ec94417852b14d2ebd8e4ab229c9ec97.setContent(html_b1d4c0e146334aca923c4d8f77cab8d3);
+        
+
+        circle_marker_4a35d37a6847448f85420ae76aa6af14.bindPopup(popup_ec94417852b14d2ebd8e4ab229c9ec97)
+        ;
+
+        
+    
+    
+            var circle_marker_0b1e78cc12d843b9991f23de5f935525 = L.circleMarker(
+                [30.57702777777778, 101.41797222222223],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fb05cd9b0a234f2583bc207ecdb6e7a1);
+        
+    
+        var popup_985046f18d17499b9705f4d9cd45772e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5869e792dbd54ac29fab5024800b8f61 = $(`<div id="html_5869e792dbd54ac29fab5024800b8f61" style="width: 100.0%; height: 100.0%;">Pedicularis-lutescens | DE144 | 2018</div>`)[0];
+            popup_985046f18d17499b9705f4d9cd45772e.setContent(html_5869e792dbd54ac29fab5024800b8f61);
+        
+
+        circle_marker_0b1e78cc12d843b9991f23de5f935525.bindPopup(popup_985046f18d17499b9705f4d9cd45772e)
+        ;
+
+        
+    
+    
+            var circle_marker_e72f92f26b9241d681e522719e265018 = L.circleMarker(
+                [30.64311111111111, 101.4041388888889],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fb05cd9b0a234f2583bc207ecdb6e7a1);
+        
+    
+        var popup_d0b7b2fbe1eb4e1a9110279ac7ef834c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49b40ead5b1743579c48eaca1ec0471a = $(`<div id="html_49b40ead5b1743579c48eaca1ec0471a" style="width: 100.0%; height: 100.0%;">Pedicularis-lutescens | DE149 | 2018</div>`)[0];
+            popup_d0b7b2fbe1eb4e1a9110279ac7ef834c.setContent(html_49b40ead5b1743579c48eaca1ec0471a);
+        
+
+        circle_marker_e72f92f26b9241d681e522719e265018.bindPopup(popup_d0b7b2fbe1eb4e1a9110279ac7ef834c)
+        ;
+
+        
+    
+    
+            var circle_marker_6a021552f81e437d9f0db27f253042bc = L.circleMarker(
+                [30.787694444444448, 101.30772222222222],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fb05cd9b0a234f2583bc207ecdb6e7a1);
+        
+    
+        var popup_a643c7bc180145998dd23b1e63d32d06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9442b0804a0d48e89b4bfd1bdab58ec2 = $(`<div id="html_9442b0804a0d48e89b4bfd1bdab58ec2" style="width: 100.0%; height: 100.0%;">Pedicularis-lutescens | DE171 | 2018</div>`)[0];
+            popup_a643c7bc180145998dd23b1e63d32d06.setContent(html_9442b0804a0d48e89b4bfd1bdab58ec2);
+        
+
+        circle_marker_6a021552f81e437d9f0db27f253042bc.bindPopup(popup_a643c7bc180145998dd23b1e63d32d06)
+        ;
+
+        
+    
+    
+            var circle_marker_c8443d14b1f34e97b832eb8bd66dc15c = L.circleMarker(
+                [30.846916666666665, 101.27433333333333],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fb05cd9b0a234f2583bc207ecdb6e7a1);
+        
+    
+        var popup_ba7eb405283045f89a5b5ad3a2843f50 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61472ca19db744f681d4a1998606f607 = $(`<div id="html_61472ca19db744f681d4a1998606f607" style="width: 100.0%; height: 100.0%;">Pedicularis-lutescens | DE178 | 2018</div>`)[0];
+            popup_ba7eb405283045f89a5b5ad3a2843f50.setContent(html_61472ca19db744f681d4a1998606f607);
+        
+
+        circle_marker_c8443d14b1f34e97b832eb8bd66dc15c.bindPopup(popup_ba7eb405283045f89a5b5ad3a2843f50)
+        ;
+
+        
+    
+    
+            var circle_marker_345f0147fe1441ec955eedb3822c2470 = L.circleMarker(
+                [32.32241666666667, 102.45541666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fb05cd9b0a234f2583bc207ecdb6e7a1);
+        
+    
+        var popup_17193f48682949e18432fb51d9bb6528 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bca8a4a6057247d6a37b61038e789086 = $(`<div id="html_bca8a4a6057247d6a37b61038e789086" style="width: 100.0%; height: 100.0%;">Pedicularis-lutescens | DE663 | 2019</div>`)[0];
+            popup_17193f48682949e18432fb51d9bb6528.setContent(html_bca8a4a6057247d6a37b61038e789086);
+        
+
+        circle_marker_345f0147fe1441ec955eedb3822c2470.bindPopup(popup_17193f48682949e18432fb51d9bb6528)
+        ;
+
+        
+    
+    
+            var circle_marker_cbaa3279a1f84b3d94236d5b60922baa = L.circleMarker(
+                [28.57225, 99.82363888888888],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fb05cd9b0a234f2583bc207ecdb6e7a1);
+        
+    
+        var popup_7f1146dd7b5a46348be948171cd14f1e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_165d235d0e01499c8b400758cca7b3a0 = $(`<div id="html_165d235d0e01499c8b400758cca7b3a0" style="width: 100.0%; height: 100.0%;">Pedicularis-dolichoglossa | DE19 | 2018</div>`)[0];
+            popup_7f1146dd7b5a46348be948171cd14f1e.setContent(html_165d235d0e01499c8b400758cca7b3a0);
+        
+
+        circle_marker_cbaa3279a1f84b3d94236d5b60922baa.bindPopup(popup_7f1146dd7b5a46348be948171cd14f1e)
+        ;
+
+        
+    
+    
+            var circle_marker_7d8747eea1694076b9278e9725b7e118 = L.circleMarker(
+                [28.593888888888888, 99.84694444444445],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fb05cd9b0a234f2583bc207ecdb6e7a1);
+        
+    
+        var popup_29534111ce174e368f2c681874bf97ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5039a35ed62248479e76e443b4e261ce = $(`<div id="html_5039a35ed62248479e76e443b4e261ce" style="width: 100.0%; height: 100.0%;">Pedicularis-dolichoglossa | DE25 | 2018</div>`)[0];
+            popup_29534111ce174e368f2c681874bf97ba.setContent(html_5039a35ed62248479e76e443b4e261ce);
+        
+
+        circle_marker_7d8747eea1694076b9278e9725b7e118.bindPopup(popup_29534111ce174e368f2c681874bf97ba)
+        ;
+
+        
+    
+    
+            var circle_marker_a1006fae299941cb95ea030628b605bc = L.circleMarker(
+                [30.012888888888888, 101.86272222222222],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fb05cd9b0a234f2583bc207ecdb6e7a1);
+        
+    
+        var popup_241faa1db3fa459489cbf463e6e397a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b073cd4d6ba84dcc82b3773a770ed90a = $(`<div id="html_b073cd4d6ba84dcc82b3773a770ed90a" style="width: 100.0%; height: 100.0%;">Pedicularis-dolichoglossa | DE532 | 2019</div>`)[0];
+            popup_241faa1db3fa459489cbf463e6e397a1.setContent(html_b073cd4d6ba84dcc82b3773a770ed90a);
+        
+
+        circle_marker_a1006fae299941cb95ea030628b605bc.bindPopup(popup_241faa1db3fa459489cbf463e6e397a1)
+        ;
+
+        
+    
+    
+            var circle_marker_7135607003274a73a01c0636263e6445 = L.circleMarker(
+                [30.063972222222223, 101.31663888888889],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fb05cd9b0a234f2583bc207ecdb6e7a1);
+        
+    
+        var popup_1568048f8d50445facd9ca8a5b584e75 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5e67bbcc48a41adb8e4cd0e19d3091c = $(`<div id="html_a5e67bbcc48a41adb8e4cd0e19d3091c" style="width: 100.0%; height: 100.0%;">Pedicularis-polyodonta | DE104 | 2018</div>`)[0];
+            popup_1568048f8d50445facd9ca8a5b584e75.setContent(html_a5e67bbcc48a41adb8e4cd0e19d3091c);
+        
+
+        circle_marker_7135607003274a73a01c0636263e6445.bindPopup(popup_1568048f8d50445facd9ca8a5b584e75)
+        ;
+
+        
+    
+    
+            var circle_marker_3a074413ee844a6b8989b7929e5643a0 = L.circleMarker(
+                [31.54313888888889, 100.47063888888889],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fb05cd9b0a234f2583bc207ecdb6e7a1);
+        
+    
+        var popup_b0efa2d67e8b4947982d6dd85161404e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6e1443e286f464fb9b1476d08e26fae = $(`<div id="html_e6e1443e286f464fb9b1476d08e26fae" style="width: 100.0%; height: 100.0%;">Pedicularis-polyodonta | DE230 | 2018</div>`)[0];
+            popup_b0efa2d67e8b4947982d6dd85161404e.setContent(html_e6e1443e286f464fb9b1476d08e26fae);
+        
+
+        circle_marker_3a074413ee844a6b8989b7929e5643a0.bindPopup(popup_b0efa2d67e8b4947982d6dd85161404e)
+        ;
+
+        
+    
+    
+            var circle_marker_7def22fdd865429cbe30a6098d596c75 = L.circleMarker(
+                [31.596555555555554, 100.36897222222221],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fb05cd9b0a234f2583bc207ecdb6e7a1);
+        
+    
+        var popup_fb5c5f2f8f2c4e14b39447e007b6970c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5cf45e945ab64053bf32677b2d6cfe54 = $(`<div id="html_5cf45e945ab64053bf32677b2d6cfe54" style="width: 100.0%; height: 100.0%;">Pedicularis-polyodonta | DE239 | 2018</div>`)[0];
+            popup_fb5c5f2f8f2c4e14b39447e007b6970c.setContent(html_5cf45e945ab64053bf32677b2d6cfe54);
+        
+
+        circle_marker_7def22fdd865429cbe30a6098d596c75.bindPopup(popup_fb5c5f2f8f2c4e14b39447e007b6970c)
+        ;
+
+        
+    
+    
+            var circle_marker_4a4d6c52a8924b048e0a6f46e931cedd = L.circleMarker(
+                [31.62736111111111, 100.23436111111111],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fb05cd9b0a234f2583bc207ecdb6e7a1);
+        
+    
+        var popup_398450f99e3e40d4915978e0b88d10aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb85fa15e9c44f3893d6487cf14ace84 = $(`<div id="html_cb85fa15e9c44f3893d6487cf14ace84" style="width: 100.0%; height: 100.0%;">Pedicularis-polyodonta | DE247 | 2018</div>`)[0];
+            popup_398450f99e3e40d4915978e0b88d10aa.setContent(html_cb85fa15e9c44f3893d6487cf14ace84);
+        
+
+        circle_marker_4a4d6c52a8924b048e0a6f46e931cedd.bindPopup(popup_398450f99e3e40d4915978e0b88d10aa)
+        ;
+
+        
+    
+    
+            var circle_marker_261433b64709444e87a5f493c3663180 = L.circleMarker(
+                [31.715305555555556, 99.61627777777777],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fb05cd9b0a234f2583bc207ecdb6e7a1);
+        
+    
+        var popup_4921fc5d6dbb4d94a4caf5a54c67d78a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ba4f5b5e5ed4e169ab5740fdbd9a415 = $(`<div id="html_1ba4f5b5e5ed4e169ab5740fdbd9a415" style="width: 100.0%; height: 100.0%;">Pedicularis-polyodonta | DE276 | 2018</div>`)[0];
+            popup_4921fc5d6dbb4d94a4caf5a54c67d78a.setContent(html_1ba4f5b5e5ed4e169ab5740fdbd9a415);
+        
+
+        circle_marker_261433b64709444e87a5f493c3663180.bindPopup(popup_4921fc5d6dbb4d94a4caf5a54c67d78a)
+        ;
+
+        
+    
+    
+            var circle_marker_ee0619898ecf4a9b90aca03c35053e50 = L.circleMarker(
+                [31.911027777777775, 99.25786111111111],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fb05cd9b0a234f2583bc207ecdb6e7a1);
+        
+    
+        var popup_060668be15c34a428e920a7c56941ab2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae0f0e50621c4fa3ad553560849eaee9 = $(`<div id="html_ae0f0e50621c4fa3ad553560849eaee9" style="width: 100.0%; height: 100.0%;">Pedicularis-polyodonta | DE281 | 2018</div>`)[0];
+            popup_060668be15c34a428e920a7c56941ab2.setContent(html_ae0f0e50621c4fa3ad553560849eaee9);
+        
+
+        circle_marker_ee0619898ecf4a9b90aca03c35053e50.bindPopup(popup_060668be15c34a428e920a7c56941ab2)
+        ;
+
+        
+    
+    
+            var circle_marker_c3b3de952a234f96920a0bc3dc3e25d8 = L.circleMarker(
+                [32.066861111111116, 99.00422222222223],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fb05cd9b0a234f2583bc207ecdb6e7a1);
+        
+    
+        var popup_e748fdf703b9443685b92d856560148e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_995ecf591c1646f9a9f977df1d4aea18 = $(`<div id="html_995ecf591c1646f9a9f977df1d4aea18" style="width: 100.0%; height: 100.0%;">Pedicularis-polyodonta | DE293 | 2018</div>`)[0];
+            popup_e748fdf703b9443685b92d856560148e.setContent(html_995ecf591c1646f9a9f977df1d4aea18);
+        
+
+        circle_marker_c3b3de952a234f96920a0bc3dc3e25d8.bindPopup(popup_e748fdf703b9443685b92d856560148e)
+        ;
+
+        
+    
+    
+            var circle_marker_35cbded1ef194a158f5b945c7339e3d3 = L.circleMarker(
+                [32.009027777777774, 99.04827777777777],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fb05cd9b0a234f2583bc207ecdb6e7a1);
+        
+    
+        var popup_cb7761f8dc9248c0a05c29ac4abf6260 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2dc3f35bca343dca8bd201cdbc775b5 = $(`<div id="html_f2dc3f35bca343dca8bd201cdbc775b5" style="width: 100.0%; height: 100.0%;">Pedicularis-polyodonta | DE304 | 2018</div>`)[0];
+            popup_cb7761f8dc9248c0a05c29ac4abf6260.setContent(html_f2dc3f35bca343dca8bd201cdbc775b5);
+        
+
+        circle_marker_35cbded1ef194a158f5b945c7339e3d3.bindPopup(popup_cb7761f8dc9248c0a05c29ac4abf6260)
+        ;
+
+        
+    
+    
+            var circle_marker_47b52aa8d6bf400999b28af63fb8b845 = L.circleMarker(
+                [30.01527777777778, 101.85944444444443],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.509995655950528, "stroke": true, "weight": 3}
+            ).addTo(map_fb05cd9b0a234f2583bc207ecdb6e7a1);
+        
+    
+        var popup_572e22b420ee4de99d160002addc9cbb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82281500f6c94f81a1234bf08d7dc26f = $(`<div id="html_82281500f6c94f81a1234bf08d7dc26f" style="width: 100.0%; height: 100.0%;">Pedicularis-lyrata | 27561 | 1997</div>`)[0];
+            popup_572e22b420ee4de99d160002addc9cbb.setContent(html_82281500f6c94f81a1234bf08d7dc26f);
+        
+
+        circle_marker_47b52aa8d6bf400999b28af63fb8b845.bindPopup(popup_572e22b420ee4de99d160002addc9cbb)
+        ;
+
+        
+    
+    
+            var circle_marker_b32af8bff49244e4a2b70088070f8125 = L.circleMarker(
+                [30.85027777777778, 101.27666666666667],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.509995655950528, "stroke": true, "weight": 3}
+            ).addTo(map_fb05cd9b0a234f2583bc207ecdb6e7a1);
+        
+    
+        var popup_ded3bb6b081840e796be4f8079add4d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a083920e747f421b9e9ff843ec85f642 = $(`<div id="html_a083920e747f421b9e9ff843ec85f642" style="width: 100.0%; height: 100.0%;">Pedicularis-lyrata | 27706 | 1997</div>`)[0];
+            popup_ded3bb6b081840e796be4f8079add4d7.setContent(html_a083920e747f421b9e9ff843ec85f642);
+        
+
+        circle_marker_b32af8bff49244e4a2b70088070f8125.bindPopup(popup_ded3bb6b081840e796be4f8079add4d7)
+        ;
+
+        
+    
+    
+            var circle_marker_171cd725db6247bf9e7c770b3dc4d377 = L.circleMarker(
+                [31.724999999999998, 100.74444444444444],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.509995655950528, "stroke": true, "weight": 3}
+            ).addTo(map_fb05cd9b0a234f2583bc207ecdb6e7a1);
+        
+    
+        var popup_e5286758665a4adc993a15b8d7953c9c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2c70d40fc184e099a76f9d158ef0df0 = $(`<div id="html_b2c70d40fc184e099a76f9d158ef0df0" style="width: 100.0%; height: 100.0%;">Pedicularis-lyrata | 27835 | 1997</div>`)[0];
+            popup_e5286758665a4adc993a15b8d7953c9c.setContent(html_b2c70d40fc184e099a76f9d158ef0df0);
+        
+
+        circle_marker_171cd725db6247bf9e7c770b3dc4d377.bindPopup(popup_e5286758665a4adc993a15b8d7953c9c)
+        ;
+
+        
+    
+    
+            var circle_marker_227b1d6f16954d50b9ddde350d5f5350 = L.circleMarker(
+                [29.072499999999998, 99.63222222222221],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.256997823576231, "stroke": true, "weight": 3}
+            ).addTo(map_fb05cd9b0a234f2583bc207ecdb6e7a1);
+        
+    
+        var popup_0aaf9fd85b3c455483064e323ba71106 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c14132d540c48278c119e94deea0c94 = $(`<div id="html_9c14132d540c48278c119e94deea0c94" style="width: 100.0%; height: 100.0%;">Pedicularis-dolichoglossa | 28873 | 1998</div>`)[0];
+            popup_0aaf9fd85b3c455483064e323ba71106.setContent(html_9c14132d540c48278c119e94deea0c94);
+        
+
+        circle_marker_227b1d6f16954d50b9ddde350d5f5350.bindPopup(popup_0aaf9fd85b3c455483064e323ba71106)
+        ;
+
+        
+    
+    
+            var circle_marker_aab1ce34100a471e92bb84b8687edf76 = L.circleMarker(
+                [28.593888888888888, 99.84694444444445],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.256997823576231, "stroke": true, "weight": 3}
+            ).addTo(map_fb05cd9b0a234f2583bc207ecdb6e7a1);
+        
+    
+        var popup_0d1858913a084ba7ab1c0dbfd4eab67e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7c9447920c6402fb66e6fb703ea6304 = $(`<div id="html_c7c9447920c6402fb66e6fb703ea6304" style="width: 100.0%; height: 100.0%;">Pedicularis-dolichoglossa | 29236 | 1998</div>`)[0];
+            popup_0d1858913a084ba7ab1c0dbfd4eab67e.setContent(html_c7c9447920c6402fb66e6fb703ea6304);
+        
+
+        circle_marker_aab1ce34100a471e92bb84b8687edf76.bindPopup(popup_0d1858913a084ba7ab1c0dbfd4eab67e)
+        ;
+
+        
+    
+</script>
