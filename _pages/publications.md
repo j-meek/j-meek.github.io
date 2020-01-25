@@ -9,6 +9,8 @@ header:
 
 ### 2020
 
+Carlson, CJ, GF Albery, C Merow, CH Trisos, CM Zipfel, **EA Eskew**, KJ Olival, N Ross, and S Bansal. [Climate change will drive novel cross-species viral transmission](/assets/docs/Carlson_etal_2020_preprint.pdf). [preprint; [GitHub repository](https://github.com/cjcarlson/iceberg)]
+
 **Eskew, EA**, AM White, N Ross, KM Smith, KF Smith, JP Rodríguez, C Zambrana-Torrelio, WB Karesh, and P Daszak. [United States wildlife and wildlife product imports from 2000-2014](/assets/docs/Eskew_etal_2020_Scientific_Data.pdf). [[GitHub repository](https://github.com/ecohealthalliance/lemis); [Zenodo repository](https://doi.org/10.5281/zenodo.3387660); [preprint version](/assets/docs/Eskew_etal_2019_LEMIS_preprint.pdf)]
 
 ### 2019
