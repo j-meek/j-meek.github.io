@@ -9,16 +9,18 @@ header:
 
 ### 2020
 
-Carlson, CJ, GF Albery, C Merow, CH Trisos, CM Zipfel, **EA Eskew**, KJ Olival, N Ross, and S Bansal. [Climate change will drive novel cross-species viral transmission](/assets/docs/Carlson_etal_2020_preprint.pdf). [preprint; [GitHub repository](https://github.com/cjcarlson/iceberg)]
+Di Marco, M, M Baker, P Daszak, P De Barro, **EA Eskew**, C Godde, T Harwood, M Herrero, A Hoskins, E Johnson, WB Karesh, C Machalaba, JN Garcia, D Paini, R Pirzl, MS Smith, C Zambrana-Torrelio, and S Ferrier. [Sustainable development must account for pandemic risk](http://www.pnas.org/cgi/doi/10.1073/pnas.2001655117).
 
-**Eskew, EA**, AM White, N Ross, KM Smith, KF Smith, JP Rodríguez, C Zambrana-Torrelio, WB Karesh, and P Daszak. [United States wildlife and wildlife product imports from 2000-2014](/assets/docs/Eskew_etal_2020_Scientific_Data.pdf). [[GitHub repository](https://github.com/ecohealthalliance/lemis); [Zenodo repository](https://doi.org/10.5281/zenodo.3387660); [preprint version](/assets/docs/Eskew_etal_2019_LEMIS_preprint.pdf)]
+Carlson, CJ, GF Albery, C Merow, CH Trisos, CM Zipfel, **EA Eskew**, KJ Olival, N Ross, and S Bansal. [Climate change will drive novel cross-species viral transmission](https://doi.org/10.1101/2020.01.24.918755). [preprint; [GitHub repository](https://github.com/cjcarlson/iceberg)]
+
+**Eskew, EA**, AM White, N Ross, KM Smith, KF Smith, JP Rodríguez, C Zambrana-Torrelio, WB Karesh, and P Daszak. [United States wildlife and wildlife product imports from 2000-2014](/assets/docs/Eskew_etal_2020_Scientific_Data.pdf). [[GitHub repository](https://github.com/ecohealthalliance/lemis); [Zenodo repository](https://doi.org/10.5281/zenodo.3387660); [preprint version](https://doi.org/10.1101/780197)]
 
 ### 2019
 
 Brown, P, **RELISH Consortium**\*, and Y Zhou. [Large expert-curated database for benchmarking document similarity detection in biomedical literature search](/assets/docs/Brown_etal_2019.pdf).  
 \* **EA Eskew** is a RELISH Consortium member
 
-Albery, GF, **EA Eskew**, N Ross, and KJ Olival. [Predicting the global mammalian viral sharing network using phylogeography](/assets/docs/Albery_etal_2019_preprint.pdf). [preprint; [GitHub repository](https://github.com/gfalbery/ViralSharingPhylogeography)]
+Albery, GF, **EA Eskew**, N Ross, and KJ Olival. [Predicting the global mammalian viral sharing network using phylogeography](https://doi.org/10.1101/732255). [preprint; [GitHub repository](https://github.com/gfalbery/ViralSharingPhylogeography)]
 
 Ross, N, **EA Eskew**, and N Ray. [citesdb: An R package to support analysis of CITES Trade Database shipment-level data](/assets/docs/Ross_etal_2019.pdf). [[GitHub repository](https://github.com/ropensci/citesdb)]
 
