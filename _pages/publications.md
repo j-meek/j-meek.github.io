@@ -9,7 +9,7 @@ header:
 
 ### 2020
 
-Di Marco, M, M Baker, P Daszak, P De Barro, **EA Eskew**, C Godde, T Harwood, M Herrero, A Hoskins, E Johnson, WB Karesh, C Machalaba, JN Garcia, D Paini, R Pirzl, MS Smith, C Zambrana-Torrelio, and S Ferrier. [Sustainable development must account for pandemic risk](http://www.pnas.org/cgi/doi/10.1073/pnas.2001655117).
+Di Marco, M, M Baker, P Daszak, P De Barro, **EA Eskew**, C Godde, T Harwood, M Herrero, A Hoskins, E Johnson, WB Karesh, C Machalaba, J Navarro Garcia, D Paini, R Pirzl, MS Smith, C Zambrana-Torrelio, and S Ferrier. [Opinion: Sustainable development must account for pandemic risk](/assets/docs/DiMarco_etal_2020.pdf).
 
 Carlson, CJ, GF Albery, C Merow, CH Trisos, CM Zipfel, **EA Eskew**, KJ Olival, N Ross, and S Bansal. [Climate change will drive novel cross-species viral transmission](https://doi.org/10.1101/2020.01.24.918755). [preprint; [GitHub repository](https://github.com/cjcarlson/iceberg)]
 
