@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a4db854f12c8417eae6d8fe821aea9de {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_a4db854f12c8417eae6d8fe821aea9de" ></div>
+        
+</body>
+<script>    
+    
+            var map_a4db854f12c8417eae6d8fe821aea9de = L.map(
+                "map_a4db854f12c8417eae6d8fe821aea9de",
+                {
+                    center: [30.7702, 100.6897],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_898892e85dc44f57ad63001158b86291 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a4db854f12c8417eae6d8fe821aea9de);
+        
+    
+            var circle_marker_d0f286cd999241749e860055985b588a = L.circleMarker(
+                [32.13869444, 101.04],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4db854f12c8417eae6d8fe821aea9de);
+        
+    
+        var popup_765ea9af8d1b4f81b9b294f04ea3074b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6cbb78f9679341a4a1fea88f4f23c047 = $(`<div id="html_6cbb78f9679341a4a1fea88f4f23c047" style="width: 100.0%; height: 100.0%;">lachnoglossa-DE612</div>`)[0];
+            popup_765ea9af8d1b4f81b9b294f04ea3074b.setContent(html_6cbb78f9679341a4a1fea88f4f23c047);
+        
+
+        circle_marker_d0f286cd999241749e860055985b588a.bindPopup(popup_765ea9af8d1b4f81b9b294f04ea3074b)
+        ;
+
+        
+    
+    
+            circle_marker_d0f286cd999241749e860055985b588a.bindTooltip(
+                `<div>
+                     lachnoglossa-DE612
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e4526fd1c5094749914246cbc119022b = L.circleMarker(
+                [30.64311111, 101.4041389],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4db854f12c8417eae6d8fe821aea9de);
+        
+    
+        var popup_050572c8c4184ff9aaedb65fffee830c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d71bf6b7f684be0afe403db200410b4 = $(`<div id="html_8d71bf6b7f684be0afe403db200410b4" style="width: 100.0%; height: 100.0%;">lachnoglossa-DE147</div>`)[0];
+            popup_050572c8c4184ff9aaedb65fffee830c.setContent(html_8d71bf6b7f684be0afe403db200410b4);
+        
+
+        circle_marker_e4526fd1c5094749914246cbc119022b.bindPopup(popup_050572c8c4184ff9aaedb65fffee830c)
+        ;
+
+        
+    
+    
+            circle_marker_e4526fd1c5094749914246cbc119022b.bindTooltip(
+                `<div>
+                     lachnoglossa-DE147
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f7b112964abb4b8c97a1bdffe53c40c4 = L.circleMarker(
+                [30.71183333, 101.3643333],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4db854f12c8417eae6d8fe821aea9de);
+        
+    
+        var popup_9467f6d3337140ac9b0ea81d17044baf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab9b1e0239264e3e9998c41f73cf7b3c = $(`<div id="html_ab9b1e0239264e3e9998c41f73cf7b3c" style="width: 100.0%; height: 100.0%;">lachnoglossa-DE161</div>`)[0];
+            popup_9467f6d3337140ac9b0ea81d17044baf.setContent(html_ab9b1e0239264e3e9998c41f73cf7b3c);
+        
+
+        circle_marker_f7b112964abb4b8c97a1bdffe53c40c4.bindPopup(popup_9467f6d3337140ac9b0ea81d17044baf)
+        ;
+
+        
+    
+    
+            circle_marker_f7b112964abb4b8c97a1bdffe53c40c4.bindTooltip(
+                `<div>
+                     lachnoglossa-DE161
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8c1c2c46661d4d6187ff269ad79f9c5d = L.circleMarker(
+                [30.74063889, 101.3343611],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4db854f12c8417eae6d8fe821aea9de);
+        
+    
+        var popup_7287617725cc4805a599b71857ef424b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad5730ca41d844c69ad7b3bd8d68c22a = $(`<div id="html_ad5730ca41d844c69ad7b3bd8d68c22a" style="width: 100.0%; height: 100.0%;">lachnoglossa-DE556</div>`)[0];
+            popup_7287617725cc4805a599b71857ef424b.setContent(html_ad5730ca41d844c69ad7b3bd8d68c22a);
+        
+
+        circle_marker_8c1c2c46661d4d6187ff269ad79f9c5d.bindPopup(popup_7287617725cc4805a599b71857ef424b)
+        ;
+
+        
+    
+    
+            circle_marker_8c1c2c46661d4d6187ff269ad79f9c5d.bindTooltip(
+                `<div>
+                     lachnoglossa-DE556
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3ed3eba5ae104628b1bd4772ea05b740 = L.circleMarker(
+                [31.54313889, 100.47063890000001],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4db854f12c8417eae6d8fe821aea9de);
+        
+    
+        var popup_9eb5137022914e3298a0465e14d9ad71 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d57454cd17b46fc813d3c3847b7d448 = $(`<div id="html_1d57454cd17b46fc813d3c3847b7d448" style="width: 100.0%; height: 100.0%;">lachnoglossa-DE227</div>`)[0];
+            popup_9eb5137022914e3298a0465e14d9ad71.setContent(html_1d57454cd17b46fc813d3c3847b7d448);
+        
+
+        circle_marker_3ed3eba5ae104628b1bd4772ea05b740.bindPopup(popup_9eb5137022914e3298a0465e14d9ad71)
+        ;
+
+        
+    
+    
+            circle_marker_3ed3eba5ae104628b1bd4772ea05b740.bindTooltip(
+                `<div>
+                     lachnoglossa-DE227
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8b1c6485e77740ac83a3dd56da82a7ff = L.circleMarker(
+                [31.20102778, 100.8578889],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4db854f12c8417eae6d8fe821aea9de);
+        
+    
+        var popup_01b02872e9274a0e99545e3eba1554f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_983b807ff5424717ac1db5bb8b957282 = $(`<div id="html_983b807ff5424717ac1db5bb8b957282" style="width: 100.0%; height: 100.0%;">lachnoglossa-DE564</div>`)[0];
+            popup_01b02872e9274a0e99545e3eba1554f9.setContent(html_983b807ff5424717ac1db5bb8b957282);
+        
+
+        circle_marker_8b1c6485e77740ac83a3dd56da82a7ff.bindPopup(popup_01b02872e9274a0e99545e3eba1554f9)
+        ;
+
+        
+    
+    
+            circle_marker_8b1c6485e77740ac83a3dd56da82a7ff.bindTooltip(
+                `<div>
+                     lachnoglossa-DE564
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2639e56881fa42ecb3ff6f8cd467cb2c = L.circleMarker(
+                [30.89688889, 101.1183333],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4db854f12c8417eae6d8fe821aea9de);
+        
+    
+        var popup_5a5705e60d2343d9a136d50dd2274d40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08ac3c03d8ee4388883c05ea51604d4a = $(`<div id="html_08ac3c03d8ee4388883c05ea51604d4a" style="width: 100.0%; height: 100.0%;">lachnoglossa-DE568</div>`)[0];
+            popup_5a5705e60d2343d9a136d50dd2274d40.setContent(html_08ac3c03d8ee4388883c05ea51604d4a);
+        
+
+        circle_marker_2639e56881fa42ecb3ff6f8cd467cb2c.bindPopup(popup_5a5705e60d2343d9a136d50dd2274d40)
+        ;
+
+        
+    
+    
+            circle_marker_2639e56881fa42ecb3ff6f8cd467cb2c.bindTooltip(
+                `<div>
+                     lachnoglossa-DE568
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bde8e394e563478a93f1fd8141f26897 = L.circleMarker(
+                [31.725, 100.7444444],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4db854f12c8417eae6d8fe821aea9de);
+        
+    
+        var popup_26c4021f02aa422799fd20cf17d3a2c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5726e0806ac044609345256de654d325 = $(`<div id="html_5726e0806ac044609345256de654d325" style="width: 100.0%; height: 100.0%;">lachnoglossa-DE580</div>`)[0];
+            popup_26c4021f02aa422799fd20cf17d3a2c2.setContent(html_5726e0806ac044609345256de654d325);
+        
+
+        circle_marker_bde8e394e563478a93f1fd8141f26897.bindPopup(popup_26c4021f02aa422799fd20cf17d3a2c2)
+        ;
+
+        
+    
+    
+            circle_marker_bde8e394e563478a93f1fd8141f26897.bindTooltip(
+                `<div>
+                     lachnoglossa-DE580
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2d6b27394aad425bb3769b4d0667939e = L.circleMarker(
+                [31.42361111, 100.6208333],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4db854f12c8417eae6d8fe821aea9de);
+        
+    
+        var popup_ac705e1714bf4b3eab3bd0b995ea6f56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0259f7f814f649afa51b98c04fd87878 = $(`<div id="html_0259f7f814f649afa51b98c04fd87878" style="width: 100.0%; height: 100.0%;">lachnoglossa-DE591</div>`)[0];
+            popup_ac705e1714bf4b3eab3bd0b995ea6f56.setContent(html_0259f7f814f649afa51b98c04fd87878);
+        
+
+        circle_marker_2d6b27394aad425bb3769b4d0667939e.bindPopup(popup_ac705e1714bf4b3eab3bd0b995ea6f56)
+        ;
+
+        
+    
+    
+            circle_marker_2d6b27394aad425bb3769b4d0667939e.bindTooltip(
+                `<div>
+                     lachnoglossa-DE591
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_62ca28151848448586bc1e434235f4fe = L.circleMarker(
+                [31.6575, 100.7013056],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4db854f12c8417eae6d8fe821aea9de);
+        
+    
+        var popup_f742f6961622499c97b056a2e9ad5802 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08fc61b1c4f44fd6b79607f64b239c02 = $(`<div id="html_08fc61b1c4f44fd6b79607f64b239c02" style="width: 100.0%; height: 100.0%;">lachnoglossa-DE650</div>`)[0];
+            popup_f742f6961622499c97b056a2e9ad5802.setContent(html_08fc61b1c4f44fd6b79607f64b239c02);
+        
+
+        circle_marker_62ca28151848448586bc1e434235f4fe.bindPopup(popup_f742f6961622499c97b056a2e9ad5802)
+        ;
+
+        
+    
+    
+            circle_marker_62ca28151848448586bc1e434235f4fe.bindTooltip(
+                `<div>
+                     lachnoglossa-DE650
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2e399be3e2934c8d81dc77820309d602 = L.circleMarker(
+                [30.27855556, 101.5235556],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4db854f12c8417eae6d8fe821aea9de);
+        
+    
+        var popup_7a5cdd7e6c0a4f8da006a8f249f2b661 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25872414d6654a6aafb9a5f39f8f1941 = $(`<div id="html_25872414d6654a6aafb9a5f39f8f1941" style="width: 100.0%; height: 100.0%;">lachnoglossa-DE123</div>`)[0];
+            popup_7a5cdd7e6c0a4f8da006a8f249f2b661.setContent(html_25872414d6654a6aafb9a5f39f8f1941);
+        
+
+        circle_marker_2e399be3e2934c8d81dc77820309d602.bindPopup(popup_7a5cdd7e6c0a4f8da006a8f249f2b661)
+        ;
+
+        
+    
+    
+            circle_marker_2e399be3e2934c8d81dc77820309d602.bindTooltip(
+                `<div>
+                     lachnoglossa-DE123
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f7a200bf2fa04ee8bb0d9af0f4c2baaf = L.circleMarker(
+                [30.14461111, 101.8593056],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4db854f12c8417eae6d8fe821aea9de);
+        
+    
+        var popup_77d0b7e7115a4161b298af1219a37f2e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0a56070d2c34e20935ec3c51555af31 = $(`<div id="html_a0a56070d2c34e20935ec3c51555af31" style="width: 100.0%; height: 100.0%;">lachnoglossa-DE520</div>`)[0];
+            popup_77d0b7e7115a4161b298af1219a37f2e.setContent(html_a0a56070d2c34e20935ec3c51555af31);
+        
+
+        circle_marker_f7a200bf2fa04ee8bb0d9af0f4c2baaf.bindPopup(popup_77d0b7e7115a4161b298af1219a37f2e)
+        ;
+
+        
+    
+    
+            circle_marker_f7a200bf2fa04ee8bb0d9af0f4c2baaf.bindTooltip(
+                `<div>
+                     lachnoglossa-DE520
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5361938130b0416192fff29e4f4ba8d0 = L.circleMarker(
+                [30.04027778, 101.8377778],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4db854f12c8417eae6d8fe821aea9de);
+        
+    
+        var popup_5e551b003b534a1d86451b111155625e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c877ff3d10b940d9a4d0a189fe6054c8 = $(`<div id="html_c877ff3d10b940d9a4d0a189fe6054c8" style="width: 100.0%; height: 100.0%;">lachnoglossa-DE536</div>`)[0];
+            popup_5e551b003b534a1d86451b111155625e.setContent(html_c877ff3d10b940d9a4d0a189fe6054c8);
+        
+
+        circle_marker_5361938130b0416192fff29e4f4ba8d0.bindPopup(popup_5e551b003b534a1d86451b111155625e)
+        ;
+
+        
+    
+    
+            circle_marker_5361938130b0416192fff29e4f4ba8d0.bindTooltip(
+                `<div>
+                     lachnoglossa-DE536
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b2b2e7c921be4b1ca36f06569d99eec0 = L.circleMarker(
+                [30.28833333, 101.5315833],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4db854f12c8417eae6d8fe821aea9de);
+        
+    
+        var popup_40a7421a16044fed9189a2dce5b1f230 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4deaa740f04b4b5594a36aa751812d5d = $(`<div id="html_4deaa740f04b4b5594a36aa751812d5d" style="width: 100.0%; height: 100.0%;">lachnoglossa-DE551</div>`)[0];
+            popup_40a7421a16044fed9189a2dce5b1f230.setContent(html_4deaa740f04b4b5594a36aa751812d5d);
+        
+
+        circle_marker_b2b2e7c921be4b1ca36f06569d99eec0.bindPopup(popup_40a7421a16044fed9189a2dce5b1f230)
+        ;
+
+        
+    
+    
+            circle_marker_b2b2e7c921be4b1ca36f06569d99eec0.bindTooltip(
+                `<div>
+                     lachnoglossa-DE551
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0daccc8af4444fccab993d5c3cca67ab = L.circleMarker(
+                [28.14758333, 101.1633333],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4db854f12c8417eae6d8fe821aea9de);
+        
+    
+        var popup_03246a4989a6442ab269d47f1d9d091e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d85f81a11cb14e529c334450c8289c75 = $(`<div id="html_d85f81a11cb14e529c334450c8289c75" style="width: 100.0%; height: 100.0%;">lachnoglossa-DE481</div>`)[0];
+            popup_03246a4989a6442ab269d47f1d9d091e.setContent(html_d85f81a11cb14e529c334450c8289c75);
+        
+
+        circle_marker_0daccc8af4444fccab993d5c3cca67ab.bindPopup(popup_03246a4989a6442ab269d47f1d9d091e)
+        ;
+
+        
+    
+    
+            circle_marker_0daccc8af4444fccab993d5c3cca67ab.bindTooltip(
+                `<div>
+                     lachnoglossa-DE481
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_21b4a73f19d245d1ba1fa9418309b207 = L.circleMarker(
+                [28.32222222, 101.16638890000002],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4db854f12c8417eae6d8fe821aea9de);
+        
+    
+        var popup_7df9269098f44fd08d6d7b39efea0bf9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d84e6d143e7492fbb0b75f105a00c86 = $(`<div id="html_4d84e6d143e7492fbb0b75f105a00c86" style="width: 100.0%; height: 100.0%;">lachnoglossa-DE492</div>`)[0];
+            popup_7df9269098f44fd08d6d7b39efea0bf9.setContent(html_4d84e6d143e7492fbb0b75f105a00c86);
+        
+
+        circle_marker_21b4a73f19d245d1ba1fa9418309b207.bindPopup(popup_7df9269098f44fd08d6d7b39efea0bf9)
+        ;
+
+        
+    
+    
+            circle_marker_21b4a73f19d245d1ba1fa9418309b207.bindTooltip(
+                `<div>
+                     lachnoglossa-DE492
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f16fe045fcc749619984c41694340115 = L.circleMarker(
+                [28.61722222, 99.83083333],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4db854f12c8417eae6d8fe821aea9de);
+        
+    
+        var popup_1349ac4fb2f0477ead26fe9ee8ecfa12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e4300ac5edf4733a06ae4792bd9b691 = $(`<div id="html_7e4300ac5edf4733a06ae4792bd9b691" style="width: 100.0%; height: 100.0%;">lachnoglossa-DE27</div>`)[0];
+            popup_1349ac4fb2f0477ead26fe9ee8ecfa12.setContent(html_7e4300ac5edf4733a06ae4792bd9b691);
+        
+
+        circle_marker_f16fe045fcc749619984c41694340115.bindPopup(popup_1349ac4fb2f0477ead26fe9ee8ecfa12)
+        ;
+
+        
+    
+    
+            circle_marker_f16fe045fcc749619984c41694340115.bindTooltip(
+                `<div>
+                     lachnoglossa-DE27
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a50a4fb85a13415eaf40b7416d7d62f2 = L.circleMarker(
+                [29.14180556, 100.15661109999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4db854f12c8417eae6d8fe821aea9de);
+        
+    
+        var popup_e4a6ddda651f4819b1c93672ce5d8b59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_173c1e6d8b8140aea595ae7a90da8e6e = $(`<div id="html_173c1e6d8b8140aea595ae7a90da8e6e" style="width: 100.0%; height: 100.0%;">lachnoglossa-DE419</div>`)[0];
+            popup_e4a6ddda651f4819b1c93672ce5d8b59.setContent(html_173c1e6d8b8140aea595ae7a90da8e6e);
+        
+
+        circle_marker_a50a4fb85a13415eaf40b7416d7d62f2.bindPopup(popup_e4a6ddda651f4819b1c93672ce5d8b59)
+        ;
+
+        
+    
+    
+            circle_marker_a50a4fb85a13415eaf40b7416d7d62f2.bindTooltip(
+                `<div>
+                     lachnoglossa-DE419
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e4ea0e0df68b49bda8196593f1e160ac = L.circleMarker(
+                [28.74638889, 100.2691667],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4db854f12c8417eae6d8fe821aea9de);
+        
+    
+        var popup_614c1bfeaf4743808fbf6e5c2d1e7a58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cebd6e990a9b4b768d337d79fd282ed6 = $(`<div id="html_cebd6e990a9b4b768d337d79fd282ed6" style="width: 100.0%; height: 100.0%;">lachnoglossa-DE437</div>`)[0];
+            popup_614c1bfeaf4743808fbf6e5c2d1e7a58.setContent(html_cebd6e990a9b4b768d337d79fd282ed6);
+        
+
+        circle_marker_e4ea0e0df68b49bda8196593f1e160ac.bindPopup(popup_614c1bfeaf4743808fbf6e5c2d1e7a58)
+        ;
+
+        
+    
+    
+            circle_marker_e4ea0e0df68b49bda8196593f1e160ac.bindTooltip(
+                `<div>
+                     lachnoglossa-DE437
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_233790370fa34547a5bcda7e9b242d1a = L.circleMarker(
+                [29.14261111, 99.92980556],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4db854f12c8417eae6d8fe821aea9de);
+        
+    
+        var popup_414d4d99dddb4684a4cb463cfc7fc97d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4116a5a04504d6e9431803c5b42344d = $(`<div id="html_a4116a5a04504d6e9431803c5b42344d" style="width: 100.0%; height: 100.0%;">lachnoglossa-DE443</div>`)[0];
+            popup_414d4d99dddb4684a4cb463cfc7fc97d.setContent(html_a4116a5a04504d6e9431803c5b42344d);
+        
+
+        circle_marker_233790370fa34547a5bcda7e9b242d1a.bindPopup(popup_414d4d99dddb4684a4cb463cfc7fc97d)
+        ;
+
+        
+    
+    
+            circle_marker_233790370fa34547a5bcda7e9b242d1a.bindTooltip(
+                `<div>
+                     lachnoglossa-DE443
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cf4a92369d164c269850d037fa466230 = L.circleMarker(
+                [30.15875, 100.5660833],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4db854f12c8417eae6d8fe821aea9de);
+        
+    
+        var popup_430b1cd4643d4492a8d63acdb3b25cb6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1179377c3e0f4792bab9922d6243cf75 = $(`<div id="html_1179377c3e0f4792bab9922d6243cf75" style="width: 100.0%; height: 100.0%;">lachnoglossa-DE82</div>`)[0];
+            popup_430b1cd4643d4492a8d63acdb3b25cb6.setContent(html_1179377c3e0f4792bab9922d6243cf75);
+        
+
+        circle_marker_cf4a92369d164c269850d037fa466230.bindPopup(popup_430b1cd4643d4492a8d63acdb3b25cb6)
+        ;
+
+        
+    
+    
+            circle_marker_cf4a92369d164c269850d037fa466230.bindTooltip(
+                `<div>
+                     lachnoglossa-DE82
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5209ed6f0d514298bd14a0d97bf6116d = L.circleMarker(
+                [31.71530556, 99.61627778],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4db854f12c8417eae6d8fe821aea9de);
+        
+    
+        var popup_0c639d67a137453dab21928e0f7fe5ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1188be4f26394145a7a734d934eb399a = $(`<div id="html_1188be4f26394145a7a734d934eb399a" style="width: 100.0%; height: 100.0%;">lachnoglossa-DE271</div>`)[0];
+            popup_0c639d67a137453dab21928e0f7fe5ae.setContent(html_1188be4f26394145a7a734d934eb399a);
+        
+
+        circle_marker_5209ed6f0d514298bd14a0d97bf6116d.bindPopup(popup_0c639d67a137453dab21928e0f7fe5ae)
+        ;
+
+        
+    
+    
+            circle_marker_5209ed6f0d514298bd14a0d97bf6116d.bindTooltip(
+                `<div>
+                     lachnoglossa-DE271
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9b4bf63a00e444a3bccf0b4bb7ab2399 = L.circleMarker(
+                [31.88711111, 99.03377778],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4db854f12c8417eae6d8fe821aea9de);
+        
+    
+        var popup_2ba52908c7364b8d94bfe1e27e950fbb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f99c7430dfde49e09f149455e2598cce = $(`<div id="html_f99c7430dfde49e09f149455e2598cce" style="width: 100.0%; height: 100.0%;">lachnoglossa-DE312</div>`)[0];
+            popup_2ba52908c7364b8d94bfe1e27e950fbb.setContent(html_f99c7430dfde49e09f149455e2598cce);
+        
+
+        circle_marker_9b4bf63a00e444a3bccf0b4bb7ab2399.bindPopup(popup_2ba52908c7364b8d94bfe1e27e950fbb)
+        ;
+
+        
+    
+    
+            circle_marker_9b4bf63a00e444a3bccf0b4bb7ab2399.bindTooltip(
+                `<div>
+                     lachnoglossa-DE312
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_59eff41fcb4e46ddb22878fc7a9794d8 = L.circleMarker(
+                [31.46325, 98.82013889],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4db854f12c8417eae6d8fe821aea9de);
+        
+    
+        var popup_4151fec3c6e84400a1d743c25c4561c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef8acbb544484165b18d67bd7ef8c593 = $(`<div id="html_ef8acbb544484165b18d67bd7ef8c593" style="width: 100.0%; height: 100.0%;">lachnoglossa-DE331</div>`)[0];
+            popup_4151fec3c6e84400a1d743c25c4561c7.setContent(html_ef8acbb544484165b18d67bd7ef8c593);
+        
+
+        circle_marker_59eff41fcb4e46ddb22878fc7a9794d8.bindPopup(popup_4151fec3c6e84400a1d743c25c4561c7)
+        ;
+
+        
+    
+    
+            circle_marker_59eff41fcb4e46ddb22878fc7a9794d8.bindTooltip(
+                `<div>
+                     lachnoglossa-DE331
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_38b22ca76e184e7fbc89329f57468f4a = L.circleMarker(
+                [31.04430556, 98.90880556],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4db854f12c8417eae6d8fe821aea9de);
+        
+    
+        var popup_dbc11b70e630407a96008220ff8ee334 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6dd427c5e5914d3fabc4ff4c1f0ee0c3 = $(`<div id="html_6dd427c5e5914d3fabc4ff4c1f0ee0c3" style="width: 100.0%; height: 100.0%;">lachnoglossa-DE342</div>`)[0];
+            popup_dbc11b70e630407a96008220ff8ee334.setContent(html_6dd427c5e5914d3fabc4ff4c1f0ee0c3);
+        
+
+        circle_marker_38b22ca76e184e7fbc89329f57468f4a.bindPopup(popup_dbc11b70e630407a96008220ff8ee334)
+        ;
+
+        
+    
+    
+            circle_marker_38b22ca76e184e7fbc89329f57468f4a.bindTooltip(
+                `<div>
+                     lachnoglossa-DE342
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bd9af3c99af74b7196cd5288fe5e2eaa = L.circleMarker(
+                [29.82083333, 100.3458889],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a4db854f12c8417eae6d8fe821aea9de);
+        
+    
+        var popup_9c78ccb25e524ad7a566b1dd22e6b2c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bef50ddb60a34c258e013b861e0918d9 = $(`<div id="html_bef50ddb60a34c258e013b861e0918d9" style="width: 100.0%; height: 100.0%;">lachnoglossa-DE415</div>`)[0];
+            popup_9c78ccb25e524ad7a566b1dd22e6b2c2.setContent(html_bef50ddb60a34c258e013b861e0918d9);
+        
+
+        circle_marker_bd9af3c99af74b7196cd5288fe5e2eaa.bindPopup(popup_9c78ccb25e524ad7a566b1dd22e6b2c2)
+        ;
+
+        
+    
+    
+            circle_marker_bd9af3c99af74b7196cd5288fe5e2eaa.bindTooltip(
+                `<div>
+                     lachnoglossa-DE415
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

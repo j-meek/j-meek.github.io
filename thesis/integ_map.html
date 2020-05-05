@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_cc9a24f6989f450fa732dcd2147551cf {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_cc9a24f6989f450fa732dcd2147551cf" ></div>
+        
+</body>
+<script>    
+    
+            var map_cc9a24f6989f450fa732dcd2147551cf = L.map(
+                "map_cc9a24f6989f450fa732dcd2147551cf",
+                {
+                    center: [30.7702, 100.6897],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0386343383e24c94a6e8aa671743afea = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_cc9a24f6989f450fa732dcd2147551cf);
+        
+    
+            var circle_marker_a1c4e632293b464cbc02be73550b523c = L.circleMarker(
+                [30.41916667, 101.5480556],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cc9a24f6989f450fa732dcd2147551cf);
+        
+    
+        var popup_fb0b270704104111928aa696acfaec1f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae1f7b1136c8420bab1017c35a257c20 = $(`<div id="html_ae1f7b1136c8420bab1017c35a257c20" style="width: 100.0%; height: 100.0%;">integrifolia-DE130</div>`)[0];
+            popup_fb0b270704104111928aa696acfaec1f.setContent(html_ae1f7b1136c8420bab1017c35a257c20);
+        
+
+        circle_marker_a1c4e632293b464cbc02be73550b523c.bindPopup(popup_fb0b270704104111928aa696acfaec1f)
+        ;
+
+        
+    
+    
+            circle_marker_a1c4e632293b464cbc02be73550b523c.bindTooltip(
+                `<div>
+                     integrifolia-DE130
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ec36c75452eb4e1da27d2e62dd2fd741 = L.circleMarker(
+                [32.00902778, 99.04827778],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cc9a24f6989f450fa732dcd2147551cf);
+        
+    
+        var popup_55e212a57cd34fc9924a7a3f41453fe3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8217c627cc4f44088e20e9c8acc649e5 = $(`<div id="html_8217c627cc4f44088e20e9c8acc649e5" style="width: 100.0%; height: 100.0%;">integrifolia-DE305</div>`)[0];
+            popup_55e212a57cd34fc9924a7a3f41453fe3.setContent(html_8217c627cc4f44088e20e9c8acc649e5);
+        
+
+        circle_marker_ec36c75452eb4e1da27d2e62dd2fd741.bindPopup(popup_55e212a57cd34fc9924a7a3f41453fe3)
+        ;
+
+        
+    
+    
+            circle_marker_ec36c75452eb4e1da27d2e62dd2fd741.bindTooltip(
+                `<div>
+                     integrifolia-DE305
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_30122032f1994734a7bc37fbbbcbb678 = L.circleMarker(
+                [32.90805556, 101.8905556],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cc9a24f6989f450fa732dcd2147551cf);
+        
+    
+        var popup_8fbae9ce80e14a999dcec7eab9da9578 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad511c28ea19429b8ece9f5daa7649a6 = $(`<div id="html_ad511c28ea19429b8ece9f5daa7649a6" style="width: 100.0%; height: 100.0%;">integrifolia-DE692</div>`)[0];
+            popup_8fbae9ce80e14a999dcec7eab9da9578.setContent(html_ad511c28ea19429b8ece9f5daa7649a6);
+        
+
+        circle_marker_30122032f1994734a7bc37fbbbcbb678.bindPopup(popup_8fbae9ce80e14a999dcec7eab9da9578)
+        ;
+
+        
+    
+    
+            circle_marker_30122032f1994734a7bc37fbbbcbb678.bindTooltip(
+                `<div>
+                     integrifolia-DE692
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a1b0f2a14b6b47e8b500ab625b148007 = L.circleMarker(
+                [30.57702778, 101.41797220000001],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cc9a24f6989f450fa732dcd2147551cf);
+        
+    
+        var popup_a1f8bb23713e4f1cba5f87652ab3814e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c5de91ee84a4812adeb065f59cd5cd1 = $(`<div id="html_8c5de91ee84a4812adeb065f59cd5cd1" style="width: 100.0%; height: 100.0%;">integrifolia-DE143</div>`)[0];
+            popup_a1f8bb23713e4f1cba5f87652ab3814e.setContent(html_8c5de91ee84a4812adeb065f59cd5cd1);
+        
+
+        circle_marker_a1b0f2a14b6b47e8b500ab625b148007.bindPopup(popup_a1f8bb23713e4f1cba5f87652ab3814e)
+        ;
+
+        
+    
+    
+            circle_marker_a1b0f2a14b6b47e8b500ab625b148007.bindTooltip(
+                `<div>
+                     integrifolia-DE143
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cb03bd3689de4c2ea75a7ab1fbcc306d = L.circleMarker(
+                [30.64311111, 101.4041389],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cc9a24f6989f450fa732dcd2147551cf);
+        
+    
+        var popup_f95b6699337145e685bc8c12e66ddd11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74c8a5326f61406a8703b9aa084565fd = $(`<div id="html_74c8a5326f61406a8703b9aa084565fd" style="width: 100.0%; height: 100.0%;">integrifolia-DE152</div>`)[0];
+            popup_f95b6699337145e685bc8c12e66ddd11.setContent(html_74c8a5326f61406a8703b9aa084565fd);
+        
+
+        circle_marker_cb03bd3689de4c2ea75a7ab1fbcc306d.bindPopup(popup_f95b6699337145e685bc8c12e66ddd11)
+        ;
+
+        
+    
+    
+            circle_marker_cb03bd3689de4c2ea75a7ab1fbcc306d.bindTooltip(
+                `<div>
+                     integrifolia-DE152
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_018e33801c74420589598e139b5ec45a = L.circleMarker(
+                [30.71183333, 101.3643333],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cc9a24f6989f450fa732dcd2147551cf);
+        
+    
+        var popup_bc486717eb7340e2a589805d881b9b34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16a381b6c72b48c0b6e9495817ebb4b9 = $(`<div id="html_16a381b6c72b48c0b6e9495817ebb4b9" style="width: 100.0%; height: 100.0%;">integrifolia-DE155</div>`)[0];
+            popup_bc486717eb7340e2a589805d881b9b34.setContent(html_16a381b6c72b48c0b6e9495817ebb4b9);
+        
+
+        circle_marker_018e33801c74420589598e139b5ec45a.bindPopup(popup_bc486717eb7340e2a589805d881b9b34)
+        ;
+
+        
+    
+    
+            circle_marker_018e33801c74420589598e139b5ec45a.bindTooltip(
+                `<div>
+                     integrifolia-DE155
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a4bfda5c7fae4479b7f96cc56d3d98d5 = L.circleMarker(
+                [30.74063889, 101.3343611],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cc9a24f6989f450fa732dcd2147551cf);
+        
+    
+        var popup_264146157f07461b93654e75e34eac46 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae67d0a864654143a24c1e8983a772f8 = $(`<div id="html_ae67d0a864654143a24c1e8983a772f8" style="width: 100.0%; height: 100.0%;">integrifolia-DE558</div>`)[0];
+            popup_264146157f07461b93654e75e34eac46.setContent(html_ae67d0a864654143a24c1e8983a772f8);
+        
+
+        circle_marker_a4bfda5c7fae4479b7f96cc56d3d98d5.bindPopup(popup_264146157f07461b93654e75e34eac46)
+        ;
+
+        
+    
+    
+            circle_marker_a4bfda5c7fae4479b7f96cc56d3d98d5.bindTooltip(
+                `<div>
+                     integrifolia-DE558
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f6fbd9d53fd64c70ba2dceeee6902506 = L.circleMarker(
+                [30.01097222, 100.3161667],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cc9a24f6989f450fa732dcd2147551cf);
+        
+    
+        var popup_d4eb3e0ffb034c879d5b06295cdd7b79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c9adcd0b27a480d95c2a75cb8f24df8 = $(`<div id="html_1c9adcd0b27a480d95c2a75cb8f24df8" style="width: 100.0%; height: 100.0%;">integrifolia-DE72</div>`)[0];
+            popup_d4eb3e0ffb034c879d5b06295cdd7b79.setContent(html_1c9adcd0b27a480d95c2a75cb8f24df8);
+        
+
+        circle_marker_f6fbd9d53fd64c70ba2dceeee6902506.bindPopup(popup_d4eb3e0ffb034c879d5b06295cdd7b79)
+        ;
+
+        
+    
+    
+            circle_marker_f6fbd9d53fd64c70ba2dceeee6902506.bindTooltip(
+                `<div>
+                     integrifolia-DE72
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8b5e1f95c0854094843e5be5275f86b6 = L.circleMarker(
+                [30.29702778, 99.671],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cc9a24f6989f450fa732dcd2147551cf);
+        
+    
+        var popup_2d429910871943f0a6c2e3ec6d87427f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_261a570c178e49e19041f79815f2b69a = $(`<div id="html_261a570c178e49e19041f79815f2b69a" style="width: 100.0%; height: 100.0%;">integrifolia-DE396</div>`)[0];
+            popup_2d429910871943f0a6c2e3ec6d87427f.setContent(html_261a570c178e49e19041f79815f2b69a);
+        
+
+        circle_marker_8b5e1f95c0854094843e5be5275f86b6.bindPopup(popup_2d429910871943f0a6c2e3ec6d87427f)
+        ;
+
+        
+    
+    
+            circle_marker_8b5e1f95c0854094843e5be5275f86b6.bindTooltip(
+                `<div>
+                     integrifolia-DE396
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d99e7d00b4a6430da3ea1f03900555c2 = L.circleMarker(
+                [30.22325, 100.26427779999999],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cc9a24f6989f450fa732dcd2147551cf);
+        
+    
+        var popup_d4135b6420284c46b1c889a628d26803 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e4121b85aa34f16adea67ef3b3d234b = $(`<div id="html_2e4121b85aa34f16adea67ef3b3d234b" style="width: 100.0%; height: 100.0%;">integrifolia-DE410</div>`)[0];
+            popup_d4135b6420284c46b1c889a628d26803.setContent(html_2e4121b85aa34f16adea67ef3b3d234b);
+        
+
+        circle_marker_d99e7d00b4a6430da3ea1f03900555c2.bindPopup(popup_d4135b6420284c46b1c889a628d26803)
+        ;
+
+        
+    
+    
+            circle_marker_d99e7d00b4a6430da3ea1f03900555c2.bindTooltip(
+                `<div>
+                     integrifolia-DE410
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6dcd1fa078f7420887741cf662354b8b = L.circleMarker(
+                [29.82083333, 100.3458889],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cc9a24f6989f450fa732dcd2147551cf);
+        
+    
+        var popup_1cdfbdce150948be91f7f921bba63183 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dbeb8db5ca4a422e9688523107cf81d2 = $(`<div id="html_dbeb8db5ca4a422e9688523107cf81d2" style="width: 100.0%; height: 100.0%;">integrifolia-DE416</div>`)[0];
+            popup_1cdfbdce150948be91f7f921bba63183.setContent(html_dbeb8db5ca4a422e9688523107cf81d2);
+        
+
+        circle_marker_6dcd1fa078f7420887741cf662354b8b.bindPopup(popup_1cdfbdce150948be91f7f921bba63183)
+        ;
+
+        
+    
+    
+            circle_marker_6dcd1fa078f7420887741cf662354b8b.bindTooltip(
+                `<div>
+                     integrifolia-DE416
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_544478b5a5824d6e952ded165ea54af2 = L.circleMarker(
+                [28.74638889, 100.2691667],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cc9a24f6989f450fa732dcd2147551cf);
+        
+    
+        var popup_a658e7dd2e8544ba861eb099417a9af8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae0223ddbd4b438a9da16756e8c0f5b6 = $(`<div id="html_ae0223ddbd4b438a9da16756e8c0f5b6" style="width: 100.0%; height: 100.0%;">integrifolia-DE433</div>`)[0];
+            popup_a658e7dd2e8544ba861eb099417a9af8.setContent(html_ae0223ddbd4b438a9da16756e8c0f5b6);
+        
+
+        circle_marker_544478b5a5824d6e952ded165ea54af2.bindPopup(popup_a658e7dd2e8544ba861eb099417a9af8)
+        ;
+
+        
+    
+    
+            circle_marker_544478b5a5824d6e952ded165ea54af2.bindTooltip(
+                `<div>
+                     integrifolia-DE433
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5c87fa825a3147ad89ffa020a83f9f4e = L.circleMarker(
+                [27.80763889, 99.76297222],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cc9a24f6989f450fa732dcd2147551cf);
+        
+    
+        var popup_7e9e39718ee04804b89d4eed31926dee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8536b4ac2cc94c91b037b5796a0a3126 = $(`<div id="html_8536b4ac2cc94c91b037b5796a0a3126" style="width: 100.0%; height: 100.0%;">integrifolia-DE463</div>`)[0];
+            popup_7e9e39718ee04804b89d4eed31926dee.setContent(html_8536b4ac2cc94c91b037b5796a0a3126);
+        
+
+        circle_marker_5c87fa825a3147ad89ffa020a83f9f4e.bindPopup(popup_7e9e39718ee04804b89d4eed31926dee)
+        ;
+
+        
+    
+    
+            circle_marker_5c87fa825a3147ad89ffa020a83f9f4e.bindTooltip(
+                `<div>
+                     integrifolia-DE463
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_be79b98826f34f688ae0f7ac06d0e775 = L.circleMarker(
+                [28.32222222, 101.16638890000002],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cc9a24f6989f450fa732dcd2147551cf);
+        
+    
+        var popup_15319123a0da4e0fbb60c1a9c745b264 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00f5a9e7d56f4136a0fde1c9de6ccd8d = $(`<div id="html_00f5a9e7d56f4136a0fde1c9de6ccd8d" style="width: 100.0%; height: 100.0%;">integrifolia-DE490</div>`)[0];
+            popup_15319123a0da4e0fbb60c1a9c745b264.setContent(html_00f5a9e7d56f4136a0fde1c9de6ccd8d);
+        
+
+        circle_marker_be79b98826f34f688ae0f7ac06d0e775.bindPopup(popup_15319123a0da4e0fbb60c1a9c745b264)
+        ;
+
+        
+    
+    
+            circle_marker_be79b98826f34f688ae0f7ac06d0e775.bindTooltip(
+                `<div>
+                     integrifolia-DE490
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_30eebb7ff3e84f4ca38a9ed2e91104a2 = L.circleMarker(
+                [29.1085, 100.0343611],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cc9a24f6989f450fa732dcd2147551cf);
+        
+    
+        var popup_1297aafed6024333815b9dbf113db4c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15800ebe59484fa0bd9986480a1cb920 = $(`<div id="html_15800ebe59484fa0bd9986480a1cb920" style="width: 100.0%; height: 100.0%;">integrifolia-DE46</div>`)[0];
+            popup_1297aafed6024333815b9dbf113db4c5.setContent(html_15800ebe59484fa0bd9986480a1cb920);
+        
+
+        circle_marker_30eebb7ff3e84f4ca38a9ed2e91104a2.bindPopup(popup_1297aafed6024333815b9dbf113db4c5)
+        ;
+
+        
+    
+    
+            circle_marker_30eebb7ff3e84f4ca38a9ed2e91104a2.bindTooltip(
+                `<div>
+                     integrifolia-DE46
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c35aa4db850d47f6bab29badc6df0408 = L.circleMarker(
+                [29.33486111, 100.0994167],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cc9a24f6989f450fa732dcd2147551cf);
+        
+    
+        var popup_acb019e4853a446cbb8c1479a70d680f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5dd7d34c65ef436ca9900d4c4d65a8bd = $(`<div id="html_5dd7d34c65ef436ca9900d4c4d65a8bd" style="width: 100.0%; height: 100.0%;">integrifolia-DE64</div>`)[0];
+            popup_acb019e4853a446cbb8c1479a70d680f.setContent(html_5dd7d34c65ef436ca9900d4c4d65a8bd);
+        
+
+        circle_marker_c35aa4db850d47f6bab29badc6df0408.bindPopup(popup_acb019e4853a446cbb8c1479a70d680f)
+        ;
+
+        
+    
+    
+            circle_marker_c35aa4db850d47f6bab29badc6df0408.bindTooltip(
+                `<div>
+                     integrifolia-DE64
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f10bf67ed96c4ddfa7d20d31cb69c288 = L.circleMarker(
+                [29.38583333, 100.14944440000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cc9a24f6989f450fa732dcd2147551cf);
+        
+    
+        var popup_9e058f4da203407fb0809510a0a1e712 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ed8e49a253f4812a57e2bf71a3e9938 = $(`<div id="html_8ed8e49a253f4812a57e2bf71a3e9938" style="width: 100.0%; height: 100.0%;">integrifolia-DE68</div>`)[0];
+            popup_9e058f4da203407fb0809510a0a1e712.setContent(html_8ed8e49a253f4812a57e2bf71a3e9938);
+        
+
+        circle_marker_f10bf67ed96c4ddfa7d20d31cb69c288.bindPopup(popup_9e058f4da203407fb0809510a0a1e712)
+        ;
+
+        
+    
+    
+            circle_marker_f10bf67ed96c4ddfa7d20d31cb69c288.bindTooltip(
+                `<div>
+                     integrifolia-DE68
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7ccf99be17d84e98a4d50384529a3668 = L.circleMarker(
+                [29.14180556, 100.15661109999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cc9a24f6989f450fa732dcd2147551cf);
+        
+    
+        var popup_e6b31448bf3148ee9efbd2bcb782e8e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6bf44242c7f4c499bef183a19da5653 = $(`<div id="html_f6bf44242c7f4c499bef183a19da5653" style="width: 100.0%; height: 100.0%;">integrifolia-DE422</div>`)[0];
+            popup_e6b31448bf3148ee9efbd2bcb782e8e3.setContent(html_f6bf44242c7f4c499bef183a19da5653);
+        
+
+        circle_marker_7ccf99be17d84e98a4d50384529a3668.bindPopup(popup_e6b31448bf3148ee9efbd2bcb782e8e3)
+        ;
+
+        
+    
+    
+            circle_marker_7ccf99be17d84e98a4d50384529a3668.bindTooltip(
+                `<div>
+                     integrifolia-DE422
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

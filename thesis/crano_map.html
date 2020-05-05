@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_12e916d05537474ab0e35f06679b0395 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_12e916d05537474ab0e35f06679b0395" ></div>
+        
+</body>
+<script>    
+    
+            var map_12e916d05537474ab0e35f06679b0395 = L.map(
+                "map_12e916d05537474ab0e35f06679b0395",
+                {
+                    center: [30.7702, 100.6897],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f64803fe6c2f4346bb10d4c5bf7c0def = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_12e916d05537474ab0e35f06679b0395);
+        
+    
+            var circle_marker_865acc38d4df471db9822d5c430f4428 = L.circleMarker(
+                [31.04430556, 98.90880556],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_12e916d05537474ab0e35f06679b0395);
+        
+    
+        var popup_e11627205ec948b38a254f3c1773cf9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f92291020250409ab245f4f732ba3f3c = $(`<div id="html_f92291020250409ab245f4f732ba3f3c" style="width: 100.0%; height: 100.0%;">cranolopha-DE350</div>`)[0];
+            popup_e11627205ec948b38a254f3c1773cf9d.setContent(html_f92291020250409ab245f4f732ba3f3c);
+        
+
+        circle_marker_865acc38d4df471db9822d5c430f4428.bindPopup(popup_e11627205ec948b38a254f3c1773cf9d)
+        ;
+
+        
+    
+    
+            circle_marker_865acc38d4df471db9822d5c430f4428.bindTooltip(
+                `<div>
+                     cranolopha-DE350
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d7745b51af384402a6d56fc41d09e8ae = L.circleMarker(
+                [30.98083333, 98.95905556],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_12e916d05537474ab0e35f06679b0395);
+        
+    
+        var popup_94c44f29955b4e61afe4db766a11ce59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_523e600b74214095a31e3983eab24e27 = $(`<div id="html_523e600b74214095a31e3983eab24e27" style="width: 100.0%; height: 100.0%;">cranolopha-DE355</div>`)[0];
+            popup_94c44f29955b4e61afe4db766a11ce59.setContent(html_523e600b74214095a31e3983eab24e27);
+        
+
+        circle_marker_d7745b51af384402a6d56fc41d09e8ae.bindPopup(popup_94c44f29955b4e61afe4db766a11ce59)
+        ;
+
+        
+    
+    
+            circle_marker_d7745b51af384402a6d56fc41d09e8ae.bindTooltip(
+                `<div>
+                     cranolopha-DE355
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d9604328f9a24f4b9e5b14559f7aec1c = L.circleMarker(
+                [30.72002778, 99.09127778],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_12e916d05537474ab0e35f06679b0395);
+        
+    
+        var popup_ebb3ebaa1215429d9a08ac9c5a8fd99f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d49b0bcdfdb489688de622f874359fe = $(`<div id="html_5d49b0bcdfdb489688de622f874359fe" style="width: 100.0%; height: 100.0%;">cranolopha-DE368</div>`)[0];
+            popup_ebb3ebaa1215429d9a08ac9c5a8fd99f.setContent(html_5d49b0bcdfdb489688de622f874359fe);
+        
+
+        circle_marker_d9604328f9a24f4b9e5b14559f7aec1c.bindPopup(popup_ebb3ebaa1215429d9a08ac9c5a8fd99f)
+        ;
+
+        
+    
+    
+            circle_marker_d9604328f9a24f4b9e5b14559f7aec1c.bindTooltip(
+                `<div>
+                     cranolopha-DE368
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1b185d89e7824ce586bb31a05dbb8650 = L.circleMarker(
+                [32.32241667, 102.4554167],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_12e916d05537474ab0e35f06679b0395);
+        
+    
+        var popup_f630f976885949239dc217c9d37e13c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6cb519c27b744ffe9ce53c0cb7048b67 = $(`<div id="html_6cb519c27b744ffe9ce53c0cb7048b67" style="width: 100.0%; height: 100.0%;">cranolopha-DE670</div>`)[0];
+            popup_f630f976885949239dc217c9d37e13c5.setContent(html_6cb519c27b744ffe9ce53c0cb7048b67);
+        
+
+        circle_marker_1b185d89e7824ce586bb31a05dbb8650.bindPopup(popup_f630f976885949239dc217c9d37e13c5)
+        ;
+
+        
+    
+    
+            circle_marker_1b185d89e7824ce586bb31a05dbb8650.bindTooltip(
+                `<div>
+                     cranolopha-DE670
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_dbd7d1eea1804d56a1692e808da0f432 = L.circleMarker(
+                [31.72002778, 100.7149722],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_12e916d05537474ab0e35f06679b0395);
+        
+    
+        var popup_b9c6ca64dde548c288259d77c7a1b5e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e6980b384e94af08a162b2ca6ca507f = $(`<div id="html_9e6980b384e94af08a162b2ca6ca507f" style="width: 100.0%; height: 100.0%;">cranolopha-DE206</div>`)[0];
+            popup_b9c6ca64dde548c288259d77c7a1b5e8.setContent(html_9e6980b384e94af08a162b2ca6ca507f);
+        
+
+        circle_marker_dbd7d1eea1804d56a1692e808da0f432.bindPopup(popup_b9c6ca64dde548c288259d77c7a1b5e8)
+        ;
+
+        
+    
+    
+            circle_marker_dbd7d1eea1804d56a1692e808da0f432.bindTooltip(
+                `<div>
+                     cranolopha-DE206
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_23611f9dc83648c4acb7b9d90c3d065d = L.circleMarker(
+                [31.39280556, 100.68261109999999],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_12e916d05537474ab0e35f06679b0395);
+        
+    
+        var popup_fd51d459206045ab8b73069ca8a6f9fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1a00ae1681b498586954cf6f3d739f6 = $(`<div id="html_b1a00ae1681b498586954cf6f3d739f6" style="width: 100.0%; height: 100.0%;">cranolopha-DE189</div>`)[0];
+            popup_fd51d459206045ab8b73069ca8a6f9fc.setContent(html_b1a00ae1681b498586954cf6f3d739f6);
+        
+
+        circle_marker_23611f9dc83648c4acb7b9d90c3d065d.bindPopup(popup_fd51d459206045ab8b73069ca8a6f9fc)
+        ;
+
+        
+    
+    
+            circle_marker_23611f9dc83648c4acb7b9d90c3d065d.bindTooltip(
+                `<div>
+                     cranolopha-DE189
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3167985bcd42413f91546c33ef766b38 = L.circleMarker(
+                [31.54313889, 100.47063890000001],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_12e916d05537474ab0e35f06679b0395);
+        
+    
+        var popup_13eb4dbd24de41dbabe5c28cb45c9a5c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23dbb346ecdf4c5fa8a89ce8bb35ca50 = $(`<div id="html_23dbb346ecdf4c5fa8a89ce8bb35ca50" style="width: 100.0%; height: 100.0%;">cranolopha-DE231</div>`)[0];
+            popup_13eb4dbd24de41dbabe5c28cb45c9a5c.setContent(html_23dbb346ecdf4c5fa8a89ce8bb35ca50);
+        
+
+        circle_marker_3167985bcd42413f91546c33ef766b38.bindPopup(popup_13eb4dbd24de41dbabe5c28cb45c9a5c)
+        ;
+
+        
+    
+    
+            circle_marker_3167985bcd42413f91546c33ef766b38.bindTooltip(
+                `<div>
+                     cranolopha-DE231
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2f216498682e4be290a418ed1d753b34 = L.circleMarker(
+                [30.04269444, 101.274],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_12e916d05537474ab0e35f06679b0395);
+        
+    
+        var popup_170814be49bd455d991ebb3fdb395a5c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e99af64bde84e44bb4a41ca4fbb2a49 = $(`<div id="html_9e99af64bde84e44bb4a41ca4fbb2a49" style="width: 100.0%; height: 100.0%;">cranolopha-DE98</div>`)[0];
+            popup_170814be49bd455d991ebb3fdb395a5c.setContent(html_9e99af64bde84e44bb4a41ca4fbb2a49);
+        
+
+        circle_marker_2f216498682e4be290a418ed1d753b34.bindPopup(popup_170814be49bd455d991ebb3fdb395a5c)
+        ;
+
+        
+    
+    
+            circle_marker_2f216498682e4be290a418ed1d753b34.bindTooltip(
+                `<div>
+                     cranolopha-DE98
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_95bb4b78ba9148b69bfca314cd9525bf = L.circleMarker(
+                [31.20102778, 100.8578889],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_12e916d05537474ab0e35f06679b0395);
+        
+    
+        var popup_5605cab6e0284fdfaa5123713ba38e07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5413140534ca4ecaa7c203d8e0542a0e = $(`<div id="html_5413140534ca4ecaa7c203d8e0542a0e" style="width: 100.0%; height: 100.0%;">cranolopha-DE186</div>`)[0];
+            popup_5605cab6e0284fdfaa5123713ba38e07.setContent(html_5413140534ca4ecaa7c203d8e0542a0e);
+        
+
+        circle_marker_95bb4b78ba9148b69bfca314cd9525bf.bindPopup(popup_5605cab6e0284fdfaa5123713ba38e07)
+        ;
+
+        
+    
+    
+            circle_marker_95bb4b78ba9148b69bfca314cd9525bf.bindTooltip(
+                `<div>
+                     cranolopha-DE186
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a83f75c6651047318b10409571dee943 = L.circleMarker(
+                [30.57702778, 101.41797220000001],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_12e916d05537474ab0e35f06679b0395);
+        
+    
+        var popup_4aafd0cffc43414fb43808b202e8e53a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b79c306d40f94cb6b0f4ff3618e85b0e = $(`<div id="html_b79c306d40f94cb6b0f4ff3618e85b0e" style="width: 100.0%; height: 100.0%;">cranolopha-DE137</div>`)[0];
+            popup_4aafd0cffc43414fb43808b202e8e53a.setContent(html_b79c306d40f94cb6b0f4ff3618e85b0e);
+        
+
+        circle_marker_a83f75c6651047318b10409571dee943.bindPopup(popup_4aafd0cffc43414fb43808b202e8e53a)
+        ;
+
+        
+    
+    
+            circle_marker_a83f75c6651047318b10409571dee943.bindTooltip(
+                `<div>
+                     cranolopha-DE137
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_67566bc082a14dcd98eda57e2af5385c = L.circleMarker(
+                [30.74063889, 101.3343611],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_12e916d05537474ab0e35f06679b0395);
+        
+    
+        var popup_c1e5db34d7064a0da1c3405502b2e7d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2388aa20f044a7c8402d9bdfc3bdfc8 = $(`<div id="html_b2388aa20f044a7c8402d9bdfc3bdfc8" style="width: 100.0%; height: 100.0%;">cranolopha-DE167</div>`)[0];
+            popup_c1e5db34d7064a0da1c3405502b2e7d2.setContent(html_b2388aa20f044a7c8402d9bdfc3bdfc8);
+        
+
+        circle_marker_67566bc082a14dcd98eda57e2af5385c.bindPopup(popup_c1e5db34d7064a0da1c3405502b2e7d2)
+        ;
+
+        
+    
+    
+            circle_marker_67566bc082a14dcd98eda57e2af5385c.bindTooltip(
+                `<div>
+                     cranolopha-DE167
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6066f1be54f54ffa90d239689c5bf2a1 = L.circleMarker(
+                [30.82677778, 101.28227779999999],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_12e916d05537474ab0e35f06679b0395);
+        
+    
+        var popup_d3129ade65ad43cdb52a24f8b2effa00 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb0f7a19fb9244fdb2f8ae7b943ca392 = $(`<div id="html_bb0f7a19fb9244fdb2f8ae7b943ca392" style="width: 100.0%; height: 100.0%;">cranolopha-DE173</div>`)[0];
+            popup_d3129ade65ad43cdb52a24f8b2effa00.setContent(html_bb0f7a19fb9244fdb2f8ae7b943ca392);
+        
+
+        circle_marker_6066f1be54f54ffa90d239689c5bf2a1.bindPopup(popup_d3129ade65ad43cdb52a24f8b2effa00)
+        ;
+
+        
+    
+    
+            circle_marker_6066f1be54f54ffa90d239689c5bf2a1.bindTooltip(
+                `<div>
+                     cranolopha-DE173
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e825ca5089dc41d9aab2526c2d511bca = L.circleMarker(
+                [30.84691667, 101.2743333],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_12e916d05537474ab0e35f06679b0395);
+        
+    
+        var popup_a1e5677c30d643f2a719ed1dc9f5d793 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb23600b5d6040798d95cc1098e0624e = $(`<div id="html_bb23600b5d6040798d95cc1098e0624e" style="width: 100.0%; height: 100.0%;">cranolopha-DE177</div>`)[0];
+            popup_a1e5677c30d643f2a719ed1dc9f5d793.setContent(html_bb23600b5d6040798d95cc1098e0624e);
+        
+
+        circle_marker_e825ca5089dc41d9aab2526c2d511bca.bindPopup(popup_a1e5677c30d643f2a719ed1dc9f5d793)
+        ;
+
+        
+    
+    
+            circle_marker_e825ca5089dc41d9aab2526c2d511bca.bindTooltip(
+                `<div>
+                     cranolopha-DE177
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4b25b997261e4bf8bb3d4c29157ba298 = L.circleMarker(
+                [31.62736111, 100.23436109999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_12e916d05537474ab0e35f06679b0395);
+        
+    
+        var popup_d56109869eaf4da6815bcd2f200c05c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cce6fefb7e7546fca65c254849561202 = $(`<div id="html_cce6fefb7e7546fca65c254849561202" style="width: 100.0%; height: 100.0%;">cranolopha-DE252</div>`)[0];
+            popup_d56109869eaf4da6815bcd2f200c05c4.setContent(html_cce6fefb7e7546fca65c254849561202);
+        
+
+        circle_marker_4b25b997261e4bf8bb3d4c29157ba298.bindPopup(popup_d56109869eaf4da6815bcd2f200c05c4)
+        ;
+
+        
+    
+    
+            circle_marker_4b25b997261e4bf8bb3d4c29157ba298.bindTooltip(
+                `<div>
+                     cranolopha-DE252
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_929be87b5055495c9c2cfc9408388ef5 = L.circleMarker(
+                [31.71530556, 99.61627778],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_12e916d05537474ab0e35f06679b0395);
+        
+    
+        var popup_55453c3def5445e79d7233d5e0e72804 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53b312067d914fd38e65611d879efb93 = $(`<div id="html_53b312067d914fd38e65611d879efb93" style="width: 100.0%; height: 100.0%;">cranolopha-DE279</div>`)[0];
+            popup_55453c3def5445e79d7233d5e0e72804.setContent(html_53b312067d914fd38e65611d879efb93);
+        
+
+        circle_marker_929be87b5055495c9c2cfc9408388ef5.bindPopup(popup_55453c3def5445e79d7233d5e0e72804)
+        ;
+
+        
+    
+    
+            circle_marker_929be87b5055495c9c2cfc9408388ef5.bindTooltip(
+                `<div>
+                     cranolopha-DE279
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e9cc3665b11f4b33a067c5e2872f39e1 = L.circleMarker(
+                [30.03402778, 100.3749722],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_12e916d05537474ab0e35f06679b0395);
+        
+    
+        var popup_5bd1811a2eea4237a0ba3649de53ed14 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8cb626ce5b2434fa65aa9bc69465e8e = $(`<div id="html_c8cb626ce5b2434fa65aa9bc69465e8e" style="width: 100.0%; height: 100.0%;">cranolopha-DE85</div>`)[0];
+            popup_5bd1811a2eea4237a0ba3649de53ed14.setContent(html_c8cb626ce5b2434fa65aa9bc69465e8e);
+        
+
+        circle_marker_e9cc3665b11f4b33a067c5e2872f39e1.bindPopup(popup_5bd1811a2eea4237a0ba3649de53ed14)
+        ;
+
+        
+    
+    
+            circle_marker_e9cc3665b11f4b33a067c5e2872f39e1.bindTooltip(
+                `<div>
+                     cranolopha-DE85
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_48e49d670e69498682e8e9e83d414f19 = L.circleMarker(
+                [30.59769444, 99.18838889],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_12e916d05537474ab0e35f06679b0395);
+        
+    
+        var popup_fe65832701214ddc9d308e75fa10cb74 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6fe41dcb0424db9a6f3f9a9414d18fd = $(`<div id="html_c6fe41dcb0424db9a6f3f9a9414d18fd" style="width: 100.0%; height: 100.0%;">cranolopha-DE370</div>`)[0];
+            popup_fe65832701214ddc9d308e75fa10cb74.setContent(html_c6fe41dcb0424db9a6f3f9a9414d18fd);
+        
+
+        circle_marker_48e49d670e69498682e8e9e83d414f19.bindPopup(popup_fe65832701214ddc9d308e75fa10cb74)
+        ;
+
+        
+    
+    
+            circle_marker_48e49d670e69498682e8e9e83d414f19.bindTooltip(
+                `<div>
+                     cranolopha-DE370
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e3b23d388a084e87975dbd8b61d62a86 = L.circleMarker(
+                [30.28488889, 99.39930556],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_12e916d05537474ab0e35f06679b0395);
+        
+    
+        var popup_efb8c5ea4d004d01884f0c5fdf2c72f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5256763e347e46ada9f89b65c4d45664 = $(`<div id="html_5256763e347e46ada9f89b65c4d45664" style="width: 100.0%; height: 100.0%;">cranolopha-DE385</div>`)[0];
+            popup_efb8c5ea4d004d01884f0c5fdf2c72f4.setContent(html_5256763e347e46ada9f89b65c4d45664);
+        
+
+        circle_marker_e3b23d388a084e87975dbd8b61d62a86.bindPopup(popup_efb8c5ea4d004d01884f0c5fdf2c72f4)
+        ;
+
+        
+    
+    
+            circle_marker_e3b23d388a084e87975dbd8b61d62a86.bindTooltip(
+                `<div>
+                     cranolopha-DE385
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_600afa7113ef480c9826bd7c72164e40 = L.circleMarker(
+                [30.29702778, 99.671],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_12e916d05537474ab0e35f06679b0395);
+        
+    
+        var popup_7ba61206aa0741219c6eb5b26c3e093b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3fe097b2f2dc48df8995547020198d9d = $(`<div id="html_3fe097b2f2dc48df8995547020198d9d" style="width: 100.0%; height: 100.0%;">cranolopha-DE387</div>`)[0];
+            popup_7ba61206aa0741219c6eb5b26c3e093b.setContent(html_3fe097b2f2dc48df8995547020198d9d);
+        
+
+        circle_marker_600afa7113ef480c9826bd7c72164e40.bindPopup(popup_7ba61206aa0741219c6eb5b26c3e093b)
+        ;
+
+        
+    
+    
+            circle_marker_600afa7113ef480c9826bd7c72164e40.bindTooltip(
+                `<div>
+                     cranolopha-DE387
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
