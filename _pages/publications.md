@@ -9,13 +9,13 @@ header:
 
 ### 2020
 
-Albery, GF, **EA Eskew**, N Ross, and KJ Olival. [Predicting the global mammalian viral sharing network using phylogeography](/assets/docs/Albery_etal_2020). [[GitHub repository](https://github.com/gfalbery/ViralSharingPhylogeography); [preprint version](https://doi.org/10.1101/732255)]
+Albery, GF, **EA Eskew**, N Ross, and KJ Olival. [Predicting the global mammalian viral sharing network using phylogeography](/assets/docs/Albery_etal_2020.pdf). [[GitHub repository](https://github.com/gfalbery/ViralSharingPhylogeography); [preprint version](https://doi.org/10.1101/732255)]
 
 Di Marco, M, M Baker, P Daszak, P De Barro, **EA Eskew**, C Godde, T Harwood, M Herrero, A Hoskins, E Johnson, WB Karesh, C Machalaba, J Navarro Garcia, D Paini, R Pirzl, MS Smith, C Zambrana-Torrelio, and S Ferrier. [Opinion: Sustainable development must account for pandemic risk](/assets/docs/DiMarco_etal_2020.pdf).
 
 Carlson, CJ, GF Albery, C Merow, CH Trisos, CM Zipfel, **EA Eskew**, KJ Olival, N Ross, and S Bansal. [Climate change will drive novel cross-species viral transmission](https://doi.org/10.1101/2020.01.24.918755). [preprint; [GitHub repository](https://github.com/cjcarlson/iceberg)]
 
-**Eskew, EA**, AM White, N Ross, KM Smith, KF Smith, JP Rodríguez, C Zambrana-Torrelio, WB Karesh, and P Daszak. [United States wildlife and wildlife product imports from 2000-2014](/assets/docs/Eskew_etal_2020_Scientific_Data.pdf). [[GitHub repository](https://github.com/ecohealthalliance/lemis); [Zenodo repository](https://doi.org/10.5281/zenodo.3387660); [preprint version](https://doi.org/10.1101/780197)]
+**Eskew, EA**, AM White, N Ross, KM Smith, KF Smith, JP Rodríguez, C Zambrana-Torrelio, WB Karesh, and P Daszak. [United States wildlife and wildlife product imports from 2000-2014](/assets/docs/Eskew_etal_2020_Scientific_Data.pdf). [[GitHub repository](https://github.com/ecohealthalliance/lemis); [Zenodo repository](https://doi.org/10.5281/zenodo.3565869); [preprint version](https://doi.org/10.1101/780197)]
 
 ### 2019
 
