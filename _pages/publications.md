@@ -9,6 +9,8 @@ header:
 
 ### 2020
 
+Becker, DJ, GF Albery, AR Sjodin, T Poisot, TA Dallas, **EA Eskew**, MJ Farrell, S Guth, BA Han, NB Simmons, and CJ Carlson. [Predicting wildlife hosts of betacoronaviruses for SARS-CoV-2 sampling prioritization](https://doi.org/10.1101/2020.05.22.111344). [preprint; [GitHub respository](https://github.com/viralemergence/Fresnel)]
+
 Albery, GF, **EA Eskew**, N Ross, and KJ Olival. [Predicting the global mammalian viral sharing network using phylogeography](/assets/docs/Albery_etal_2020.pdf). [[GitHub repository](https://github.com/gfalbery/ViralSharingPhylogeography); [preprint version](https://doi.org/10.1101/732255)]
 
 Di Marco, M, M Baker, P Daszak, P De Barro, **EA Eskew**, C Godde, T Harwood, M Herrero, A Hoskins, E Johnson, WB Karesh, C Machalaba, J Navarro Garcia, D Paini, R Pirzl, MS Smith, C Zambrana-Torrelio, and S Ferrier. [Opinion: Sustainable development must account for pandemic risk](/assets/docs/DiMarco_etal_2020.pdf).
