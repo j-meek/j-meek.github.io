@@ -9,6 +9,8 @@ header:
 
 ### 2020
 
+**Eskew, EA**, and CJ Carlson. [Overselling wildlife trade bans will not bolster conservation or pandemic preparedness](https://doi.org/10.1016/S2542-5196(20)30123-6).
+
 Becker, DJ, GF Albery, AR Sjodin, T Poisot, TA Dallas, **EA Eskew**, MJ Farrell, S Guth, BA Han, NB Simmons, and CJ Carlson. [Predicting wildlife hosts of betacoronaviruses for SARS-CoV-2 sampling prioritization](https://doi.org/10.1101/2020.05.22.111344). [preprint; [GitHub respository](https://github.com/viralemergence/Fresnel)]
 
 Albery, GF, **EA Eskew**, N Ross, and KJ Olival. [Predicting the global mammalian viral sharing network using phylogeography](/assets/docs/Albery_etal_2020.pdf). [[GitHub repository](https://github.com/gfalbery/ViralSharingPhylogeography); [preprint version](https://doi.org/10.1101/732255)]
