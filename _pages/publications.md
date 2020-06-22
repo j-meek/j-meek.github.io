@@ -9,7 +9,9 @@ header:
 
 ### 2020
 
-**Eskew, EA**, and CJ Carlson. [Overselling wildlife trade bans will not bolster conservation or pandemic preparedness](https://doi.org/10.1016/S2542-5196(20)30123-6).
+Hierink, F, I Bolon, AM Durso, R Ruiz de Castañeda, C Zambrana-Torrelio, **EA Eskew**, and N Ray. [Forty-four years of global trade in CITES-listed snakes: Trends and implications for conservation and public health](/assets/docs/Hierink_etal_2020.pdf).
+
+**Eskew, EA**, and CJ Carlson. [Overselling wildlife trade bans will not bolster conservation or pandemic preparedness](/assets/docs/Eskew_and_Carlson_2020.pdf).
 
 Becker, DJ, GF Albery, AR Sjodin, T Poisot, TA Dallas, **EA Eskew**, MJ Farrell, S Guth, BA Han, NB Simmons, and CJ Carlson. [Predicting wildlife hosts of betacoronaviruses for SARS-CoV-2 sampling prioritization](https://doi.org/10.1101/2020.05.22.111344). [preprint; [GitHub respository](https://github.com/viralemergence/Fresnel)]
 
