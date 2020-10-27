@@ -9,11 +9,11 @@ header:
 
 ### 2020
 
+Becker, DJ, GF Albery, AR Sjodin, T Poisot, TA Dallas, **EA Eskew**, MJ Farrell, S Guth, BA Han, NB Simmons, M Stock, EC Teeling, and CJ Carlson. [Predicting wildlife hosts of betacoronaviruses for SARS-CoV-2 sampling prioritization: a modeling study](https://doi.org/10.1101/2020.05.22.111344). [preprint; [GitHub respository](https://github.com/viralemergence/Fresnel)]
+
 Hierink, F, I Bolon, AM Durso, R Ruiz de Castañeda, C Zambrana-Torrelio, **EA Eskew**, and N Ray. [Forty-four years of global trade in CITES-listed snakes: Trends and implications for conservation and public health](/assets/docs/Hierink_etal_2020.pdf).
 
 **Eskew, EA**, and CJ Carlson. [Overselling wildlife trade bans will not bolster conservation or pandemic preparedness](/assets/docs/Eskew_and_Carlson_2020.pdf).
-
-Becker, DJ, GF Albery, AR Sjodin, T Poisot, TA Dallas, **EA Eskew**, MJ Farrell, S Guth, BA Han, NB Simmons, and CJ Carlson. [Predicting wildlife hosts of betacoronaviruses for SARS-CoV-2 sampling prioritization](https://doi.org/10.1101/2020.05.22.111344). [preprint; [GitHub respository](https://github.com/viralemergence/Fresnel)]
 
 Albery, GF, **EA Eskew**, N Ross, and KJ Olival. [Predicting the global mammalian viral sharing network using phylogeography](/assets/docs/Albery_etal_2020.pdf). [[GitHub repository](https://github.com/gfalbery/ViralSharingPhylogeography); [preprint version](https://doi.org/10.1101/732255)]
 
