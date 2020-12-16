@@ -9,6 +9,8 @@ header:
 
 ### 2020
 
+Levin, MO, JB Meek, B Boom, SM Kross, and **EA Eskew**. [Using publicly available data to conduct rapid assessments of extinction risk](https://doi.org/10.1101/2020.12.14.413906). [preprint; [GitHub repository](https://github.com/eveskew/plant_rapid_assessment)]
+
 Becker, DJ, GF Albery, AR Sjodin, T Poisot, TA Dallas, **EA Eskew**, MJ Farrell, S Guth, BA Han, NB Simmons, M Stock, EC Teeling, and CJ Carlson. [Predicting wildlife hosts of betacoronaviruses for SARS-CoV-2 sampling prioritization: a modeling study](https://doi.org/10.1101/2020.05.22.111344). [preprint; [GitHub respository](https://github.com/viralemergence/Fresnel)]
 
 Hierink, F, I Bolon, AM Durso, R Ruiz de Castañeda, C Zambrana-Torrelio, **EA Eskew**, and N Ray. [Forty-four years of global trade in CITES-listed snakes: Trends and implications for conservation and public health](/assets/docs/Hierink_etal_2020.pdf).
