@@ -7,6 +7,10 @@ header:
   overlay_filter: 0.6
 ---
 
+### 2021
+
+Albery, GF, CJ Carlson, LE Cohen, **EA Eskew**, R Gibb, SJ Ryan, AR Sweeny, and DJ Becker. [Urban-adapted mammal species have more known pathogens](https://doi.org/10.1101/2021.01.02.425084). [preprint; [GitHub repository](https://github.com/gfalbery/UrbanOutputters)]
+
 ### 2020
 
 Levin, MO, JB Meek, B Boom, SM Kross, and **EA Eskew**. [Using publicly available data to conduct rapid assessments of extinction risk](https://doi.org/10.1101/2020.12.14.413906). [preprint; [GitHub repository](https://github.com/eveskew/plant_rapid_assessment)]
