@@ -6,5 +6,6 @@
 I am a conservation and evolutionary biologist, studying how dynamic landscapes influence the diversity of life on Earth. I'm especially in love with plants, mountains, and **plants in mountains**.
 
 ![https://www.applewoodseed.com/wp-content/uploads/2016/12/LUAL-CB046-1.jpg](https://www.applewoodseed.com/wp-content/uploads/2016/12/LUAL-CB046-1.jpg)
+*Lupinus argenteus*
 
 [Maps](https://j-meek.github.io/maps/)
