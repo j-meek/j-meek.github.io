@@ -9,6 +9,8 @@ header:
 
 ### 2021
 
+Carlson, CJ, MJ Farrell, Z Grange, BA Han, N Mollentze, AL Phelan, AL Rasmussen, GF Albery, B Bett, DM Brett-Major, LE Cohen, T Dallas, **EA Eskew**, AC Fagre, KM Forbes, R Gibb, S Halabi, CC Hammer, R Katz, J Kindrachuk, RL Muylaert, FB Nutter, J Ogola, KJ Olival, M Rourke, SJ Ryan, N Ross, SN Seifert, T Sironen, CJ Standley, K Taylor, M Venter, PW Webala. 2021. [Zoonotic risk technology enters the viral emergence toolkit](https://doi.org/10.20944/preprints202104.0200.v1). [preprint]
+
 Gibb, R, GF Albery, DJ Becker, L Brierley, R Connor, TA Dallas, **EA Eskew**, MJ Farrell, AL Rasmussen, SJ Ryan, AR Sweeny, CJ Carlson, and T Poisot. [Data proliferation, reconciliation, and synthesis in viral ecology](https://doi.org/10.1101/2021.01.14.426572). [preprint; [GitHub repository](https://github.com/viralemergence/reconciliation)]
 
 Albery, GF, CJ Carlson, LE Cohen, **EA Eskew**, R Gibb, SJ Ryan, AR Sweeny, and DJ Becker. [Urban-adapted mammal species have more known pathogens](https://doi.org/10.1101/2021.01.02.425084). [preprint; [GitHub repository](https://github.com/gfalbery/UrbanOutputters)]
