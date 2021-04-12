@@ -9,7 +9,9 @@ header:
 
 ### 2021
 
-Carlson, CJ, MJ Farrell, Z Grange, BA Han, N Mollentze, AL Phelan, AL Rasmussen, GF Albery, B Bett, DM Brett-Major, LE Cohen, T Dallas, **EA Eskew**, AC Fagre, KM Forbes, R Gibb, S Halabi, CC Hammer, R Katz, J Kindrachuk, RL Muylaert, FB Nutter, J Ogola, KJ Olival, M Rourke, SJ Ryan, N Ross, SN Seifert, T Sironen, CJ Standley, K Taylor, M Venter, PW Webala. 2021. [Zoonotic risk technology enters the viral emergence toolkit](https://doi.org/10.20944/preprints202104.0200.v1). [preprint]
+Fagre, AC, LE Cohen, EA Eskew, MJ Farrell, E Glennon, MB Joseph, HK Frank, SJ Ryan, CJ Carlson, GF Albery. [Spillback in the Anthropocene: the risk of human-to-wildlife pathogen transmission for conservation and public health](https://doi.org/10.32942/osf.io/sx6p8).
+
+Carlson, CJ, MJ Farrell, Z Grange, BA Han, N Mollentze, AL Phelan, AL Rasmussen, GF Albery, B Bett, DM Brett-Major, LE Cohen, T Dallas, **EA Eskew**, AC Fagre, KM Forbes, R Gibb, S Halabi, CC Hammer, R Katz, J Kindrachuk, RL Muylaert, FB Nutter, J Ogola, KJ Olival, M Rourke, SJ Ryan, N Ross, SN Seifert, T Sironen, CJ Standley, K Taylor, M Venter, PW Webala. [Zoonotic risk technology enters the viral emergence toolkit](https://doi.org/10.20944/preprints202104.0200.v1). [preprint]
 
 Gibb, R, GF Albery, DJ Becker, L Brierley, R Connor, TA Dallas, **EA Eskew**, MJ Farrell, AL Rasmussen, SJ Ryan, AR Sweeny, CJ Carlson, and T Poisot. [Data proliferation, reconciliation, and synthesis in viral ecology](https://doi.org/10.1101/2021.01.14.426572). [preprint; [GitHub repository](https://github.com/viralemergence/reconciliation)]
 
