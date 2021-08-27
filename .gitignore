@@ -4,6 +4,7 @@
 .bundle
 .DS_Store
 .jekyll-metadata
+.jekyll-cache
 .sass-cache
 _asset_bundler_cache
 _site
@@ -15,3 +16,4 @@ npm-debug.log*
 .Rproj.user
 *.Rproj
 .Rhistory
+vendor
