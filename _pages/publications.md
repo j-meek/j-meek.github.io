@@ -9,6 +9,8 @@ header:
 
 ### 2021
 
+Carlson, CJ, MJ Farrell, Z Grange, BA Han, N Mollentze, AL Phelan, AL Rasmussen, GF Albery, B Bett, DM Brett-Major, LE Cohen, T Dallas, **EA Eskew**, AC Fagre, KM Forbes, R Gibb, S Halabi, CC Hammer, R Katz, J Kindrachuk, RL Muylaert, FB Nutter, J Ogola, KJ Olival, M Rourke, SJ Ryan, N Ross, SN Seifert, T Sironen, CJ Standley, K Taylor, M Venter, PW Webala. [The future of zoonotic risk prediction](/assets/docs/Carlson_etal_2021_PhilTransB.pdf).
+
 Gibb, R, GF Albery, NF Mollentze, **EA Eskew**, L Brierley, SJ Ryan, SN Seifert, and CJ Carlson. 2021. [Mammal virus diversity estimates are unstable due to accelerating discovery effort](https://doi.org/10.1101/2021.08.10.455791). [preprint; [GitHub repository](https://github.com/rorygibb/pathogen_discovery/releases/tag/0.1)]
 
 Carlson, CJ, RJ Gibb, GF Albery, L Brierley, RP Connor, TA Dallas, **EA Eskew**, AC Fagre, MJ Farrell, HK Frank, RL Muylaert, T Poisot, AL Rasmussen, SJ Ryan, and SN Seifert. 2021. [The Global Virome in One Network (VIRION): an atlas of vertebrate-virus associations](https://doi.org/10.1101/2021.08.06.455442). [preprint; [GitHub repository](https://github.com/viralemergence/virion)]
@@ -18,8 +20,6 @@ Becker, DJ, GF Albery, AR Sjodin, T Poisot, LM Bergner, TA Dallas, **EA Eskew**,
 Carlson, CJ, GF Albery, C Merow, CH Trisos, CM Zipfel, **EA Eskew**, KJ Olival, N Ross, and S Bansal. [Climate change will drive novel cross-species viral transmission](https://doi.org/10.1101/2020.01.24.918755). [preprint; [GitHub repository](https://github.com/cjcarlson/iceberg)]
 
 Fagre, AC, LE Cohen, **EA Eskew**, MJ Farrell, E Glennon, MB Joseph, HK Frank, SJ Ryan, CJ Carlson, GF Albery. [Spillback in the Anthropocene: the risk of human-to-wildlife pathogen transmission for conservation and public health](https://doi.org/10.32942/osf.io/sx6p8). [preprint]
-
-Carlson, CJ, MJ Farrell, Z Grange, BA Han, N Mollentze, AL Phelan, AL Rasmussen, GF Albery, B Bett, DM Brett-Major, LE Cohen, T Dallas, **EA Eskew**, AC Fagre, KM Forbes, R Gibb, S Halabi, CC Hammer, R Katz, J Kindrachuk, RL Muylaert, FB Nutter, J Ogola, KJ Olival, M Rourke, SJ Ryan, N Ross, SN Seifert, T Sironen, CJ Standley, K Taylor, M Venter, PW Webala. [Zoonotic risk technology enters the viral emergence toolkit](https://doi.org/10.20944/preprints202104.0200.v1). [preprint]
 
 Gibb, R, GF Albery, DJ Becker, L Brierley, R Connor, TA Dallas, **EA Eskew**, MJ Farrell, AL Rasmussen, SJ Ryan, AR Sweeny, CJ Carlson, and T Poisot. [Data proliferation, reconciliation, and synthesis in viral ecology](https://doi.org/10.1101/2021.01.14.426572). [preprint; [GitHub repository](https://github.com/viralemergence/reconciliation)]
 
