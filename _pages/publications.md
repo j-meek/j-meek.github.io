@@ -9,6 +9,12 @@ header:
 
 ### 2021
 
+Sweeny, AR, GF Albery, DJ Becker, **EA Eskew**, and CJ Carlson. [Synzootics](https://doi.org/10.1111/1365-2656.13595).
+
+**Eskew, EA**, D Fraser, MJ Vonhof, ML Pinsky, and B Maslo. [Host gene expression in wildlife disease: making sense of species-level responses](https://doi.org/10.1111/mec.16172). [[GitHub repository](https://github.com/eveskew/wild_expression)]
+
+Gibb, R, GF Albery, DJ Becker, L Brierley, R Connor, TA Dallas, **EA Eskew**, MJ Farrell, AL Rasmussen, SJ Ryan, A Sweeny, CJ Carlson, and T Poisot. [Data proliferation, reconciliation, and synthesis in viral ecology](https://doi.org/10.1093/biosci/biab080). [[GitHub repository](https://github.com/viralemergence/reconciliation)]
+
 Carlson, CJ, MJ Farrell, Z Grange, BA Han, N Mollentze, AL Phelan, AL Rasmussen, GF Albery, B Bett, DM Brett-Major, LE Cohen, T Dallas, **EA Eskew**, AC Fagre, KM Forbes, R Gibb, S Halabi, CC Hammer, R Katz, J Kindrachuk, RL Muylaert, FB Nutter, J Ogola, KJ Olival, M Rourke, SJ Ryan, N Ross, SN Seifert, T Sironen, CJ Standley, K Taylor, M Venter, PW Webala. [The future of zoonotic risk prediction](/assets/docs/Carlson_etal_2021_PhilTransB.pdf).
 
 Gibb, R, GF Albery, NF Mollentze, **EA Eskew**, L Brierley, SJ Ryan, SN Seifert, and CJ Carlson. 2021. [Mammal virus diversity estimates are unstable due to accelerating discovery effort](https://doi.org/10.1101/2021.08.10.455791). [preprint; [GitHub repository](https://github.com/rorygibb/pathogen_discovery/releases/tag/0.1)]
@@ -20,8 +26,6 @@ Becker, DJ, GF Albery, AR Sjodin, T Poisot, LM Bergner, TA Dallas, **EA Eskew**,
 Carlson, CJ, GF Albery, C Merow, CH Trisos, CM Zipfel, **EA Eskew**, KJ Olival, N Ross, and S Bansal. [Climate change will drive novel cross-species viral transmission](https://doi.org/10.1101/2020.01.24.918755). [preprint; [GitHub repository](https://github.com/cjcarlson/iceberg)]
 
 Fagre, AC, LE Cohen, **EA Eskew**, MJ Farrell, E Glennon, MB Joseph, HK Frank, SJ Ryan, CJ Carlson, GF Albery. [Spillback in the Anthropocene: the risk of human-to-wildlife pathogen transmission for conservation and public health](https://doi.org/10.32942/osf.io/sx6p8). [preprint]
-
-Gibb, R, GF Albery, DJ Becker, L Brierley, R Connor, TA Dallas, **EA Eskew**, MJ Farrell, AL Rasmussen, SJ Ryan, AR Sweeny, CJ Carlson, and T Poisot. [Data proliferation, reconciliation, and synthesis in viral ecology](https://doi.org/10.1101/2021.01.14.426572). [preprint; [GitHub repository](https://github.com/viralemergence/reconciliation)]
 
 Albery, GF, CJ Carlson, LE Cohen, **EA Eskew**, R Gibb, SJ Ryan, AR Sweeny, and DJ Becker. [Urban-adapted mammal species have more known pathogens](https://doi.org/10.1101/2021.01.02.425084). [preprint; [GitHub repository](https://github.com/gfalbery/UrbanOutputters)]
 
