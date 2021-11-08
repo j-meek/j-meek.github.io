@@ -9,11 +9,11 @@ header:
 
 ### 2021
 
+Gibb, R, GF Albery, DJ Becker, L Brierley, R Connor, TA Dallas, **EA Eskew**, MJ Farrell, AL Rasmussen, SJ Ryan, A Sweeny, CJ Carlson, and T Poisot. [Data proliferation, reconciliation, and synthesis in viral ecology](/assets/docs/Gibb_etal_2021.pdf). [[GitHub repository](https://github.com/viralemergence/reconciliation)]
+
 Sweeny, AR, GF Albery, DJ Becker, **EA Eskew**, and CJ Carlson. [Synzootics](https://doi.org/10.1111/1365-2656.13595).
 
 **Eskew, EA**, D Fraser, MJ Vonhof, ML Pinsky, and B Maslo. [Host gene expression in wildlife disease: making sense of species-level responses](https://doi.org/10.1111/mec.16172). [[GitHub repository](https://github.com/eveskew/wild_expression)]
-
-Gibb, R, GF Albery, DJ Becker, L Brierley, R Connor, TA Dallas, **EA Eskew**, MJ Farrell, AL Rasmussen, SJ Ryan, A Sweeny, CJ Carlson, and T Poisot. [Data proliferation, reconciliation, and synthesis in viral ecology](https://doi.org/10.1093/biosci/biab080). [[GitHub repository](https://github.com/viralemergence/reconciliation)]
 
 Carlson, CJ, MJ Farrell, Z Grange, BA Han, N Mollentze, AL Phelan, AL Rasmussen, GF Albery, B Bett, DM Brett-Major, LE Cohen, T Dallas, **EA Eskew**, AC Fagre, KM Forbes, R Gibb, S Halabi, CC Hammer, R Katz, J Kindrachuk, RL Muylaert, FB Nutter, J Ogola, KJ Olival, M Rourke, SJ Ryan, N Ross, SN Seifert, T Sironen, CJ Standley, K Taylor, M Venter, PW Webala. [The future of zoonotic risk prediction](/assets/docs/Carlson_etal_2021_PhilTransB.pdf).
 
