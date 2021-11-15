@@ -17,7 +17,7 @@ Sweeny, AR, GF Albery, DJ Becker, **EA Eskew**, and CJ Carlson. [Synzootics](htt
 
 Carlson, CJ, MJ Farrell, Z Grange, BA Han, N Mollentze, AL Phelan, AL Rasmussen, GF Albery, B Bett, DM Brett-Major, LE Cohen, T Dallas, **EA Eskew**, AC Fagre, KM Forbes, R Gibb, S Halabi, CC Hammer, R Katz, J Kindrachuk, RL Muylaert, FB Nutter, J Ogola, KJ Olival, M Rourke, SJ Ryan, N Ross, SN Seifert, T Sironen, CJ Standley, K Taylor, M Venter, PW Webala. [The future of zoonotic risk prediction](/assets/docs/Carlson_etal_2021_PhilTransB.pdf).
 
-Gibb, R, GF Albery, NF Mollentze, **EA Eskew**, L Brierley, SJ Ryan, SN Seifert, and CJ Carlson. 2021. [Mammal virus diversity estimates are unstable due to accelerating discovery effort](https://doi.org/10.1101/2021.08.10.455791). [preprint; [GitHub repository](https://github.com/rorygibb/pathogen_discovery/releases/tag/0.1)]
+Gibb, R, GF Albery, NF Mollentze, **EA Eskew**, L Brierley, SJ Ryan, SN Seifert, and CJ Carlson. 2021. [Mammal virus diversity estimates are unstable due to accelerating discovery effort](https://doi.org/10.1101/2021.08.10.455791). [preprint; [GitHub repository](https://github.com/rorygibb/pathogen_discovery)]
 
 Carlson, CJ, RJ Gibb, GF Albery, L Brierley, RP Connor, TA Dallas, **EA Eskew**, AC Fagre, MJ Farrell, HK Frank, RL Muylaert, T Poisot, AL Rasmussen, SJ Ryan, and SN Seifert. 2021. [The Global Virome in One Network (VIRION): an atlas of vertebrate-virus associations](https://doi.org/10.1101/2021.08.06.455442). [preprint; [GitHub repository](https://github.com/viralemergence/virion)]
 
