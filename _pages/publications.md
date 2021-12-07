@@ -9,11 +9,11 @@ header:
 
 ### 2021
 
+Sweeny, AR, GF Albery, DJ Becker, **EA Eskew**, and CJ Carlson. [Synzootics](/assets/docs/Sweeny_etal_2021.pdf).
+
 Albery, GF, DJ Becker, L Brierley, CE Brook, RC Christofferson, LE Cohen, TA Dallas, **EA Eskew**, A Fagre, MJ Farrell, E Glennon, S Guth, MB Joseph, N Mollentze, BA Neely, T Poisot, AL Rasmussen, SJ Ryan, S Seifert, A Sjodin, EM Sorrell, and CJ Carlson. [The science of the host-virus network](/assets/docs/Albery_etal_2021.pdf).
 
 Gibb, R, GF Albery, DJ Becker, L Brierley, R Connor, TA Dallas, **EA Eskew**, MJ Farrell, AL Rasmussen, SJ Ryan, A Sweeny, CJ Carlson, and T Poisot. [Data proliferation, reconciliation, and synthesis in viral ecology](/assets/docs/Gibb_etal_2021.pdf). [[GitHub repository](https://github.com/viralemergence/reconciliation)]
-
-Sweeny, AR, GF Albery, DJ Becker, **EA Eskew**, and CJ Carlson. [Synzootics](https://doi.org/10.1111/1365-2656.13595).
 
 **Eskew, EA**, D Fraser, MJ Vonhof, ML Pinsky, and B Maslo. [Host gene expression in wildlife disease: making sense of species-level responses](https://doi.org/10.1111/mec.16172). [[GitHub repository](https://github.com/eveskew/wild_expression)]
 
