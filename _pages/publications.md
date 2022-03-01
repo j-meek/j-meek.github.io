@@ -9,6 +9,10 @@ header:
 
 ### 2022
 
+Carlson, CJ, RJ Gibb, GF Albery, L Brierley, RP Connor, TA Dallas, **EA Eskew**, AC Fagre, MJ Farrell, HK Frank, RL Muylaert, T Poisot, AL Rasmussen, SJ Ryan, and SN Seifert. [The Global Virome in One Network (VIRION): an atlas of vertebrate-virus associations](/assets/docs/Carlson_etal_2022_mBio). [[GitHub repository](https://github.com/viralemergence/virion)]
+
+Levin, MO, JB Meek, B Boom, SM Kross, and **EA Eskew**. [Using publicly available data to conduct rapid assessments of extinction risk](/assets/docs/Levin_etal_2022.pdf). [[GitHub repository](https://github.com/eveskew/plant_rapid_assessment)]
+
 Gibb, R, GF Albery, N Mollentze, **EA Eskew**, L Brierley, SJ Ryan, SN Seifert, and CJ Carlson. [Mammal virus diversity estimates are unstable due to accelerating discovery effort](/assets/docs/Gibb_etal_2022.pdf). [[GitHub repository](https://github.com/rorygibb/pathogen_discovery)]
 
 ### 2021
@@ -21,9 +25,7 @@ Albery, GF, DJ Becker, L Brierley, CE Brook, RC Christofferson, LE Cohen, TA Dal
 
 Gibb, R, GF Albery, DJ Becker, L Brierley, R Connor, TA Dallas, **EA Eskew**, MJ Farrell, AL Rasmussen, SJ Ryan, A Sweeny, CJ Carlson, and T Poisot. [Data proliferation, reconciliation, and synthesis in viral ecology](/assets/docs/Gibb_etal_2021.pdf). [[GitHub repository](https://github.com/viralemergence/reconciliation)]
 
-Carlson, CJ, MJ Farrell, Z Grange, BA Han, N Mollentze, AL Phelan, AL Rasmussen, GF Albery, B Bett, DM Brett-Major, LE Cohen, T Dallas, **EA Eskew**, AC Fagre, KM Forbes, R Gibb, S Halabi, CC Hammer, R Katz, J Kindrachuk, RL Muylaert, FB Nutter, J Ogola, KJ Olival, M Rourke, SJ Ryan, N Ross, SN Seifert, T Sironen, CJ Standley, K Taylor, M Venter, PW Webala. [The future of zoonotic risk prediction](/assets/docs/Carlson_etal_2021_PhilTransB.pdf).
-
-Carlson, CJ, RJ Gibb, GF Albery, L Brierley, RP Connor, TA Dallas, **EA Eskew**, AC Fagre, MJ Farrell, HK Frank, RL Muylaert, T Poisot, AL Rasmussen, SJ Ryan, and SN Seifert. [The Global Virome in One Network (VIRION): an atlas of vertebrate-virus associations](https://doi.org/10.1101/2021.08.06.455442). [preprint; [GitHub repository](https://github.com/viralemergence/virion)]
+Carlson, CJ, MJ Farrell, Z Grange, BA Han, N Mollentze, AL Phelan, AL Rasmussen, GF Albery, B Bett, DM Brett-Major, LE Cohen, T Dallas, **EA Eskew**, AC Fagre, KM Forbes, R Gibb, S Halabi, CC Hammer, R Katz, J Kindrachuk, RL Muylaert, FB Nutter, J Ogola, KJ Olival, M Rourke, SJ Ryan, N Ross, SN Seifert, T Sironen, CJ Standley, K Taylor, M Venter, PW Webala. [The future of zoonotic risk prediction](/assets/docs/Carlson_etal_2021.pdf).
 
 Becker, DJ, GF Albery, AR Sjodin, T Poisot, LM Bergner, TA Dallas, **EA Eskew**, MJ Farrell, S Guth, BA Han, NB Simmons, M Stock, EC Teeling, and CJ Carlson. [Optimizing predictive models to prioritize viral discovery in zoonotic reservoirs](https://doi.org/10.1101/2020.05.22.111344). [preprint; [GitHub respository](https://github.com/viralemergence/Fresnel)]
 
@@ -35,8 +37,6 @@ Albery, GF, CJ Carlson, LE Cohen, **EA Eskew**, R Gibb, SJ Ryan, AR Sweeny, and 
 
 ### 2020
 
-Levin, MO, JB Meek, B Boom, SM Kross, and **EA Eskew**. [Using publicly available data to conduct rapid assessments of extinction risk](https://doi.org/10.1101/2020.12.14.413906). [preprint; [GitHub repository](https://github.com/eveskew/plant_rapid_assessment)]
-
 Hierink, F, I Bolon, AM Durso, R Ruiz de Castañeda, C Zambrana-Torrelio, **EA Eskew**, and N Ray. [Forty-four years of global trade in CITES-listed snakes: Trends and implications for conservation and public health](/assets/docs/Hierink_etal_2020.pdf).
 
 **Eskew, EA**, and CJ Carlson. [Overselling wildlife trade bans will not bolster conservation or pandemic preparedness](/assets/docs/Eskew_and_Carlson_2020.pdf).
@@ -45,7 +45,7 @@ Albery, GF, **EA Eskew**, N Ross, and KJ Olival. [Predicting the global mammalia
 
 Di Marco, M, M Baker, P Daszak, P De Barro, **EA Eskew**, C Godde, T Harwood, M Herrero, A Hoskins, E Johnson, WB Karesh, C Machalaba, J Navarro Garcia, D Paini, R Pirzl, MS Smith, C Zambrana-Torrelio, and S Ferrier. [Opinion: Sustainable development must account for pandemic risk](/assets/docs/DiMarco_etal_2020.pdf).
 
-**Eskew, EA**, AM White, N Ross, KM Smith, KF Smith, JP Rodríguez, C Zambrana-Torrelio, WB Karesh, and P Daszak. [United States wildlife and wildlife product imports from 2000-2014](/assets/docs/Eskew_etal_2020_Scientific_Data.pdf). [[GitHub repository](https://github.com/ecohealthalliance/lemis); [Zenodo repository](https://doi.org/10.5281/zenodo.3565869)]
+**Eskew, EA**, AM White, N Ross, KM Smith, KF Smith, JP Rodríguez, C Zambrana-Torrelio, WB Karesh, and P Daszak. [United States wildlife and wildlife product imports from 2000-2014](/assets/docs/Eskew_etal_2020.pdf). [[GitHub repository](https://github.com/ecohealthalliance/lemis); [Zenodo repository](https://doi.org/10.5281/zenodo.3565869)]
 
 ### 2019
 
