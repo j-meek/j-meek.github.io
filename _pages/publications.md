@@ -9,11 +9,11 @@ header:
 
 ### 2022
 
-Albery, GF, CJ Carlson, LE Cohen, **EA Eskew**, R Gibb, SJ Ryan, AR Sweeny, and DJ Becker. [Urban-adapted mammal species have more known pathogens](https://doi.org/10.1038/s41559-022-01723-0). [GitHub repository](https://github.com/gfalbery/UrbanOutputters)]
+Albery, GF, CJ Carlson, LE Cohen, **EA Eskew**, R Gibb, SJ Ryan, AR Sweeny, and DJ Becker. [Urban-adapted mammal species have more known pathogens](https://doi.org/10.1038/s41559-022-01723-0). [[GitHub repository](https://github.com/viralemergence/UrbanOutputters)]
 
-Carlson, CJ, GF Albery, C Merow, CH Trisos, CM Zipfel, **EA Eskew**, KJ Olival, N Ross, and S Bansal. [Climate change increases cross-species viral transmission risk](https://doi.org/10.1038/s41586-022-04788-w). [GitHub repository](https://github.com/cjcarlson/iceberg)]
+Carlson, CJ, GF Albery, C Merow, CH Trisos, CM Zipfel, **EA Eskew**, KJ Olival, N Ross, and S Bansal. [Climate change increases cross-species viral transmission risk](https://doi.org/10.1038/s41586-022-04788-w). [[GitHub repository](https://github.com/cjcarlson/iceberg)]
 
-Becker, DJ, GF Albery, AR Sjodin, T Poisot, LM Bergner, B Chen, LE Cohen, TA Dallas, **EA Eskew**, AC Fagre, MJ Farrell, S Guth, BA Han, NB Simmons, M Stock, EC Teeling, and CJ Carlson. [Optimising predictive models to prioritise viral discovery in zoonotic reservoirs](https://doi.org/10.1016/S2666-5247(21)00245-7). [GitHub respository](https://github.com/viralemergence/Fresnel)]
+Becker, DJ, GF Albery, AR Sjodin, T Poisot, LM Bergner, B Chen, LE Cohen, TA Dallas, **EA Eskew**, AC Fagre, MJ Farrell, S Guth, BA Han, NB Simmons, M Stock, EC Teeling, and CJ Carlson. [Optimising predictive models to prioritise viral discovery in zoonotic reservoirs](https://doi.org/10.1016/S2666-5247(21)00245-7). [[GitHub respository](https://github.com/viralemergence/Fresnel)]
 
 Fagre, AC, LE Cohen, **EA Eskew**, M Farrell, E Glennon, MB Joseph, HK Frank, SJ Ryan, CJ Carlson, GF Albery. [Assessing the risk of human-to-wildlife pathogen transmission for conservation and public health](/assets/docs/Fagre_etal_2022.pdf).
 
