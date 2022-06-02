@@ -9,7 +9,15 @@ header:
 
 ### 2022
 
-Carlson, CJ, RJ Gibb, GF Albery, L Brierley, RP Connor, TA Dallas, **EA Eskew**, AC Fagre, MJ Farrell, HK Frank, RL Muylaert, T Poisot, AL Rasmussen, SJ Ryan, and SN Seifert. [The Global Virome in One Network (VIRION): an atlas of vertebrate-virus associations](/assets/docs/Carlson_etal_2022_mBio). [[GitHub repository](https://github.com/viralemergence/virion)]
+Albery, GF, CJ Carlson, LE Cohen, **EA Eskew**, R Gibb, SJ Ryan, AR Sweeny, and DJ Becker. [Urban-adapted mammal species have more known pathogens](https://doi.org/10.1038/s41559-022-01723-0). [GitHub repository](https://github.com/gfalbery/UrbanOutputters)]
+
+Carlson, CJ, GF Albery, C Merow, CH Trisos, CM Zipfel, **EA Eskew**, KJ Olival, N Ross, and S Bansal. [Climate change increases cross-species viral transmission risk](https://doi.org/10.1038/s41586-022-04788-w). [GitHub repository](https://github.com/cjcarlson/iceberg)]
+
+Becker, DJ, GF Albery, AR Sjodin, T Poisot, LM Bergner, B Chen, LE Cohen, TA Dallas, **EA Eskew**, AC Fagre, MJ Farrell, S Guth, BA Han, NB Simmons, M Stock, EC Teeling, and CJ Carlson. [Optimising predictive models to prioritise viral discovery in zoonotic reservoirs](https://doi.org/10.1016/S2666-5247(21)00245-7). [GitHub respository](https://github.com/viralemergence/Fresnel)]
+
+Fagre, AC, LE Cohen, **EA Eskew**, M Farrell, E Glennon, MB Joseph, HK Frank, SJ Ryan, CJ Carlson, GF Albery. [Assessing the risk of human-to-wildlife pathogen transmission for conservation and public health](/assets/docs/Fagre_etal_2022.pdf).
+
+Carlson, CJ, RJ Gibb, GF Albery, L Brierley, RP Connor, TA Dallas, **EA Eskew**, AC Fagre, MJ Farrell, HK Frank, RL Muylaert, T Poisot, AL Rasmussen, SJ Ryan, and SN Seifert. [The Global Virome in One Network (VIRION): an atlas of vertebrate-virus associations](/assets/docs/Carlson_etal_2022_mBio.pdf). [[GitHub repository](https://github.com/viralemergence/virion)]
 
 Levin, MO, JB Meek, B Boom, SM Kross, and **EA Eskew**. [Using publicly available data to conduct rapid assessments of extinction risk](/assets/docs/Levin_etal_2022.pdf). [[GitHub repository](https://github.com/eveskew/plant_rapid_assessment)]
 
@@ -26,14 +34,6 @@ Albery, GF, DJ Becker, L Brierley, CE Brook, RC Christofferson, LE Cohen, TA Dal
 Gibb, R, GF Albery, DJ Becker, L Brierley, R Connor, TA Dallas, **EA Eskew**, MJ Farrell, AL Rasmussen, SJ Ryan, A Sweeny, CJ Carlson, and T Poisot. [Data proliferation, reconciliation, and synthesis in viral ecology](/assets/docs/Gibb_etal_2021.pdf). [[GitHub repository](https://github.com/viralemergence/reconciliation)]
 
 Carlson, CJ, MJ Farrell, Z Grange, BA Han, N Mollentze, AL Phelan, AL Rasmussen, GF Albery, B Bett, DM Brett-Major, LE Cohen, T Dallas, **EA Eskew**, AC Fagre, KM Forbes, R Gibb, S Halabi, CC Hammer, R Katz, J Kindrachuk, RL Muylaert, FB Nutter, J Ogola, KJ Olival, M Rourke, SJ Ryan, N Ross, SN Seifert, T Sironen, CJ Standley, K Taylor, M Venter, PW Webala. [The future of zoonotic risk prediction](/assets/docs/Carlson_etal_2021.pdf).
-
-Becker, DJ, GF Albery, AR Sjodin, T Poisot, LM Bergner, TA Dallas, **EA Eskew**, MJ Farrell, S Guth, BA Han, NB Simmons, M Stock, EC Teeling, and CJ Carlson. [Optimizing predictive models to prioritize viral discovery in zoonotic reservoirs](https://doi.org/10.1101/2020.05.22.111344). [preprint; [GitHub respository](https://github.com/viralemergence/Fresnel)]
-
-Carlson, CJ, GF Albery, C Merow, CH Trisos, CM Zipfel, **EA Eskew**, KJ Olival, N Ross, and S Bansal. [Climate change will drive novel cross-species viral transmission](https://doi.org/10.1101/2020.01.24.918755). [preprint; [GitHub repository](https://github.com/cjcarlson/iceberg)]
-
-Fagre, AC, LE Cohen, **EA Eskew**, MJ Farrell, E Glennon, MB Joseph, HK Frank, SJ Ryan, CJ Carlson, GF Albery. [Spillback in the Anthropocene: the risk of human-to-wildlife pathogen transmission for conservation and public health](https://doi.org/10.32942/osf.io/sx6p8). [preprint]
-
-Albery, GF, CJ Carlson, LE Cohen, **EA Eskew**, R Gibb, SJ Ryan, AR Sweeny, and DJ Becker. [Urban-adapted mammal species have more known pathogens](https://doi.org/10.1101/2021.01.02.425084). [preprint; [GitHub repository](https://github.com/gfalbery/UrbanOutputters)]
 
 ### 2020
 
