@@ -9,13 +9,13 @@ header:
 
 ### 2022
 
-Albery, GF, CJ Carlson, LE Cohen, **EA Eskew**, R Gibb, SJ Ryan, AR Sweeny, and DJ Becker. [Urban-adapted mammal species have more known pathogens](https://doi.org/10.1038/s41559-022-01723-0). [[GitHub repository](https://github.com/viralemergence/UrbanOutputters)]
+Becker, DJ, GF Albery, AR Sjodin, T Poisot, LM Bergner, B Chen, LE Cohen, TA Dallas, **EA Eskew**, AC Fagre, MJ Farrell, S Guth, BA Han, NB Simmons, M Stock, EC Teeling, and CJ Carlson. [Optimising predictive models to prioritise viral discovery in zoonotic reservoirs](/assets/docs/Becker_etal_2022.pdf). [[GitHub respository](https://github.com/viralemergence/Fresnel)]
 
-Carlson, CJ, GF Albery, C Merow, CH Trisos, CM Zipfel, **EA Eskew**, KJ Olival, N Ross, and S Bansal. [Climate change increases cross-species viral transmission risk](https://doi.org/10.1038/s41586-022-04788-w). [[GitHub repository](https://github.com/cjcarlson/iceberg)]
-
-Becker, DJ, GF Albery, AR Sjodin, T Poisot, LM Bergner, B Chen, LE Cohen, TA Dallas, **EA Eskew**, AC Fagre, MJ Farrell, S Guth, BA Han, NB Simmons, M Stock, EC Teeling, and CJ Carlson. [Optimising predictive models to prioritise viral discovery in zoonotic reservoirs](https://doi.org/10.1016/S2666-5247(21)00245-7). [[GitHub respository](https://github.com/viralemergence/Fresnel)]
+Carlson, CJ, GF Albery, C Merow, CH Trisos, CM Zipfel, **EA Eskew**, KJ Olival, N Ross, and S Bansal. [Climate change increases cross-species viral transmission risk](/assets/docs/Carlson_etal_2022_Nature.pdf). [[GitHub repository](https://github.com/cjcarlson/iceberg)]
 
 Fagre, AC, LE Cohen, **EA Eskew**, M Farrell, E Glennon, MB Joseph, HK Frank, SJ Ryan, CJ Carlson, GF Albery. [Assessing the risk of human-to-wildlife pathogen transmission for conservation and public health](/assets/docs/Fagre_etal_2022.pdf).
+
+Albery, GF, CJ Carlson, LE Cohen, **EA Eskew**, R Gibb, SJ Ryan, AR Sweeny, and DJ Becker. [Urban-adapted mammal species have more known pathogens](/assets/docs/Albery_etal_2022.pdf). [[GitHub repository](https://github.com/viralemergence/UrbanOutputters)]
 
 Carlson, CJ, RJ Gibb, GF Albery, L Brierley, RP Connor, TA Dallas, **EA Eskew**, AC Fagre, MJ Farrell, HK Frank, RL Muylaert, T Poisot, AL Rasmussen, SJ Ryan, and SN Seifert. [The Global Virome in One Network (VIRION): an atlas of vertebrate-virus associations](/assets/docs/Carlson_etal_2022_mBio.pdf). [[GitHub repository](https://github.com/viralemergence/virion)]
 
@@ -25,15 +25,15 @@ Gibb, R, GF Albery, N Mollentze, **EA Eskew**, L Brierley, SJ Ryan, SN Seifert, 
 
 ### 2021
 
-**Eskew, EA**, D Fraser, MJ Vonhof, ML Pinsky, and B Maslo. [Host gene expression in wildlife disease: making sense of species-level responses](/assets/docs/Eskew_etal_2021.pdf). [[GitHub repository](https://github.com/eveskew/wild_expression)]
-
 Sweeny, AR, GF Albery, DJ Becker, **EA Eskew**, and CJ Carlson. [Synzootics](/assets/docs/Sweeny_etal_2021.pdf).
 
-Albery, GF, DJ Becker, L Brierley, CE Brook, RC Christofferson, LE Cohen, TA Dallas, **EA Eskew**, A Fagre, MJ Farrell, E Glennon, S Guth, MB Joseph, N Mollentze, BA Neely, T Poisot, AL Rasmussen, SJ Ryan, S Seifert, A Sjodin, EM Sorrell, and CJ Carlson. [The science of the host-virus network](/assets/docs/Albery_etal_2021.pdf).
+**Eskew, EA**, D Fraser, MJ Vonhof, ML Pinsky, and B Maslo. [Host gene expression in wildlife disease: making sense of species-level responses](/assets/docs/Eskew_etal_2021.pdf). [[GitHub repository](https://github.com/eveskew/wild_expression)]
 
-Gibb, R, GF Albery, DJ Becker, L Brierley, R Connor, TA Dallas, **EA Eskew**, MJ Farrell, AL Rasmussen, SJ Ryan, A Sweeny, CJ Carlson, and T Poisot. [Data proliferation, reconciliation, and synthesis in viral ecology](/assets/docs/Gibb_etal_2021.pdf). [[GitHub repository](https://github.com/viralemergence/reconciliation)]
+Albery, GF, DJ Becker, L Brierley, CE Brook, RC Christofferson, LE Cohen, TA Dallas, **EA Eskew**, A Fagre, MJ Farrell, E Glennon, S Guth, MB Joseph, N Mollentze, BA Neely, T Poisot, AL Rasmussen, SJ Ryan, S Seifert, AR Sjodin, EM Sorrell, and CJ Carlson. [The science of the host-virus network](/assets/docs/Albery_etal_2021.pdf).
 
 Carlson, CJ, MJ Farrell, Z Grange, BA Han, N Mollentze, AL Phelan, AL Rasmussen, GF Albery, B Bett, DM Brett-Major, LE Cohen, T Dallas, **EA Eskew**, AC Fagre, KM Forbes, R Gibb, S Halabi, CC Hammer, R Katz, J Kindrachuk, RL Muylaert, FB Nutter, J Ogola, KJ Olival, M Rourke, SJ Ryan, N Ross, SN Seifert, T Sironen, CJ Standley, K Taylor, M Venter, PW Webala. [The future of zoonotic risk prediction](/assets/docs/Carlson_etal_2021.pdf).
+
+Gibb, R, GF Albery, DJ Becker, L Brierley, R Connor, TA Dallas, **EA Eskew**, MJ Farrell, AL Rasmussen, SJ Ryan, A Sweeny, CJ Carlson, and T Poisot. [Data proliferation, reconciliation, and synthesis in viral ecology](/assets/docs/Gibb_etal_2021.pdf). [[GitHub repository](https://github.com/viralemergence/reconciliation)]
 
 ### 2020
 
@@ -43,7 +43,7 @@ Hierink, F, I Bolon, AM Durso, R Ruiz de Castañeda, C Zambrana-Torrelio, **EA E
 
 Albery, GF, **EA Eskew**, N Ross, and KJ Olival. [Predicting the global mammalian viral sharing network using phylogeography](/assets/docs/Albery_etal_2020.pdf). [[GitHub repository](https://github.com/gfalbery/ViralSharingPhylogeography)]
 
-Di Marco, M, M Baker, P Daszak, P De Barro, **EA Eskew**, C Godde, T Harwood, M Herrero, A Hoskins, E Johnson, WB Karesh, C Machalaba, J Navarro Garcia, D Paini, R Pirzl, MS Smith, C Zambrana-Torrelio, and S Ferrier. [Opinion: Sustainable development must account for pandemic risk](/assets/docs/DiMarco_etal_2020.pdf).
+Di Marco, M, ML Baker, P Daszak, P De Barro, **EA Eskew**, CM Godde, TD Harwood, M Herrero, AJ Hoskins, E Johnson, WB Karesh, C Machalaba, J Navarro Garcia, D Paini, R Pirzl, MS Smith, C Zambrana-Torrelio, and S Ferrier. [Opinion: Sustainable development must account for pandemic risk](/assets/docs/DiMarco_etal_2020.pdf).
 
 **Eskew, EA**, AM White, N Ross, KM Smith, KF Smith, JP Rodríguez, C Zambrana-Torrelio, WB Karesh, and P Daszak. [United States wildlife and wildlife product imports from 2000-2014](/assets/docs/Eskew_etal_2020.pdf). [[GitHub repository](https://github.com/ecohealthalliance/lemis); [Zenodo repository](https://doi.org/10.5281/zenodo.3565869)]
 
