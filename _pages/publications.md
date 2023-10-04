@@ -7,6 +7,12 @@ header:
   overlay_filter: 0.6
 ---
 
+### 2023
+
+Layman, NC, AJ Basinski, B Zhang, **EA Eskew**, BH Bird, BM Ghersi, J Bangura, E Fichet-Calvet, CH Remien, M Vandi, M Bah, and SL Nuismer. 2023. [Predicting the fine-scale spatial distribution of zoonotic reservoirs using computer vision](/assets/docs/Layman_etal_2023.pdf). [[GitHub repository](https://github.com/Boyu-Zhang-UOI/Machine-Vision-for-Zoonotic-Reservoir-Density-at-Fine-Resolution); [Zenodo repository](https://doi.org/10.5281/zenodo.7717285)]
+
+Connelly, PJ, N Ross, OC Stringham, and **EA Eskew**. [United States amphibian imports pose a disease risk to salamanders despite Lacey Act regulations](/assets/docs/Connelly_etal_2023.pdf). [[GitHub repository](https://github.com/ecohealthalliance/amphibian_trade); [Zenodo repository](https://doi.org/10.5281/zenodo.7504947)]
+
 ### 2022
 
 Becker, DJ, GF Albery, AR Sjodin, T Poisot, LM Bergner, B Chen, LE Cohen, TA Dallas, **EA Eskew**, AC Fagre, MJ Farrell, S Guth, BA Han, NB Simmons, M Stock, EC Teeling, and CJ Carlson. [Optimising predictive models to prioritise viral discovery in zoonotic reservoirs](/assets/docs/Becker_etal_2022.pdf). [[GitHub respository](https://github.com/viralemergence/Fresnel)]
