@@ -9,6 +9,10 @@ header:
 
 ### 2024
 
+Kwait, R, ML Pinsky, S Gignoux-Wolfsohn, **EA Eskew**, K Kerwin, and B Maslo. 2024. [Impact of putatively beneficial genomic loci on gene expression in little brown bats (*Myotis lucifugus*, Le Conte, 1831) affected by white-nose syndrome](/assets/docs/Kwait_etal_2024.pdf). [[GitHub repository](https://github.com/BKrek89/MYLU_eQTL)]
+
+Nuismer, SL, AJ Basinski, CL Schreiner, **EA Eskew**, E Fichet-Calvet, and CH Remien. [Quantifying the risk of spillover reduction programs for human health](/assets/docs/Nuismer_etal_2024.pdf). [[GitHub repository](https://github.com/snuismer/Unanticipated-Consequences-of-Spillover-Reduction)]
+
 **Eskew, EA**, BH Bird, BM Ghersi, J Bangura, AJ Basinski, E Amara, MA Bah, MC Kanu, OT Kanu, EG Lavalie, V Lungay, W Robert, MA Vandi, E Fichet-Calvet, and SL Nuismer. [Reservoir displacement by an invasive rodent reduces Lassa virus zoonotic spillover risk](/assets/docs/Eskew_etal_2024_Nature_Communications.pdf). [[GitHub repository](https://github.com/eveskew/rat_invasion); [Zenodo repository](https://doi.org/10.5281/zenodo.10946459)]
 
 ### 2023
@@ -23,7 +27,7 @@ Becker, DJ, GF Albery, AR Sjodin, T Poisot, LM Bergner, B Chen, LE Cohen, TA Dal
 
 Carlson, CJ, GF Albery, C Merow, CH Trisos, CM Zipfel, **EA Eskew**, KJ Olival, N Ross, and S Bansal. [Climate change increases cross-species viral transmission risk](/assets/docs/Carlson_etal_2022_Nature.pdf). [[GitHub repository](https://github.com/cjcarlson/iceberg)]
 
-Fagre, AC, LE Cohen, **EA Eskew**, M Farrell, E Glennon, MB Joseph, HK Frank, SJ Ryan, CJ Carlson, GF Albery. [Assessing the risk of human-to-wildlife pathogen transmission for conservation and public health](/assets/docs/Fagre_etal_2022.pdf).
+Fagre, AC, LE Cohen, **EA Eskew**, M Farrell, E Glennon, MB Joseph, HK Frank, SJ Ryan, CJ Carlson, and GF Albery. [Assessing the risk of human-to-wildlife pathogen transmission for conservation and public health](/assets/docs/Fagre_etal_2022.pdf).
 
 Albery, GF, CJ Carlson, LE Cohen, **EA Eskew**, R Gibb, SJ Ryan, AR Sweeny, and DJ Becker. [Urban-adapted mammal species have more known pathogens](/assets/docs/Albery_etal_2022.pdf). [[GitHub repository](https://github.com/viralemergence/UrbanOutputters)]
 
@@ -41,7 +45,7 @@ Sweeny, AR, GF Albery, DJ Becker, **EA Eskew**, and CJ Carlson. [Synzootics](/as
 
 Albery, GF, DJ Becker, L Brierley, CE Brook, RC Christofferson, LE Cohen, TA Dallas, **EA Eskew**, A Fagre, MJ Farrell, E Glennon, S Guth, MB Joseph, N Mollentze, BA Neely, T Poisot, AL Rasmussen, SJ Ryan, S Seifert, AR Sjodin, EM Sorrell, and CJ Carlson. [The science of the host-virus network](/assets/docs/Albery_etal_2021.pdf).
 
-Carlson, CJ, MJ Farrell, Z Grange, BA Han, N Mollentze, AL Phelan, AL Rasmussen, GF Albery, B Bett, DM Brett-Major, LE Cohen, T Dallas, **EA Eskew**, AC Fagre, KM Forbes, R Gibb, S Halabi, CC Hammer, R Katz, J Kindrachuk, RL Muylaert, FB Nutter, J Ogola, KJ Olival, M Rourke, SJ Ryan, N Ross, SN Seifert, T Sironen, CJ Standley, K Taylor, M Venter, PW Webala. [The future of zoonotic risk prediction](/assets/docs/Carlson_etal_2021.pdf).
+Carlson, CJ, MJ Farrell, Z Grange, BA Han, N Mollentze, AL Phelan, AL Rasmussen, GF Albery, B Bett, DM Brett-Major, LE Cohen, T Dallas, **EA Eskew**, AC Fagre, KM Forbes, R Gibb, S Halabi, CC Hammer, R Katz, J Kindrachuk, RL Muylaert, FB Nutter, J Ogola, KJ Olival, M Rourke, SJ Ryan, N Ross, SN Seifert, T Sironen, CJ Standley, K Taylor, M Venter, and PW Webala. [The future of zoonotic risk prediction](/assets/docs/Carlson_etal_2021.pdf).
 
 Gibb, R, GF Albery, DJ Becker, L Brierley, R Connor, TA Dallas, **EA Eskew**, MJ Farrell, AL Rasmussen, SJ Ryan, A Sweeny, CJ Carlson, and T Poisot. [Data proliferation, reconciliation, and synthesis in viral ecology](/assets/docs/Gibb_etal_2021.pdf). [[GitHub repository](https://github.com/viralemergence/reconciliation)]
 
