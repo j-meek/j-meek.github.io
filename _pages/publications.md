@@ -9,6 +9,8 @@ header:
 
 ### 2024
 
+Mark, M, TC Christensen, RE Kwait, **EA Eskew**, I Zoccolo, EJ Struck, and B Maslo. [Apparent ophidiomycosis alters eastern copperhead (*Agkistrodon contortrix*) behavior and habitat use](/assets/docs/Mark_etal_2024.pdf).
+
 Kwait, R, ML Pinsky, S Gignoux-Wolfsohn, **EA Eskew**, K Kerwin, and B Maslo. [Impact of putatively beneficial genomic loci on gene expression in little brown bats (*Myotis lucifugus*, Le Conte, 1831) affected by white-nose syndrome](/assets/docs/Kwait_etal_2024.pdf). [[GitHub repository](https://github.com/BKrek89/MYLU_eQTL)]
 
 Nuismer, SL, AJ Basinski, CL Schreiner, **EA Eskew**, E Fichet-Calvet, and CH Remien. [Quantifying the risk of spillover reduction programs for human health](/assets/docs/Nuismer_etal_2024.pdf). [[GitHub repository](https://github.com/snuismer/Unanticipated-Consequences-of-Spillover-Reduction)]
