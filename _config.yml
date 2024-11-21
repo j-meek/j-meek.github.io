@@ -10,13 +10,13 @@ minimal_mistakes_skin    : "default" # "default" "air", "aqua", "contrast", "dar
 
 # Site Settings
 locale                   : "en"
-title                    : "Evan Eskew"
+title                    : "Jared Meek"
 title_separator          : "-"
-name                     : "Evan Eskew"
-description              : "Personal website for Evan Eskew"
-url                      : "https://eveskew.github.io"
+name                     : "Jared Meek"
+description              : "Personal website for Jared Meek"
+url                      : "https://j-meek.github.io"
 baseurl                  : ""
-repository               : "eveskew/eveskew.github.io"
+repository               : "j-meek/j-meek.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -80,23 +80,23 @@ analytics:
 
 # Site Author
 author:
-  name             : "Evan Eskew"
+  name             : "Jared Meek"
   avatar           : "/assets/images/headshot.jpg"
-  bio              : "conservation and disease ecology"
-  location         : "Durham, NC"
+  bio              : "plant evolution and conservation"
+  location         : "New York, NY"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:eveskew@gmail.com"
+      url: "mailto:jm4761@columbia.edu"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/evanaeskew"
+      url: "https://twitter.com/meekeasy"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/eveskew"
+      url: "https://github.com/j-meek"
     - label: "Google Scholar"
       icon: "ai ai-google-scholar"
-      url: "https://scholar.google.com/citations?user=Y2tSgJwAAAAJ"
+      url: "https://scholar.google.com/citations?user=GO9JpNYAAAAJ&hl=en"
 
 
 # Reading Files
