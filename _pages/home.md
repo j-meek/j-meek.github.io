@@ -3,11 +3,13 @@ layout: single
 permalink: /
 excerpt: ""
 header:
-  image: /assets/images/redwoods_cropped.jpg
+  image: /assets/images/lupinus_cropped.png
 ---
 
-I'm a data scientist with the [Computational One Health team](https://www.iids.uidaho.edu/onehealth.php) at the University of Idaho. I received my PhD from the [Graduate Group in Ecology](http://ecology.ucdavis.edu/) at the University of California, Davis, where I studied with [Dr. Brian Todd](http://toddlab.ucdavis.edu/). Subsequently, I worked as a research scientist at the non-profit organization [EcoHealth Alliance](https://www.ecohealthalliance.org/) and conducted postdoctoral studies in the lab of [Dr. Brooke Maslo](https://maslolab.wordpress.com/) at Rutgers University.
+Jared Meek, MA, MPhil
+PhD Candidate
+[Eaton Lab](https://eaton-lab.org/research/)
+[Department of Ecology, Evolution and Environmental Biology](https://e3b.columbia.edu/)
+[Columbia University](https://www.columbia.edu/)
 
-My research focuses on the conservation and disease ecology of wildlife. I aim to produce information that can guide applied conservation efforts and improves our understanding of infectious diseases in both wildlife and humans. Recently, I've also become interested in the impacts of the global wildlife trade. I pursue this research in part through collaboration with the [Viral Emergence Research Initiative (VERENA)](https://www.viralemergence.org/). Increasingly, I've worked towards research transparency and reproducibility by employing open source tools and posting materials publicly using [GitHub](https://github.com/eveskew). 
-
-I also have a variety of teaching experience. From 2020 to 2022, I was an Assistant Professor in the [Department of Biology](https://www.plu.edu/biology/) at Pacific Lutheran University. Prior to that, I served as an adjunct research scientist within Columbia University's department of [Ecology, Evolution and Environmental Biology](http://e3b.columbia.edu/), where I taught [statistics for ecology and evolution](https://github.com/eveskew/stats_eco_evo_spring2020). And as a graduate instructor at UC Davis, I led an undergraduate discussion course on the social construction of nature and wilderness. Check out that syllabus [here](/assets/docs/Nature_Wilderness_Conservation_Syllabus.pdf).
+I am a conservation and evolutionary biologist, studying how dynamic landscapes influence the diversity of life on Earth. I'm especially in love with plants, mountains, and plants in mountains.
