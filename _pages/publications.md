@@ -3,7 +3,7 @@ layout: single
 title: "Publications"
 permalink: /publications/
 header:
-  overlay_image: /assets/images/tetons_cropped.jpg
+  overlay_image: /assets/images/silhouette.jpg
   overlay_filter: 0.6
 ---
 
