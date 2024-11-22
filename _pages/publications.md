@@ -20,7 +20,7 @@ historical stepping-stone path for an island-colonizing cactus across a submerge
 ### 2023
 
 **Meek, J**, J Birrell, T Mulford, DK Shiozawa, and CR Nelson. [Aquatic insect communities remain impaired
-following large-scale river restoration](/assets/docs/meek-et-al-2023-aquatic-insect-communities-remain-impaired-following-large-scale-river-restoration).
+following large-scale river restoration](/assets/docs/meek-et-al-2023-aquatic-insect-communities-remain-impaired-following-large-scale-river-restoration.pdf).
 
 Levin, MO, EL Kalies, E Forester, EL Jackson, AH Levin, C Markus, PF McKenzie, **JB Meek**, and RR Hernandez. [Solar Energy-driven Land-cover Change Could Alter Landscapes Critical to Animal
 Movement in the Continental United States](/assets/docs/levin-et-al-2023-solar-energy-driven-land-cover-change-could-alter-landscapes-critical-to-animal-movement-in-the-continental-united-states.pdf).
