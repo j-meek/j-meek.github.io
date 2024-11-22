@@ -94,9 +94,6 @@ author:
     - label: "Google Scholar"
       icon: "ai ai-google-scholar"
       url: "https://scholar.google.com/citations?user=GO9JpNYAAAAJ&hl=en"
-    - label: "ORCID"
-      icon: "<i class="fa-brands fa-orcid"></i>
-      url: "https://orcid.org/0000-0001-8191-4266"
 
 
 # Reading Files
