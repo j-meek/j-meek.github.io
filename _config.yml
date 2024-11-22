@@ -88,15 +88,15 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:jm4761@columbia.edu"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/meekeasy"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/j-meek"
     - label: "Google Scholar"
       icon: "ai ai-google-scholar"
       url: "https://scholar.google.com/citations?user=GO9JpNYAAAAJ&hl=en"
+    - label: "ORCID"
+      icon: "<i class="fa-brands fa-orcid"></i>
+      url: "https://orcid.org/0000-0001-8191-4266"
 
 
 # Reading Files
