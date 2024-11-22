@@ -3,7 +3,7 @@ layout: single
 title: "Publications"
 permalink: /publications/
 header:
-  overlay_image: /assets/images/silhouette.jpg
+  overlay_image: /assets/images/silhouette.png
   overlay_filter: 0.6
 ---
 
@@ -21,4 +21,6 @@ Levin, MO, **JB Meek**, B Boom, SM Kross, and EA Eskew. [Using publicly availabl
 
 ### 2019
 
+Birrell, JH, **JB Meek**, and CR Nelson. [Decline of the Giant Salmonfly *Pteronarcys californica* Newport, 1848
+(Plecoptera: Pteronarcyidae) in the Provo River, Utah, USA](efaidnbmnnnibpcajpcglclefindmkaj/http://illiesia.speciesfile.org/papers/Illiesia15-05.pdf). Illiesia, 15(5), 53-97.
 
