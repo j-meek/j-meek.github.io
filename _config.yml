@@ -83,11 +83,11 @@ author:
   name             : "Jared Meek"
   avatar           : "/assets/images/maine_2022.jpg"
   bio              : "plant evolution and conservation"
-  location         : "New York, NY"
+  location         : "Ithaca, NY"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:jm4761@columbia.edu"
+      url: "mailto:jbm346@cornell.edu"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/j-meek"
