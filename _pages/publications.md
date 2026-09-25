@@ -7,6 +7,15 @@ header:
   overlay_filter: 0.6
 ---
 
+### 2026
+
+Meek, JB, D Cook, BS Bushman, K Thorsted, and DAR Eaton. [Geography and admixture shape the genome-scale phylogeny of
+North American *Delphinium*] (/assets/docs/meek-et-al-2026_geography_and_admixture_shape_the_genome‐scale_phylogeny_of_North_American_Delphinium.pdf).
+
+### 2025
+
+Levin, MO, E Forester, EL Kalies, L Goodman, JS Hagani, CC Holmes, NZ Krasner, C Markus, **JB Meek**, A Vanamamalai, S Agarwal, U Ashraf, D Condon, D Forester, LCV Holland, E Jackson, M Levin, PF McKenzie, B Narwold, LE Norton, B Rodgers, LC Cheadle, DB Dayan, J Dayan, A Levin, and R Hernandez. [Variation in estimates of the footprint of large, ground-mounted photovoltaic solar energy in the United States and its associated land-cover change across three datasets] (/assets/docs/levin-et-al-2025_variation_in_solar_energy_footprint.pdf).
+
 ### 2024
 
 Eichert, A, J Sproul, ER Tolman, J Birrell, **J Meek**, J Heckenhauer, CR Nelson, O Dudchenko, J Jeong, D
