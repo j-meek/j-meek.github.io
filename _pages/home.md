@@ -6,4 +6,4 @@ header:
   image: /assets/images/hatcher_pass.png
 ---
 
-I am a conservation and evolutionary biologist studying how dynamic landscapes influence the diversity of life on Earth. I'm especially interested in plants and mountains. I am currently a Postdoctoral Associate working in the [Marx Lab](https://hannahmarx.com/) in the [School of Integrative Plant Sciences](https://cals.cornell.edu/school-integrative-plant-science) at Cornell University.
+I am a botanist and evolutionary biologist studying how dynamic landscapes influence plant speciation and diversification. I'm especially interested in the montane and alpine flora of western North America. I currently work as the Herbarium Collections Manager at [Brigham Young University](https://lsm.byu.edu/vascular-plant-collection) (BRY).
